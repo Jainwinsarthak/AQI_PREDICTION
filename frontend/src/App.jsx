@@ -56,7 +56,7 @@ function App() {
       }, 100);
     } catch (err) {
       console.error('Prediction fetch error:', err);
-      alert(`Backend connection failed: ${err.message}. Please make sure your Python server is running on http://127.0.0.1:8000`);
+      alert(`Backend connection failed: ${err.message}`);
     } finally {
       setIsLoading(false);
     }
