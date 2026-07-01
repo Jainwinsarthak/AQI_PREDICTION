@@ -1,4 +1,7 @@
 import subprocess
+import os
+
+script_dir = os.path.dirname(os.path.abspath(__file__))
 
 files = [
     "aqi_dowloader.py",
@@ -11,6 +14,6 @@ files = [
 
 for file in files:
     print(f"\nRunning {file}")
-    subprocess.run(["python", file], check=True)
+    subprocess.run(["python", file], cwd=script_dir, check=True)
 
 print("\nPipeline Completed Successfully")

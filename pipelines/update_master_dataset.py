@@ -6,7 +6,9 @@ import os
 # ====================================
 
 project_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-master = pd.read_csv(os.path.join(project_root, "data", "aqi_final_merged_291cities.csv"))
+updated_path = os.path.join(project_root, "data", "aqi_master_updated.csv")
+base_path = os.path.join(project_root, "data", "aqi_final_merged_291cities.csv")
+master = pd.read_csv(updated_path if os.path.exists(updated_path) else base_path)
 
 # ====================================
 # LOAD TODAY'S CLEANED DATA

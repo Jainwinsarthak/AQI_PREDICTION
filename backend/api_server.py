@@ -114,9 +114,13 @@ def predict_aqi(req: PredictionRequest):
     lag_3 = float(last_row["lag_3"])
     lag_7 = float(last_row["lag_7"])
     rolling_mean_7 = float(last_row["rolling_mean_7"])
+    pollutant_encoded = int(last_row["pollutant_encoded"])
 
     # Process requested target date
-    target_date = pd.Timestamp(req.date)
+    try:
+        target_date = pd.Timestamp(req.date)
+    except Exception:
+        raise HTTPException(status_code=400, detail="Invalid date format. Use YYYY-MM-DD.")
 
     month_sin = np.sin(2 * np.pi * target_date.month / 12)
     month_cos = np.cos(2 * np.pi * target_date.month / 12)
@@ -135,7 +139,7 @@ def predict_aqi(req: PredictionRequest):
             target_date.year,
             month_sin,
             month_cos,
-            0,  # pollutant_encoded placeholder
+            pollutant_encoded,
             1 if target_date.month in [11, 12, 1, 2] else 0,  # is_winter
             1 if target_date.month in [4, 5, 6] else 0,       # is_summer
             1 if target_date.month in [7, 8, 9] else 0,       # is_monsoon
@@ -173,13 +177,19 @@ def predict_aqi(req: PredictionRequest):
         "isLive": True
     })
 
-    temp_lag1 = lag_1
-    temp_lag3 = lag_3
-    temp_lag7 = lag_7
-    temp_roll = rolling_mean_7
+    # Build history buffer from recent AQI values for correct lag propagation
+    recent_aqi = city_df["aqi_value"].tail(7).tolist()
+    recent_aqi.append(prediction)
 
     for i in range(1, 8):
         future_date = target_date + pd.Timedelta(days=i)
+
+        # Compute lags from history buffer
+        temp_lag1 = recent_aqi[-1]
+        temp_lag3 = recent_aqi[-3] if len(recent_aqi) >= 3 else recent_aqi[0]
+        temp_lag7 = recent_aqi[-7] if len(recent_aqi) >= 7 else recent_aqi[0]
+        window = recent_aqi[-7:] if len(recent_aqi) >= 7 else recent_aqi
+        temp_roll = sum(window) / len(window)
 
         month_sin_f = np.sin(2 * np.pi * future_date.month / 12)
         month_cos_f = np.cos(2 * np.pi * future_date.month / 12)
@@ -197,7 +207,7 @@ def predict_aqi(req: PredictionRequest):
                 future_date.year,
                 month_sin_f,
                 month_cos_f,
-                0,
+                pollutant_encoded,
                 1 if future_date.month in [11, 12, 1, 2] else 0,
                 1 if future_date.month in [4, 5, 6] else 0,
                 1 if future_date.month in [7, 8, 9] else 0,
@@ -230,11 +240,8 @@ def predict_aqi(req: PredictionRequest):
             "isLive": False
         })
 
-        # Step time-series lags forward dynamically
-        temp_lag7 = temp_lag3
-        temp_lag3 = temp_lag1
-        temp_lag1 = pred_future
-        temp_roll = (temp_lag1 + temp_lag3 + temp_lag7) / 3
+        # Append prediction to history for next iteration
+        recent_aqi.append(pred_future)
 
     # Calculate metrics
     prediction_value = round(prediction)

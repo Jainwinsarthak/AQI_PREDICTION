@@ -5,8 +5,9 @@ import re
 from glob import glob
 
 # Latest PDF
+pipelines_dir = os.path.dirname(os.path.abspath(__file__))
 pdf_files = glob(
-    r"C:\Users\sarth\Desktop\Final_AQI_project\pipelines\bulletins\*.pdf"
+    os.path.join(pipelines_dir, "bulletins", "*.pdf")
 )
 
 if not pdf_files:

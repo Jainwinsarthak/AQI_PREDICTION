@@ -1,7 +1,10 @@
 import joblib
+import os
 
+backend_dir = os.path.dirname(os.path.abspath(__file__))
+project_root = os.path.dirname(backend_dir)
 obj = joblib.load(
-    r"C:\Users\sarth\Desktop\Final_AQI_project\models\aqi_production_model.pkl"
+    os.path.join(project_root, "models", "aqi_production_model.pkl")
 )
 
 print(type(obj))
