@@ -1,6 +1,7 @@
 import pandas as pd
 import numpy as np
 from sklearn.preprocessing import LabelEncoder
+import joblib
 
 # ====================================
 # LOAD DATA
@@ -107,21 +108,43 @@ df["rolling_mean_7"] = (
 # LABEL ENCODING
 # ====================================
 
-district_encoder = LabelEncoder()
+models_dir = os.path.join(project_root, "models")
+os.makedirs(models_dir, exist_ok=True)
 
-df["district_encoded"] = (
-    district_encoder.fit_transform(
-        df["area"]
-    )
-)
+district_encoder_path = os.path.join(models_dir, "district_encoder.pkl")
+pollutant_encoder_path = os.path.join(models_dir, "pollutant_encoder.pkl")
 
-pollutant_encoder = LabelEncoder()
+def safe_transform(encoder, series, fallback_val="UNKNOWN"):
+    """Helper to transform categorical columns safely, mapping unseen values to fallback_val."""
+    # Ensure the fallback value is part of the encoder's classes
+    if fallback_val not in encoder.classes_:
+        encoder.classes_ = np.append(encoder.classes_, fallback_val)
+    
+    # Map unseen values to the fallback class
+    clean_series = series.map(lambda x: x if x in encoder.classes_ else fallback_val)
+    return encoder.transform(clean_series)
 
-df["pollutant_encoded"] = (
-    pollutant_encoder.fit_transform(
-        df["prominent_pollutants"]
-    )
-)
+# FIX 3: Load existing encoder if available to keep codes stable across re-runs.
+# Handles new cities and pollutants gracefully by mapping them to 'UNKNOWN'
+if os.path.exists(district_encoder_path):
+    district_encoder = joblib.load(district_encoder_path)
+    print("Loaded existing district_encoder from disk.")
+    df["district_encoded"] = safe_transform(district_encoder, df["area"])
+else:
+    district_encoder = LabelEncoder()
+    df["district_encoded"] = district_encoder.fit_transform(df["area"])
+    joblib.dump(district_encoder, district_encoder_path)
+    print("Fitted and saved new district_encoder.")
+
+if os.path.exists(pollutant_encoder_path):
+    pollutant_encoder = joblib.load(pollutant_encoder_path)
+    print("Loaded existing pollutant_encoder from disk.")
+    df["pollutant_encoded"] = safe_transform(pollutant_encoder, df["prominent_pollutants"])
+else:
+    pollutant_encoder = LabelEncoder()
+    df["pollutant_encoded"] = pollutant_encoder.fit_transform(df["prominent_pollutants"])
+    joblib.dump(pollutant_encoder, pollutant_encoder_path)
+    print("Fitted and saved new pollutant_encoder.")
 
 # ====================================
 # REMOVE NULLS

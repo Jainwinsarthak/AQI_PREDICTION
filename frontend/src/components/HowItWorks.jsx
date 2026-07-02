@@ -34,7 +34,7 @@ const steps = [
 
 export default function HowItWorks() {
   return (
-    <section className="relative px-6 py-20 overflow-hidden">
+    <section id="how-it-works" className="relative px-6 py-20 overflow-hidden">
       {/* Ambient background */}
       <div
         className="absolute inset-0 pointer-events-none"

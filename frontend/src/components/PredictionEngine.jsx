@@ -99,7 +99,7 @@ export default function PredictionEngine({ onPredict, isLoading }) {
   };
 
   return (
-    <section className="relative px-6 pb-8">
+    <section id="prediction-engine" className="relative px-6 pb-8">
       <div className="max-w-4xl mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 30 }}

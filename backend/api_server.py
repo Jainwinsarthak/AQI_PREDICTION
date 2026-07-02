@@ -5,6 +5,7 @@ import numpy as np
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
+from datetime import datetime
 
 # -------------------------
 # SETUP FASTAPI
@@ -12,19 +13,24 @@ from pydantic import BaseModel
 app = FastAPI(title="AirSight India Prediction API")
 
 # Configure CORS to allow our Vite frontend to talk to this server
+# In production set ALLOWED_ORIGINS env var to your Vercel URL
+_raw_origins = os.environ.get("ALLOWED_ORIGINS", "")
+ALLOWED_ORIGINS = [o.strip() for o in _raw_origins.split(",") if o.strip()] or ["*"]
+
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # Adjust this to ["http://localhost:5173"] in production
-    allow_credentials=True,
+    allow_origins=ALLOWED_ORIGINS,
+    allow_credentials=False,  # must be False when allow_origins=["*"]
     allow_methods=["*"],
     allow_headers=["*"],
 )
 
-TOKEN = os.environ.get("WAQI_TOKEN", "b129e9cd385f00b22ef7a24a44e786175d799cf3")
 backend_dir = os.path.dirname(os.path.abspath(__file__))
 project_root = os.path.dirname(backend_dir)
 MODEL_PATH = os.path.join(project_root, "models", "aqi_production_model.pkl")
 DATA_PATH = os.path.join(project_root, "data", "aqi_features.csv")
+DISTRICT_ENCODER_PATH = os.path.join(project_root, "models", "district_encoder.pkl")
+POLLUTANT_ENCODER_PATH = os.path.join(project_root, "models", "pollutant_encoder.pkl")
 
 # -------------------------
 # LOAD DATASET & DICTIONARIES
@@ -34,6 +40,10 @@ try:
     df = pd.read_csv(DATA_PATH)
     df["date"] = pd.to_datetime(df["date"])
 
+    # Pre-compute city lookup for O(1) lookups per request
+    # Maps lowercase city name -> original-case city name
+    city_lookup = {c.lower(): c for c in df["area"].unique()}
+
     # Create district mapping from the deduplicated dataframe
     district_mapping = (
         df[["area", "district_encoded"]]
@@ -42,13 +52,21 @@ try:
         .to_dict()
     )
 
+    # Pre-group by city for fast per-city access
+    city_groups = {
+        city: group.sort_values("date")
+        for city, group in df.groupby("area")
+    }
+
     print("Dataset loaded successfully. Shape:", df.shape)
-    print("District Mapping Loaded:", len(district_mapping))
+    print("Cities indexed:", len(city_lookup))
 
 except Exception as e:
     print(f"Error loading dataset from {DATA_PATH}: {e}")
     df = None
+    city_lookup = {}
     district_mapping = {}
+    city_groups = {}
 
 # -------------------------
 # LOAD MACHINE LEARNING MODEL
@@ -61,6 +79,35 @@ except Exception as e:
     print(f"Error loading ML model: {e}")
     model = None
 
+# -------------------------
+# LOAD ENCODERS (if saved by feature_engineering.py)
+# -------------------------
+district_encoder = None
+pollutant_encoder = None
+try:
+    if os.path.exists(DISTRICT_ENCODER_PATH):
+        district_encoder = joblib.load(DISTRICT_ENCODER_PATH)
+        print("District encoder loaded from disk.")
+    if os.path.exists(POLLUTANT_ENCODER_PATH):
+        pollutant_encoder = joblib.load(POLLUTANT_ENCODER_PATH)
+        print("Pollutant encoder loaded from disk.")
+except Exception as e:
+    print(f"Warning: Could not load encoders: {e}. Falling back to CSV mapping.")
+
+
+# -------------------------
+# HEALTH CHECK ENDPOINT
+# -------------------------
+@app.get("/health")
+def health_check():
+    return {
+        "status": "ok",
+        "model_loaded": model is not None,
+        "dataset_loaded": df is not None,
+        "cities_indexed": len(city_lookup),
+        "latest_date": str(df["date"].max().date()) if df is not None else None,
+    }
+
 
 # -------------------------
 # REQUEST & RESPONSE MODELS
@@ -69,6 +116,35 @@ class PredictionRequest(BaseModel):
     state: str
     city: str
     date: str  # YYYY-MM-DD format
+
+
+def _validate_request(req: PredictionRequest):
+    """Validate all incoming fields and raise clear HTTPExceptions."""
+    # Validate state
+    if not req.state or not req.state.strip():
+        raise HTTPException(status_code=400, detail="'state' field is required and cannot be empty.")
+
+    # Validate city
+    if not req.city or not req.city.strip():
+        raise HTTPException(status_code=400, detail="'city' field is required and cannot be empty.")
+
+    # Validate date format
+    try:
+        target_date = pd.Timestamp(req.date)
+    except Exception:
+        raise HTTPException(
+            status_code=400,
+            detail=f"Invalid date format '{req.date}'. Use YYYY-MM-DD (e.g. 2026-07-15)."
+        )
+
+    # Reject obviously wrong dates
+    if target_date.year < 2020 or target_date.year > 2030:
+        raise HTTPException(
+            status_code=400,
+            detail=f"Date {req.date} is out of the supported range (2020–2030)."
+        )
+
+    return target_date
 
 
 # -------------------------
@@ -80,30 +156,26 @@ def predict_aqi(req: PredictionRequest):
     if model is None or df is None:
         raise HTTPException(
             status_code=500,
-            detail="Model or Dataset not loaded"
+            detail="Model or Dataset not loaded. Server may still be warming up — please retry."
         )
 
-    # Look for matching city (case-insensitive)
-    matches = [
-        c for c in df["area"].unique()
-        if c.lower() == req.city.lower()
-    ]
+    # Validate all inputs (raises HTTPException on failure)
+    target_date = _validate_request(req)
 
-    if not matches:
+    # Look for matching city using pre-computed O(1) lookup
+    matched_area = city_lookup.get(req.city.lower())
+    if not matched_area:
         raise HTTPException(
             status_code=404,
-            detail=f"City '{req.city}' not found in the historical data"
+            detail=f"City '{req.city}' not found. Check spelling or select from the dropdown."
         )
 
-    matched_area = matches[0]
-
-    # Filter data for the requested city
-    city_df = df[df["area"] == matched_area].sort_values("date")
-    
-    if city_df.empty:
+    # Use pre-grouped city data
+    city_df = city_groups.get(matched_area)
+    if city_df is None or city_df.empty:
         raise HTTPException(
             status_code=404,
-            detail="No historical rows found for this city"
+            detail=f"No historical records found for city '{matched_area}'."
         )
 
     district_encoded = district_mapping[matched_area]
@@ -115,12 +187,6 @@ def predict_aqi(req: PredictionRequest):
     lag_7 = float(last_row["lag_7"])
     rolling_mean_7 = float(last_row["rolling_mean_7"])
     pollutant_encoded = int(last_row["pollutant_encoded"])
-
-    # Process requested target date
-    try:
-        target_date = pd.Timestamp(req.date)
-    except Exception:
-        raise HTTPException(status_code=400, detail="Invalid date format. Use YYYY-MM-DD.")
 
     month_sin = np.sin(2 * np.pi * target_date.month / 12)
     month_cos = np.cos(2 * np.pi * target_date.month / 12)
@@ -248,7 +314,9 @@ def predict_aqi(req: PredictionRequest):
     return {
         "city": matched_area,
         "state": req.state,
-        "liveAqi": round(current_aqi),
+        "date": req.date,                          # FIX 1: return the predicted date
+        "latestAqi": round(current_aqi),           # FIX 8: renamed from liveAqi
+        "liveAqi": round(current_aqi),             # kept for backward-compat
         "aqi": prediction_value,
         "aqiChange": round(prediction_value - current_aqi),
         "cigarettes": max(1, round(prediction_value / 22)),

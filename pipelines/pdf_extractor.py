@@ -27,6 +27,12 @@ match = re.search(
     os.path.basename(latest_pdf)
 )
 
+# FIX 2: Guard against non-standard PDF filenames
+if match is None:
+    print(f"WARNING: Could not extract date from PDF filename: {os.path.basename(latest_pdf)}")
+    print("Expected format: CPCB_AQI_Bulletin_YYYY-MM-DD.pdf — skipping extraction.")
+    raise SystemExit(1)
+
 report_date = match.group(1)
 
 with pdfplumber.open(latest_pdf) as pdf:
@@ -80,7 +86,9 @@ with pdfplumber.open(latest_pdf) as pdf:
                         }
                     )
 
-                except:
+                except Exception as e:
+                    # Log which row failed instead of silently swallowing it
+                    print(f"WARNING: Skipped row due to parse error: {e} | Row: {row}")
                     continue
 
 df = pd.DataFrame(all_data)
@@ -90,10 +98,12 @@ df.drop_duplicates(
     inplace=True
 )
 
+# FIX: Write relative to the pipelines/ directory, not CWD
+output_path = os.path.join(pipelines_dir, "aqi_extracted_2025_2026.csv")
 df.to_csv(
-    "aqi_extracted_2025_2026.csv",
+    output_path,
     index=False
 )
 
-print("Saved Successfully")
+print("Saved Successfully to:", output_path)
 print(df.shape)

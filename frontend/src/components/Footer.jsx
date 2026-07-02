@@ -4,7 +4,7 @@ import { footerStats } from '../data/mockData';
 
 export default function Footer() {
   return (
-    <footer className="relative px-6 pt-16 pb-8 overflow-hidden">
+    <footer id="footer" className="relative px-6 pt-16 pb-8 overflow-hidden">
       {/* Top gradient border */}
       <div
         className="absolute top-0 left-0 right-0 h-px"

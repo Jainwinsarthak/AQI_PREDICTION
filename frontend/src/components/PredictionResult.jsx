@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { getAQILevel } from '../data/mockData';
-import { MapPin, Calendar, ArrowRight, ArrowDown, Sparkles } from 'lucide-react';
+import { MapPin, Calendar, ArrowRight, ArrowDown, Sparkles, AlertCircle } from 'lucide-react';
 
 function AnimatedNumber({ target }) {
   const [display, setDisplay] = useState(0);
@@ -32,15 +32,17 @@ function AnimatedNumber({ target }) {
 // ─── Props: prediction object | isLoading ────────────────────
 export default function PredictionResult({ prediction, isLoading }) {
   const showLoader = isLoading;
-  const showResult = !isLoading && prediction;
+  const showError  = !isLoading && prediction?.error;
+  const showResult = !isLoading && prediction && !prediction.error;
 
-  const predLevel = prediction ? getAQILevel(prediction.aqi) : null;
-  const liveLevel = prediction ? getAQILevel(prediction.liveAqi) : null;
-  const isWorse = prediction ? prediction.aqiChange > 0 : false;
-  const changeColor = isWorse ? '#ef4444' : '#10b981'; // Red for deterioration, Green for improvement
+  const predLevel = showResult ? getAQILevel(prediction.aqi) : null;
+  const liveLevel = showResult ? getAQILevel(prediction.latestAqi ?? prediction.liveAqi) : null;
+  const isWorse = showResult ? prediction.aqiChange > 0 : false;
+  const changeColor = isWorse ? '#ef4444' : '#10b981';
 
-  const formattedDate = prediction
-    ? new Date(prediction.date).toLocaleDateString('en-IN', {
+  // FIX 1: Use the 'date' field returned by the backend
+  const formattedDate = showResult && prediction.date
+    ? new Date(prediction.date + 'T00:00:00').toLocaleDateString('en-IN', {
         day: '2-digit', month: 'short', year: 'numeric',
       })
     : '';
@@ -49,7 +51,27 @@ export default function PredictionResult({ prediction, isLoading }) {
     <div id="prediction-result" className="px-6 pb-8">
       <div className="max-w-4xl mx-auto">
         <AnimatePresence mode="wait">
-          {/* Loading state */}
+          {/* Error state */}
+          {showError && (
+            <motion.div
+              key="error"
+              initial={{ opacity: 0, scale: 0.97 }}
+              animate={{ opacity: 1, scale: 1 }}
+              exit={{ opacity: 0, scale: 0.97 }}
+              className="rounded-3xl p-10 flex flex-col items-center justify-center gap-4"
+              style={{
+                background: 'rgba(239,68,68,0.06)',
+                border: '1px solid rgba(239,68,68,0.2)',
+                minHeight: 180,
+              }}
+            >
+              <AlertCircle size={32} style={{ color: '#ef4444' }} />
+              <div className="text-center">
+                <p className="text-white/80 font-semibold">Prediction Failed</p>
+                <p className="text-white/40 text-sm mt-1">{prediction.error}</p>
+              </div>
+            </motion.div>
+          )}
           {showLoader && (
             <motion.div
               key="loader"
@@ -111,15 +133,15 @@ export default function PredictionResult({ prediction, isLoading }) {
 
               <div className="flex flex-col md:flex-row items-center gap-4 md:gap-6">
                 
-                {/* 1. LIVE AQI (Subdued) */}
+              {/* 1. LATEST RECORDED AQI (FIX 8: renamed from Live AQI) */}
                 <div 
                   className="flex-1 w-full rounded-3xl p-6 md:p-8 flex flex-col justify-center"
                   style={{ background: 'rgba(255,255,255,0.03)', border: '1px solid rgba(255,255,255,0.08)' }}
                 >
-                  <p className="text-xs font-bold tracking-widest text-white/40 uppercase mb-4">Live AQI (Today)</p>
+                  <p className="text-xs font-bold tracking-widest text-white/40 uppercase mb-4">Latest Recorded AQI</p>
                   <div className="flex items-end gap-4 mb-2">
                     <div className="text-[60px] md:text-[70px] font-black leading-none" style={{ color: liveLevel.color }}>
-                      <AnimatedNumber target={prediction.liveAqi} />
+                      <AnimatedNumber target={prediction.latestAqi ?? prediction.liveAqi} />
                     </div>
                   </div>
                   <div className="inline-flex self-start items-center px-4 py-1.5 rounded-xl text-sm font-bold tracking-wide" style={{ background: `${liveLevel.color}15`, border: `1px solid ${liveLevel.border}`, color: liveLevel.color }}>

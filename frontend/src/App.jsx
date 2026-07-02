@@ -1,6 +1,5 @@
 import './index.css';
 import { useState } from 'react';
-import { mockPredict } from './data/mockData';
 
 import Navbar from './components/Navbar';
 import HeroSection from './components/HeroSection';
@@ -56,7 +55,7 @@ function App() {
       }, 100);
     } catch (err) {
       console.error('Prediction fetch error:', err);
-      alert(`Backend connection failed: ${err.message}`);
+      setPrediction({ error: err.message }); // FIX 9: show error in UI, not alert()
     } finally {
       setIsLoading(false);
     }

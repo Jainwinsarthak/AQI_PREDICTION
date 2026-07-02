@@ -2,7 +2,17 @@ import { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { Wind } from 'lucide-react';
 
-const navLinks = ['Predict', 'How It Works', 'About'];
+// FIX 7: Map each label to the section ID it should scroll to
+const navLinks = [
+  { label: 'Predict',      id: 'prediction-engine' },
+  { label: 'How It Works', id: 'how-it-works' },
+  { label: 'About',        id: 'footer' },
+];
+
+function scrollToSection(id) {
+  const el = document.getElementById(id);
+  if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+}
 
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
@@ -46,14 +56,15 @@ export default function Navbar() {
           </span>
         </div>
 
-        {/* Links */}
+        {/* Links — FIX 7: now functional with scrollTo */}
         <div className="hidden md:flex items-center gap-6">
           {navLinks.map(link => (
             <button
-              key={link}
+              key={link.label}
+              onClick={() => scrollToSection(link.id)}
               className="text-sm text-white/50 hover:text-white transition-colors duration-200"
             >
-              {link}
+              {link.label}
             </button>
           ))}
         </div>
