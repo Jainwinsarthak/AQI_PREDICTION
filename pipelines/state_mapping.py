@@ -22,6 +22,7 @@ new["area"] = (
     .str.replace("\n", " ", regex=False)
     .str.replace(r"\s+", " ", regex=True)
     .str.strip()
+    .str.title()  # Normalize to Title Case
 )
 
 old["area"] = (
@@ -30,6 +31,7 @@ old["area"] = (
     .str.replace("\n", " ", regex=False)
     .str.replace(r"\s+", " ", regex=True)
     .str.strip()
+    .str.title()  # Normalize to Title Case
 )
 
 

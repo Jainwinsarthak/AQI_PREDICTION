@@ -153,7 +153,14 @@ else:
 print("\nNull Values Before Drop:")
 print(df.isnull().sum())
 
-df.dropna(inplace=True)
+# FIX: Drop rows only if features or targets are missing.
+# Do not drop rows due to missing metadata like 'state' or 'air_quality_status'.
+model_columns = [
+    "district_encoded", "lag_1", "lag_3", "lag_7", "rolling_mean_7",
+    "day", "month", "year", "month_sin", "month_cos", "pollutant_encoded",
+    "is_winter", "is_summer", "is_monsoon", "crop_burning", "aqi_value"
+]
+df.dropna(subset=model_columns, inplace=True)
 
 print("\nShape After Dropna:")
 print(df.shape)

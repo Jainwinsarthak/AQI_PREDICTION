@@ -230,8 +230,16 @@ def predict_aqi(req: PredictionRequest):
         ]
     )
 
-    prediction = float(model.predict(X_new)[0])
     current_aqi = float(last_row["aqi_value"])
+
+    # Check if the requested target date exists in our historical dataset.
+    # If yes, return the actual recorded AQI instead of predicting it.
+    existing_row = city_df[city_df["date"] == target_date]
+    if not existing_row.empty:
+        prediction = float(existing_row.iloc[0]["aqi_value"])
+        print(f"Match found in history for {req.city} on {req.date}. Returning actual AQI: {prediction}")
+    else:
+        prediction = float(model.predict(X_new)[0])
 
     # -----------------------------------------------------
     # AUTOREGRESSIVE FORECAST LOOP (7 Days)
