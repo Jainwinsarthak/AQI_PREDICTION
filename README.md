@@ -168,17 +168,6 @@ The frontend will start at `http://localhost:5173`.
 |---|---|---|
 | `VITE_API_URL` | Full URL of the FastAPI backend | `https://airsight-api.onrender.com` |
 
----
-
-## Deployment
-
-| Service | URL |
-|---|---|
-| Frontend (Vercel) | *(add your Vercel URL here)* |
-| Backend (Render) | *(add your Render URL here)* |
-
----
-
 ## Data Pipeline
 
 The GitHub Actions workflow (`.github/workflows/daily-aqi-pipeline.yml`) runs automatically every day at **~6 PM IST**.
@@ -253,9 +242,8 @@ AQI_PREDICTION/
 
 ## Screenshots
 
-*(Add screenshots here after running locally)*
+<img width="1916" height="869" alt="image" src="https://github.com/user-attachments/assets/d638fe1d-da6e-486e-937c-c955f182b78c" />
 
----
 
 ## License
 
