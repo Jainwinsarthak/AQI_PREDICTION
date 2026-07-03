@@ -244,7 +244,6 @@ AQI_PREDICTION/
 
 <img width="1916" height="869" alt="image" src="https://github.com/user-attachments/assets/d638fe1d-da6e-486e-937c-c955f182b78c" />
 
-![Uploading image.png…]()
 
 
 
