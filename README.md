@@ -60,10 +60,9 @@ Predict Air Quality Index up to 30 days ahead — with a 7-day visual forecast, 
 
 ## 📸 Screenshots
 
-
-
-src="https://github.com/user-attachments/assets/d467dbfc-911c-435f-82e5-4048f6f471f5" />
----
+<p align="center">
+  <img width="100%" alt="AirSight Dashboard" src="https://github.com/user-attachments/assets/d467dbfc-911c-435f-82e5-4048f6f471f5" />
+</p>
 
 ## 📊 Model Performance
 
