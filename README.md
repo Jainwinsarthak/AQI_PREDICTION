@@ -53,8 +53,8 @@ Predict Air Quality Index up to 30 days ahead — with a 7-day visual forecast, 
 
 ## 🏗️ Architecture
 
-(<img width="1024" height="1024" alt="architecture" src="https://github.com/user-attachments/assets/91bba22e-fcad-40cd-89e8-dee9b392dda8" />
-)
+<img width="1024" height="1024" alt="architecture" src="https://github.com/user-attachments/assets/91bba22e-fcad-40cd-89e8-dee9b392dda8" />
+
 
 ---
 
@@ -62,7 +62,7 @@ Predict Air Quality Index up to 30 days ahead — with a 7-day visual forecast, 
 
 
 
-<img width="1916" height="869" alt="AirSight India Dashboard" src="<img width="1124" height="833" alt="image" src="https://github.com/user-attachments/assets/d467dbfc-911c-435f-82e5-4048f6f471f5" />
+width="1124" height="833" alt="image" src="https://github.com/user-attachments/assets/d467dbfc-911c-435f-82e5-4048f6f471f5" />
 " />
 
 ---
