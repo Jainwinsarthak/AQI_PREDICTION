@@ -62,9 +62,7 @@ Predict Air Quality Index up to 30 days ahead — with a 7-day visual forecast, 
 
 
 
-width="1124" height="833" alt="image" src="https://github.com/user-attachments/assets/d467dbfc-911c-435f-82e5-4048f6f471f5" />
-" />
-
+src="https://github.com/user-attachments/assets/d467dbfc-911c-435f-82e5-4048f6f471f5" />
 ---
 
 ## 📊 Model Performance
