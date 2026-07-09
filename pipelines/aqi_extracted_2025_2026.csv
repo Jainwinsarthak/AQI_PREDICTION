@@ -1,231 +1,243 @@
 date,area,prominent_pollutants,aqi_value,air_quality_status
-2026-07-08,agartala,PM 10,105,Moderate
-2026-07-08,agra,"PM , PM 2.5 10",62,Satisfactory
-2026-07-08,ahmedabad,PM 10,77,Satisfactory
-2026-07-08,ahmednagar,PM 2.5,41,Good
-2026-07-08,ajmer,PM 10,47,Good
-2026-07-08,akola,PM 10,20,Good
-2026-07-08,amaravati,PM 10,60,Satisfactory
-2026-07-08,ambala,PM 10,89,Satisfactory
-2026-07-08,ambernath,PM 2.5,28,Good
-2026-07-08,amravati,"PM , CO 10",20,Good
-2026-07-08,amritsar,PM 10,101,Moderate
-2026-07-08,anantapur,PM 2.5,123,Moderate
-2026-07-08,angul,PM 10,75,Satisfactory
-2026-07-08,araria,CO,59,Satisfactory
-2026-07-08,arrah,PM 2.5,253,Poor
-2026-07-08,asansol,"SO2, PM , CO 2.5",47,Good
-2026-07-08,"aurangabad
-(Maharashtra)","PM , PM , CO 2.5 10",47,Good
-2026-07-08,baddi,PM 10,204,Poor
-2026-07-08,badlapur,PM 10,45,Good
-2026-07-08,bagalkot,PM 10,47,Good
-2026-07-08,baghpat,PM 10,39,Good
-2026-07-08,bahadurgarh,PM 2.5,68,Satisfactory
-2026-07-08,balasore,PM 10,81,Satisfactory
-2026-07-08,ballabgarh,PM 2.5,88,Satisfactory
-2026-07-08,banswara,PM 2.5,149,Moderate
-2026-07-08,baran,CO,47,Good
-2026-07-08,barbil,PM 10,51,Satisfactory
-2026-07-08,bareilly,O 3,37,Good
-2026-07-08,baripada,PM 10,78,Satisfactory
-2026-07-08,barmer,PM 10,99,Satisfactory
-2026-07-08,barrackpore,PM 10,64,Satisfactory
-2026-07-08,bathinda,CO,79,Satisfactory
-2026-07-08,beed,PM 10,67,Satisfactory
-2026-07-08,begusarai,PM 10,88,Satisfactory
-2026-07-08,belapur,PM 10,36,Good
-2026-07-08,bengaluru,"PM , PM 10 2.5",55,Satisfactory
-2026-07-08,bhagalpur,PM 10,54,Satisfactory
-2026-07-08,bharatpur,PM 10,59,Satisfactory
-2026-07-08,bhavnagar,CO,81,Satisfactory
-2026-07-08,bhilai,"PM , O 10 3",40,Good
-2026-07-08,bhilwara,PM 10,55,Satisfactory
-2026-07-08,bhiwadi,PM 10,69,Satisfactory
-2026-07-08,bhiwandi,PM 10,43,Good
-2026-07-08,bhiwani,PM 2.5,133,Moderate
-2026-07-08,bhopal,"SO2, CO",36,Good
-2026-07-08,bhubaneswar,"PM , O 10 3",70,Satisfactory
-2026-07-08,bihar sharif,PM 2.5,26,Good
-2026-07-08,bikaner,PM 10,86,Satisfactory
-2026-07-08,bileipada,PM 10,82,Satisfactory
-2026-07-08,boisar,PM 10,75,Satisfactory
-2026-07-08,brajrajnagar,PM 2.5,60,Satisfactory
-2026-07-08,bulandshahr,PM 10,32,Good
-2026-07-08,buxar,PM 2.5,38,Good
-2026-07-08,byasanagar,PM 10,70,Satisfactory
-2026-07-08,chamarajanagar,PM 10,44,Good
-2026-07-08,chandigarh,"CO, PM 2.5",47,Good
-2026-07-08,chandrapur,CO,45,Good
-2026-07-08,charkhi dadri,PM 2.5,60,Satisfactory
-2026-07-08,chennai,PM 10,73,Satisfactory
-2026-07-08,chhal,PM 10,50,Good
-2026-07-08,chhapra,PM 10,108,Moderate
-2026-07-08,chikkaballapur,PM 10,55,Satisfactory
-2026-07-08,chittoor,PM 2.5,66,Satisfactory
-2026-07-08,churu,PM 10,78,Satisfactory
-2026-07-08,coimbatore,SO2,26,Good
-2026-07-08,cuttack,PM 10,100,Satisfactory
-2026-07-08,damoh,SO2,49,Good
-2026-07-08,dausa,CO,42,Good
-2026-07-08,delhi,"PM , NO2 10",59,Satisfactory
-2026-07-08,dewas,NO2,82,Satisfactory
-2026-07-08,dhanbad,NO2,96,Satisfactory
-2026-07-08,dharuhera,PM 2.5,76,Satisfactory
-2026-07-08,dharwad,PM 10,57,Satisfactory
-2026-07-08,dholpur,O 3,62,Satisfactory
-2026-07-08,dombivli,O 3,19,Good
-2026-07-08,dungarpur,PM 2.5,39,Good
-2026-07-08,durgapur,"NO2, PM 10",65,Satisfactory
-2026-07-08,eluru,PM 2.5,52,Satisfactory
-2026-07-08,faridabad,"PM , PM 2.5 10",118,Moderate
-2026-07-08,fatehabad,PM 10,64,Satisfactory
-2026-07-08,firozabad,PM 10,30,Good
-2026-07-08,gadag,PM 10,35,Good
-2026-07-08,gandhinagar,PM 10,80,Satisfactory
-2026-07-08,gaya,"PM , PM , CO 10 2.5",44,Good
-2026-07-08,ghaziabad,"CO, PM 10",49,Good
-2026-07-08,greater noida,PM 10,57,Satisfactory
-2026-07-08,gummidipoondi,PM 2.5,147,Moderate
-2026-07-08,guntur,PM 2.5,52,Satisfactory
-2026-07-08,gurugram,PM 2.5,128,Moderate
-2026-07-08,guwahati,"PM , SO2 2.5",45,Good
-2026-07-08,gwalior,"CO, O 3",58,Satisfactory
-2026-07-08,hajipur,PM 10,47,Good
-2026-07-08,haldia,PM 10,64,Satisfactory
-2026-07-08,hanumangarh,PM 10,73,Satisfactory
-2026-07-08,hapur,PM 10,30,Good
-2026-07-08,hingoli,O 3,34,Good
-2026-07-08,howrah,PM 10,83,Satisfactory
-2026-07-08,hubballi,PM 10,44,Good
-2026-07-08,hyderabad,PM 10,45,Good
-2026-07-08,indore,"CO, NO2",63,Satisfactory
-2026-07-08,jabalpur,"O , CO 3",37,Good
-2026-07-08,jaipur,PM 10,66,Satisfactory
-2026-07-08,jaisalmer,PM 10,166,Moderate
-2026-07-08,jalandhar,PM 2.5,54,Satisfactory
-2026-07-08,jalgaon,PM 10,42,Good
-2026-07-08,jalore,PM 10,92,Satisfactory
-2026-07-08,jhalawar,O 3,33,Good
-2026-07-08,jhansi,PM 2.5,34,Good
-2026-07-08,jhunjhunu,O 3,50,Good
-2026-07-08,jind,PM 2.5,47,Good
-2026-07-08,jodhpur,PM 10,54,Satisfactory
-2026-07-08,jorapokhar,PM 10,114,Moderate
-2026-07-08,kadapa,PM 2.5,55,Satisfactory
-2026-07-08,kaithal,PM 10,41,Good
-2026-07-08,kalaburagi,CO,32,Good
-2026-07-08,kanpur,"CO, NO2",32,Good
-2026-07-08,karauli,O 3,41,Good
-2026-07-08,karnal,PM 2.5,112,Moderate
-2026-07-08,karwar,PM 10,46,Good
-2026-07-08,kashipur,PM 2.5,38,Good
-2026-07-08,katihar,CO,82,Satisfactory
-2026-07-08,katni,O 3,35,Good
-2026-07-08,keonjhar,PM 10,48,Good
-2026-07-08,khairthal,PM 10,41,Good
-2026-07-08,khanna,PM 10,65,Satisfactory
-2026-07-08,khurja,PM 2.5,23,Good
-2026-07-08,kishanganj,PM 10,62,Satisfactory
-2026-07-08,kohima,SO2,47,Good
-2026-07-08,kolhapur,"PM , PM 10 2.5",27,Good
-2026-07-08,kolkata,PM 10,59,Satisfactory
-2026-07-08,kollam,PM 2.5,69,Satisfactory
-2026-07-08,koppal,PM 10,33,Good
-2026-07-08,korba,"PM , CO 10",23,Good
-2026-07-08,kota,"PM , O 10 3",57,Satisfactory
-2026-07-08,kunjemura,PM 10,40,Good
-2026-07-08,kurnool,PM 10,45,Good
-2026-07-08,latur,PM 10,27,Good
-2026-07-08,lucknow,"O , CO 3",53,Satisfactory
-2026-07-08,machilipatnam,PM 2.5,56,Satisfactory
-2026-07-08,mahad,PM 10,57,Satisfactory
-2026-07-08,maihar,PM 10,103,Moderate
-2026-07-08,mandideep,O 3,48,Good
-2026-07-08,mandikhera,PM 10,79,Satisfactory
-2026-07-08,manesar,PM 2.5,105,Moderate
-2026-07-08,mangalore,PM 10,47,Good
-2026-07-08,meerut,"PM , O , NH3 10 3",80,Satisfactory
-2026-07-08,mehsana,PM 10,87,Satisfactory
-2026-07-08,milupara,O 3,81,Satisfactory
-2026-07-08,mira-bhayandar,PM 2.5,27,Good
-2026-07-08,moradabad,"SO2, CO, PM 10",52,Satisfactory
-2026-07-08,mumbai,PM 10,57,Satisfactory
-2026-07-08,munger,PM 2.5,54,Satisfactory
-2026-07-08,muzaffarnagar,PM 10,36,Good
-2026-07-08,muzaffarpur,"CO, PM 2.5",69,Satisfactory
-2026-07-08,mysuru,PM 10,51,Satisfactory
-2026-07-08,nagaon,PM 2.5,55,Satisfactory
-2026-07-08,nagaur,O 3,37,Good
-2026-07-08,nagpur,"CO, PM 10",37,Good
-2026-07-08,naharlagun,PM 10,14,Good
-2026-07-08,narnaul,PM 2.5,139,Moderate
-2026-07-08,nashik,"PM , PM , CO 2.5 10",43,Good
-2026-07-08,navi mumbai,"NO2, PM 10",39,Good
-2026-07-08,nellore,PM 10,67,Satisfactory
-2026-07-08,noida,"PM , NO2 10",42,Good
-2026-07-08,palwal,PM 10,73,Satisfactory
-2026-07-08,pampore,PM 10,58,Satisfactory
-2026-07-08,panchgaon,PM 2.5,59,Satisfactory
-2026-07-08,panchkula,PM 2.5,42,Good
-2026-07-08,panipat,PM 2.5,132,Moderate
-2026-07-08,parbhani,NO2,39,Good
-2026-07-08,patiala,PM 10,36,Good
-2026-07-08,patna,"CO, O , PM 3 10",64,Satisfactory
-2026-07-08,pimpri-chinchwad,"CO, PM 10",37,Good
-2026-07-08,pithampur,PM 2.5,62,Satisfactory
-2026-07-08,pratapgarh,O 3,38,Good
-2026-07-08,prayagraj,"PM , O , SO2 10 3",57,Satisfactory
-2026-07-08,puducherry,PM 10,50,Good
-2026-07-08,pune,CO,37,Good
-2026-07-08,purnia,PM 2.5,59,Satisfactory
-2026-07-08,raebareli,CO,74,Satisfactory
-2026-07-08,raipur,"PM , O 10 3",15,Good
-2026-07-08,rairangpur,PM 10,59,Satisfactory
-2026-07-08,rajamahendravaram,PM 10,52,Satisfactory
-2026-07-08,rajgir,PM 2.5,59,Satisfactory
-2026-07-08,rajkot,CO,91,Satisfactory
-2026-07-08,rajsamand,O 3,153,Moderate
-2026-07-08,ramanagara,CO,32,Good
-2026-07-08,ratlam,NO2,36,Good
-2026-07-08,rishikesh,O 3,45,Good
-2026-07-08,rohtak,O 3,43,Good
-2026-07-08,rourkela,"PM , PM 2.5 10",57,Satisfactory
-2026-07-08,rupnagar,PM 2.5,108,Moderate
-2026-07-08,sagar,CO,49,Good
-2026-07-08,saharsa,PM 10,243,Poor
-2026-07-08,samastipur,PM 2.5,55,Satisfactory
-2026-07-08,satna,PM 10,70,Satisfactory
-2026-07-08,sawai madhopur,CO,61,Satisfactory
-2026-07-08,shivamogga,O 3,45,Good
-2026-07-08,sikar,PM 10,82,Satisfactory
-2026-07-08,silchar,PM 10,48,Good
-2026-07-08,siliguri,NO2,183,Moderate
-2026-07-08,sirohi,PM 10,94,Satisfactory
-2026-07-08,sirsa,O 3,66,Satisfactory
-2026-07-08,sivasagar,O 3,47,Good
-2026-07-08,solapur,PM 10,37,Good
-2026-07-08,sri ganganagar,PM 10,91,Satisfactory
-2026-07-08,srinagar,PM 10,64,Satisfactory
-2026-07-08,surat,PM 10,71,Satisfactory
-2026-07-08,talcher,PM 10,64,Satisfactory
-2026-07-08,tensa,PM 10,34,Good
-2026-07-08,thane,"PM , PM 2.5 10",35,Good
-2026-07-08,thiruvananthapuram,PM 10,62,Satisfactory
-2026-07-08,thoothukudi,PM 10,88,Satisfactory
-2026-07-08,thrissur,PM 10,54,Satisfactory
-2026-07-08,tirumala,NO2,55,Satisfactory
-2026-07-08,tirupati,PM 10,66,Satisfactory
-2026-07-08,tonk,O 3,71,Satisfactory
-2026-07-08,tumidih,PM 10,81,Satisfactory
-2026-07-08,udaipur,NO2,62,Satisfactory
-2026-07-08,ujjain,O 3,56,Satisfactory
-2026-07-08,ulhasnagar,"PM , PM 10 2.5",50,Good
-2026-07-08,vadodara,CO,100,Satisfactory
-2026-07-08,varanasi,"PM , SO2 10",40,Good
-2026-07-08,vatva,PM 10,112,Moderate
-2026-07-08,vijayapura,PM 10,43,Good
-2026-07-08,vijayawada,PM 10,65,Satisfactory
-2026-07-08,visakhapatnam,PM 10,133,Moderate
-2026-07-08,vrindavan,SO2,33,Good
-2026-07-08,yamuna nagar,PM 2.5,105,Moderate
+2026-07-09,agra,"PM , PM 2.5 10",55,Satisfactory
+2026-07-09,ahmedabad,PM 10,92,Satisfactory
+2026-07-09,ahmednagar,PM 10,53,Satisfactory
+2026-07-09,ajmer,PM 10,86,Satisfactory
+2026-07-09,akola,O 3,38,Good
+2026-07-09,alwar,NO2,76,Satisfactory
+2026-07-09,amaravati,PM 10,61,Satisfactory
+2026-07-09,ambala,PM 10,81,Satisfactory
+2026-07-09,ambernath,PM 2.5,50,Good
+2026-07-09,amravati,PM 10,36,Good
+2026-07-09,amritsar,PM 2.5,116,Moderate
+2026-07-09,anantapur,PM 2.5,117,Moderate
+2026-07-09,angul,PM 10,87,Satisfactory
+2026-07-09,ankleshwar,PM 10,78,Satisfactory
+2026-07-09,araria,PM 10,74,Satisfactory
+2026-07-09,arrah,PM 2.5,251,Poor
+2026-07-09,asansol,"SO2, PM , CO 2.5",49,Good
+2026-07-09,"aurangabad
+(Maharashtra)","PM , PM 10 2.5",106,Moderate
+2026-07-09,baddi,PM 10,128,Moderate
+2026-07-09,badlapur,PM 10,48,Good
+2026-07-09,bagalkot,PM 10,51,Satisfactory
+2026-07-09,baghpat,PM 10,30,Good
+2026-07-09,bahadurgarh,PM 2.5,78,Satisfactory
+2026-07-09,balasore,PM 10,79,Satisfactory
+2026-07-09,ballabgarh,PM 10,194,Moderate
+2026-07-09,banswara,PM 10,129,Moderate
+2026-07-09,baran,PM 10,59,Satisfactory
+2026-07-09,barbil,PM 10,58,Satisfactory
+2026-07-09,baripada,PM 10,76,Satisfactory
+2026-07-09,barmer,PM 10,119,Moderate
+2026-07-09,barrackpore,PM 10,57,Satisfactory
+2026-07-09,bathinda,CO,78,Satisfactory
+2026-07-09,beed,PM 10,113,Moderate
+2026-07-09,begusarai,PM 10,49,Good
+2026-07-09,belapur,PM 10,55,Satisfactory
+2026-07-09,bengaluru,"PM , PM 10 2.5",59,Satisfactory
+2026-07-09,bhagalpur,PM 10,71,Satisfactory
+2026-07-09,bharatpur,CO,29,Good
+2026-07-09,bhavnagar,CO,80,Satisfactory
+2026-07-09,bhilai,PM 10,42,Good
+2026-07-09,bhilwara,PM 10,91,Satisfactory
+2026-07-09,bhiwadi,"CO, O 3",60,Satisfactory
+2026-07-09,bhiwandi,PM 10,37,Good
+2026-07-09,bhiwani,PM 10,72,Satisfactory
+2026-07-09,bhopal,PM 10,78,Satisfactory
+2026-07-09,bhubaneswar,"PM , O 10 3",69,Satisfactory
+2026-07-09,bihar sharif,PM 2.5,61,Satisfactory
+2026-07-09,bikaner,PM 10,88,Satisfactory
+2026-07-09,bileipada,PM 10,86,Satisfactory
+2026-07-09,boisar,PM 10,63,Satisfactory
+2026-07-09,brajrajnagar,O 3,47,Good
+2026-07-09,bulandshahr,CO,41,Good
+2026-07-09,bundi,PM 10,63,Satisfactory
+2026-07-09,buxar,PM 2.5,44,Good
+2026-07-09,byasanagar,PM 10,64,Satisfactory
+2026-07-09,chamarajanagar,PM 10,45,Good
+2026-07-09,chandigarh,"CO, PM 2.5",43,Good
+2026-07-09,chandrapur,CO,44,Good
+2026-07-09,charkhi dadri,PM 2.5,70,Satisfactory
+2026-07-09,chennai,PM 10,76,Satisfactory
+2026-07-09,chhal,O 3,46,Good
+2026-07-09,chhapra,PM 10,98,Satisfactory
+2026-07-09,chikkaballapur,PM 10,44,Good
+2026-07-09,chikkamagaluru,PM 10,38,Good
+2026-07-09,chittoor,PM 10,63,Satisfactory
+2026-07-09,chittorgarh,PM 10,80,Satisfactory
+2026-07-09,churu,PM 10,81,Satisfactory
+2026-07-09,coimbatore,PM 2.5,33,Good
+2026-07-09,cuttack,PM 10,91,Satisfactory
+2026-07-09,dausa,PM 10,87,Satisfactory
+2026-07-09,dehradun,PM 2.5,18,Good
+2026-07-09,delhi,"PM , CO 10",48,Good
+2026-07-09,dewas,PM 10,87,Satisfactory
+2026-07-09,dhanbad,NO2,103,Moderate
+2026-07-09,dharuhera,PM 2.5,60,Satisfactory
+2026-07-09,dharwad,PM 10,60,Satisfactory
+2026-07-09,dholpur,PM 2.5,202,Poor
+2026-07-09,dhule,PM 10,59,Satisfactory
+2026-07-09,dombivli,PM 10,19,Good
+2026-07-09,dungarpur,PM 2.5,60,Satisfactory
+2026-07-09,durgapur,"PM , CO, NO2 10",64,Satisfactory
+2026-07-09,eluru,PM 2.5,65,Satisfactory
+2026-07-09,faridabad,"PM , PM 2.5 10",108,Moderate
+2026-07-09,fatehabad,PM 10,54,Satisfactory
+2026-07-09,firozabad,PM 10,32,Good
+2026-07-09,gadag,PM 10,35,Good
+2026-07-09,gandhinagar,"PM , CO 10",74,Satisfactory
+2026-07-09,gaya,"PM , PM 10 2.5",50,Good
+2026-07-09,ghaziabad,CO,50,Good
+2026-07-09,gorakhpur,PM 10,77,Satisfactory
+2026-07-09,greater noida,NO2,30,Good
+2026-07-09,gummidipoondi,PM 2.5,124,Moderate
+2026-07-09,guntur,PM 2.5,50,Good
+2026-07-09,gurugram,PM 2.5,110,Moderate
+2026-07-09,guwahati,"PM , SO2 2.5",96,Satisfactory
+2026-07-09,gwalior,"PM , CO, O 10 3",64,Satisfactory
+2026-07-09,hajipur,PM 2.5,59,Satisfactory
+2026-07-09,haldia,PM 10,54,Satisfactory
+2026-07-09,hanumangarh,PM 10,30,Good
+2026-07-09,hapur,PM 10,19,Good
+2026-07-09,hingoli,O 3,28,Good
+2026-07-09,howrah,PM 10,69,Satisfactory
+2026-07-09,hubballi,PM 10,47,Good
+2026-07-09,hyderabad,PM 10,44,Good
+2026-07-09,indore,"CO, PM , NO2 10",64,Satisfactory
+2026-07-09,jabalpur,"PM , PM , CO 2.5 10",114,Moderate
+2026-07-09,jaipur,"PM , O 10 3",62,Satisfactory
+2026-07-09,jaisalmer,PM 10,119,Moderate
+2026-07-09,jalandhar,PM 10,57,Satisfactory
+2026-07-09,jalgaon,PM 10,39,Good
+2026-07-09,jalna,PM 10,39,Good
+2026-07-09,jalore,PM 10,102,Moderate
+2026-07-09,jhalawar,PM 10,66,Satisfactory
+2026-07-09,jhansi,PM 10,51,Satisfactory
+2026-07-09,jhunjhunu,O 3,80,Satisfactory
+2026-07-09,jind,CO,53,Satisfactory
+2026-07-09,jodhpur,PM 10,83,Satisfactory
+2026-07-09,jorapokhar,PM 10,113,Moderate
+2026-07-09,kadapa,PM 2.5,73,Satisfactory
+2026-07-09,kaithal,PM 10,62,Satisfactory
+2026-07-09,kalaburagi,PM 10,36,Good
+2026-07-09,kalyan,PM 10,57,Satisfactory
+2026-07-09,kannur,PM 10,56,Satisfactory
+2026-07-09,kanpur,"CO, PM 10",33,Good
+2026-07-09,karauli,O 3,57,Satisfactory
+2026-07-09,karnal,PM 10,55,Satisfactory
+2026-07-09,karwar,PM 10,51,Satisfactory
+2026-07-09,katihar,CO,87,Satisfactory
+2026-07-09,katni,PM 10,61,Satisfactory
+2026-07-09,keonjhar,PM 10,53,Satisfactory
+2026-07-09,khanna,PM 10,65,Satisfactory
+2026-07-09,khurja,O 3,31,Good
+2026-07-09,kishanganj,PM 10,65,Satisfactory
+2026-07-09,kohima,SO2,48,Good
+2026-07-09,kolhapur,"O , PM 3 2.5",22,Good
+2026-07-09,kolkata,"PM , O 10 3",63,Satisfactory
+2026-07-09,kollam,PM 10,49,Good
+2026-07-09,koppal,NO2,31,Good
+2026-07-09,korba,PM 10,30,Good
+2026-07-09,kota,PM 10,64,Satisfactory
+2026-07-09,kunjemura,PM 10,40,Good
+2026-07-09,kurnool,PM 10,38,Good
+2026-07-09,kurukshetra,NO2,71,Satisfactory
+2026-07-09,latur,PM 10,24,Good
+2026-07-09,lucknow,"O , SO2 3",46,Good
+2026-07-09,machilipatnam,PM 10,55,Satisfactory
+2026-07-09,madurai,PM 10,70,Satisfactory
+2026-07-09,mahad,PM 10,74,Satisfactory
+2026-07-09,maihar,NO2,64,Satisfactory
+2026-07-09,mandideep,PM 10,89,Satisfactory
+2026-07-09,mandi gobindgarh,PM 10,108,Moderate
+2026-07-09,mandikhera,PM 10,78,Satisfactory
+2026-07-09,manesar,PM 10,84,Satisfactory
+2026-07-09,mangalore,PM 10,65,Satisfactory
+2026-07-09,meerut,CO,59,Satisfactory
+2026-07-09,mehsana,PM 10,70,Satisfactory
+2026-07-09,milupara,O 3,81,Satisfactory
+2026-07-09,mira-bhayandar,PM 10,35,Good
+2026-07-09,moradabad,"SO2, CO",49,Good
+2026-07-09,mumbai,PM 10,73,Satisfactory
+2026-07-09,munger,PM 2.5,53,Satisfactory
+2026-07-09,muzaffarnagar,PM 2.5,32,Good
+2026-07-09,muzaffarpur,"CO, PM 2.5",78,Satisfactory
+2026-07-09,mysuru,PM 10,62,Satisfactory
+2026-07-09,nagaon,PM 2.5,60,Satisfactory
+2026-07-09,nagaur,PM 10,50,Good
+2026-07-09,nagpur,"PM , CO 10",43,Good
+2026-07-09,naharlagun,PM 10,15,Good
+2026-07-09,nalbari,PM 2.5,71,Satisfactory
+2026-07-09,nanded,O 3,35,Good
+2026-07-09,narnaul,PM 2.5,133,Moderate
+2026-07-09,nashik,PM 10,52,Satisfactory
+2026-07-09,navi mumbai,PM 10,49,Good
+2026-07-09,nellore,PM 10,63,Satisfactory
+2026-07-09,noida,"NO2, O 3",45,Good
+2026-07-09,pali,PM 10,103,Moderate
+2026-07-09,palwal,PM 10,69,Satisfactory
+2026-07-09,pampore,PM 10,39,Good
+2026-07-09,panchgaon,PM 2.5,34,Good
+2026-07-09,panchkula,PM 2.5,39,Good
+2026-07-09,panipat,PM 10,57,Satisfactory
+2026-07-09,parbhani,PM 10,42,Good
+2026-07-09,patiala,O 3,47,Good
+2026-07-09,patna,"PM , O 10 3",61,Satisfactory
+2026-07-09,pimpri-chinchwad,PM 10,61,Satisfactory
+2026-07-09,pithampur,PM 2.5,72,Satisfactory
+2026-07-09,pratapgarh,PM 10,71,Satisfactory
+2026-07-09,prayagraj,"PM , O , SO2 10 3",53,Satisfactory
+2026-07-09,puducherry,O 3,45,Good
+2026-07-09,pune,"CO, PM 10",48,Good
+2026-07-09,purnia,PM 2.5,60,Satisfactory
+2026-07-09,raebareli,CO,74,Satisfactory
+2026-07-09,raipur,"PM , CO 10",24,Good
+2026-07-09,rairangpur,PM 10,54,Satisfactory
+2026-07-09,rajamahendravaram,PM 10,45,Good
+2026-07-09,rajgir,PM 2.5,57,Satisfactory
+2026-07-09,rajkot,CO,90,Satisfactory
+2026-07-09,rajsamand,PM 10,75,Satisfactory
+2026-07-09,ramanagara,PM 10,35,Good
+2026-07-09,ratlam,NO2,36,Good
+2026-07-09,rishikesh,CO,37,Good
+2026-07-09,rohtak,PM 10,56,Satisfactory
+2026-07-09,rourkela,"PM , PM 10 2.5",64,Satisfactory
+2026-07-09,rupnagar,PM 2.5,78,Satisfactory
+2026-07-09,sagar,PM 10,53,Satisfactory
+2026-07-09,saharsa,PM 10,97,Satisfactory
+2026-07-09,samastipur,PM 2.5,58,Satisfactory
+2026-07-09,sangli,PM 10,32,Good
+2026-07-09,satna,PM 10,70,Satisfactory
+2026-07-09,sawai madhopur,PM 10,64,Satisfactory
+2026-07-09,shivamogga,O 3,47,Good
+2026-07-09,sikar,PM 10,84,Satisfactory
+2026-07-09,silchar,PM 10,47,Good
+2026-07-09,siliguri,NO2,179,Moderate
+2026-07-09,sirohi,PM 10,109,Moderate
+2026-07-09,sivasagar,O 3,31,Good
+2026-07-09,solapur,PM 10,30,Good
+2026-07-09,sri ganganagar,PM 10,55,Satisfactory
+2026-07-09,srinagar,PM 10,44,Good
+2026-07-09,surat,PM 10,87,Satisfactory
+2026-07-09,talcher,PM 10,58,Satisfactory
+2026-07-09,tensa,CO,35,Good
+2026-07-09,thane,PM 10,52,Satisfactory
+2026-07-09,thiruvananthapuram,PM 10,43,Good
+2026-07-09,thoothukudi,PM 10,58,Satisfactory
+2026-07-09,tirumala,NO2,59,Satisfactory
+2026-07-09,tirupati,PM 10,69,Satisfactory
+2026-07-09,tonk,PM 10,47,Good
+2026-07-09,tumidih,PM 10,70,Satisfactory
+2026-07-09,udaipur,PM 2.5,93,Satisfactory
+2026-07-09,ujjain,PM 10,56,Satisfactory
+2026-07-09,ulhasnagar,PM 10,80,Satisfactory
+2026-07-09,vadodara,CO,96,Satisfactory
+2026-07-09,vapi,PM 10,51,Satisfactory
+2026-07-09,varanasi,PM 10,52,Satisfactory
+2026-07-09,vatva,PM 10,120,Moderate
+2026-07-09,vijayapura,PM 10,43,Good
+2026-07-09,vijayawada,PM 10,64,Satisfactory
+2026-07-09,visakhapatnam,PM 10,111,Moderate
+2026-07-09,vrindavan,SO2,33,Good
+2026-07-09,yamuna nagar,PM 2.5,95,Satisfactory
