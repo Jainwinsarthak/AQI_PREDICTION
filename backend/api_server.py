@@ -181,84 +181,107 @@ def predict_aqi(req: PredictionRequest):
     district_encoded = district_mapping[matched_area]
     last_row = city_df.iloc[-1]
 
-    # Extract historical lag values
-    lag_1 = float(last_row["lag_1"])
-    lag_3 = float(last_row["lag_3"])
-    lag_7 = float(last_row["lag_7"])
-    rolling_mean_7 = float(last_row["rolling_mean_7"])
     pollutant_encoded = int(last_row["pollutant_encoded"])
-
-    month_sin = np.sin(2 * np.pi * target_date.month / 12)
-    month_cos = np.cos(2 * np.pi * target_date.month / 12)
-    crop_burning = 1 if target_date.month in [10, 11] else 0
-
-    # Build feature DataFrame for target date prediction
-    X_new = pd.DataFrame(
-        [[
-            district_encoded,
-            lag_1,
-            lag_3,
-            lag_7,
-            rolling_mean_7,
-            target_date.day,
-            target_date.month,
-            target_date.year,
-            month_sin,
-            month_cos,
-            pollutant_encoded,
-            1 if target_date.month in [11, 12, 1, 2] else 0,  # is_winter
-            1 if target_date.month in [4, 5, 6] else 0,       # is_summer
-            1 if target_date.month in [7, 8, 9] else 0,       # is_monsoon
-            crop_burning
-        ]],
-        columns=[
-            "district_encoded",
-            "lag_1",
-            "lag_3",
-            "lag_7",
-            "rolling_mean_7",
-            "day",
-            "month",
-            "year",
-            "month_sin",
-            "month_cos",
-            "pollutant_encoded",
-            "is_winter",
-            "is_summer",
-            "is_monsoon",
-            "crop_burning"
-        ]
-    )
-
     current_aqi = float(last_row["aqi_value"])
+    last_date = pd.Timestamp(last_row["date"]).normalize()
+    target_date_norm = pd.Timestamp(target_date).normalize()
+    days_to_predict = (target_date_norm - last_date).days
 
-    # Check if the requested target date exists in our historical dataset.
-    # If yes, return the actual recorded AQI instead of predicting it.
-    existing_row = city_df[city_df["date"] == target_date]
-    if not existing_row.empty:
-        prediction = float(existing_row.iloc[0]["aqi_value"])
-        print(f"Match found in history for {req.city} on {req.date}. Returning actual AQI: {prediction}")
+    # Recursive prediction loop from last_date + 1 up to target_date
+    recent_aqi = city_df["aqi_value"].tail(7).tolist()
+
+    if days_to_predict > 0:
+        for day_idx in range(1, days_to_predict + 1):
+            curr_date = last_date + pd.Timedelta(days=day_idx)
+
+            # Compute lags from our moving history buffer
+            temp_lag1 = recent_aqi[-1]
+            temp_lag3 = recent_aqi[-3] if len(recent_aqi) >= 3 else recent_aqi[0]
+            temp_lag7 = recent_aqi[-7] if len(recent_aqi) >= 7 else recent_aqi[0]
+            window = recent_aqi[-7:] if len(recent_aqi) >= 7 else recent_aqi
+            temp_roll = sum(window) / len(window)
+
+            month_sin = np.sin(2 * np.pi * curr_date.month / 12)
+            month_cos = np.cos(2 * np.pi * curr_date.month / 12)
+            crop_burning = 1 if curr_date.month in [10, 11] else 0
+
+            X_step = pd.DataFrame(
+                [[
+                    district_encoded,
+                    temp_lag1,
+                    temp_lag3,
+                    temp_lag7,
+                    temp_roll,
+                    curr_date.day,
+                    curr_date.month,
+                    curr_date.year,
+                    month_sin,
+                    month_cos,
+                    pollutant_encoded,
+                    1 if curr_date.month in [11, 12, 1, 2] else 0,
+                    1 if curr_date.month in [4, 5, 6] else 0,
+                    1 if curr_date.month in [7, 8, 9] else 0,
+                    crop_burning
+                ]],
+                columns=[
+                    "district_encoded",
+                    "lag_1",
+                    "lag_3",
+                    "lag_7",
+                    "rolling_mean_7",
+                    "day",
+                    "month",
+                    "year",
+                    "month_sin",
+                    "month_cos",
+                    "pollutant_encoded",
+                    "is_winter",
+                    "is_summer",
+                    "is_monsoon",
+                    "crop_burning"
+                ]
+            )
+
+            pred_val = float(model.predict(X_step)[0])
+            pred_val = max(0.0, pred_val)
+            recent_aqi.append(pred_val)
+
+        prediction = recent_aqi[-1]
     else:
-        prediction = float(model.predict(X_new)[0])
+        # Check if the requested target date exists in our historical dataset.
+        existing_row = city_df[city_df["date"] == target_date_norm]
+        if not existing_row.empty:
+            prediction = float(existing_row.iloc[0]["aqi_value"])
+        else:
+            prediction = current_aqi
 
     # -----------------------------------------------------
-    # AUTOREGRESSIVE FORECAST LOOP (7 Days)
+    # AUTOREGRESSIVE FORECAST LOOP (7 Days starting from target_date)
     # -----------------------------------------------------
     forecast = []
+    
+    # 1. Today point showing Today's live AQI
     forecast.append({
         "label": "Today",
         "aqi": round(current_aqi),
         "isLive": True
     })
 
-    # Build history buffer from recent AQI values for correct lag propagation
-    recent_aqi = city_df["aqi_value"].tail(7).tolist()
-    recent_aqi.append(prediction)
+    # 2. Predicted values starting from target_date
+    if days_to_predict > 0:
+        forecast.append({
+            "label": target_date_norm.strftime("%d %b"),
+            "aqi": round(prediction),
+            "isLive": False
+        })
+        forecast_days = 6
+    else:
+        forecast_days = 7
 
-    for i in range(1, 8):
-        future_date = target_date + pd.Timedelta(days=i)
+    for i in range(1, forecast_days + 1):
+        future_date = target_date_norm + pd.Timedelta(days=i)
 
-        # Compute lags from history buffer
+        # Compute lags from our moving history buffer
         temp_lag1 = recent_aqi[-1]
         temp_lag3 = recent_aqi[-3] if len(recent_aqi) >= 3 else recent_aqi[0]
         temp_lag7 = recent_aqi[-7] if len(recent_aqi) >= 7 else recent_aqi[0]
@@ -307,14 +330,14 @@ def predict_aqi(req: PredictionRequest):
         )
 
         pred_future = float(model.predict(X_future)[0])
+        pred_future = max(0.0, pred_future)
 
         forecast.append({
-            "label": f"+{i}d",
+            "label": future_date.strftime("%d %b"),
             "aqi": round(pred_future),
             "isLive": False
         })
 
-        # Append prediction to history for next iteration
         recent_aqi.append(pred_future)
 
     # Calculate metrics

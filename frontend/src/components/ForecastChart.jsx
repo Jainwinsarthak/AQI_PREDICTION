@@ -49,12 +49,15 @@ if (!forecast.length) {
   );
 }
 
+const predictedDays = forecast.filter(d => !d.isLive);
+const statsData = predictedDays.length ? predictedDays : forecast;
+
 const avgAqi = Math.round(
-  forecast.reduce((s, d) => s + d.aqi, 0) / forecast.length
+  statsData.reduce((s, d) => s + d.aqi, 0) / statsData.length
 );
 
-const peakAqi = Math.max(...forecast.map(d => d.aqi));
-const minAqi = Math.min(...forecast.map(d => d.aqi));
+const peakAqi = Math.max(...statsData.map(d => d.aqi));
+const minAqi = Math.min(...statsData.map(d => d.aqi));
 const avgLevel = getAQILevel(avgAqi);
 
   return (
