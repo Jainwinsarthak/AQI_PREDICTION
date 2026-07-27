@@ -1,243 +1,247 @@
 date,state,area,prominent_pollutants,aqi_value,air_quality_status
-2026-07-26,Tripura,Agartala,PM 10,48,Good
-2026-07-26,Uttar Pradesh,Agra,"PM , PM 10 2.5",77,Satisfactory
-2026-07-26,Gujarat,Ahmedabad,PM 10,66,Satisfactory
-2026-07-26,Maharashtra,Ahmednagar,PM 10,45,Good
-2026-07-26,Rajasthan,Ajmer,PM 10,40,Good
-2026-07-26,Maharashtra,Akola,PM 10,34,Good
-2026-07-26,Rajasthan,Alwar,PM 10,94,Satisfactory
-2026-07-26,Andhra Pradesh,Amaravati,PM 10,67,Satisfactory
-2026-07-26,Haryana,Ambala,SO2,70,Satisfactory
-2026-07-26,Maharashtra,Ambernath,PM 10,58,Satisfactory
-2026-07-26,Maharashtra,Amravati,PM 10,36,Good
-2026-07-26,Punjab,Amritsar,PM 10,85,Satisfactory
-2026-07-26,Andhra Pradesh,Anantapur,PM 2.5,68,Satisfactory
-2026-07-26,Odisha,Angul,NO2,66,Satisfactory
-2026-07-26,Gujarat,Ankleshwar,PM 10,72,Satisfactory
-2026-07-26,Bihar,Araria,PM 2.5,48,Good
-2026-07-26,Bihar,Arrah,PM 10,54,Satisfactory
-2026-07-26,West Bengal,Asansol,"SO2, CO",47,Good
-2026-07-26,Maharashtra,Aurangabad (Maharashtra),"PM , PM 10 2.5",50,Good
-2026-07-26,Himachal Pradesh,Baddi,PM 10,75,Satisfactory
-2026-07-26,Maharashtra,Badlapur,CO,19,Good
-2026-07-26,Karnataka,Bagalkot,PM 10,51,Satisfactory
-2026-07-26,Uttar Pradesh,Baghpat,PM 10,93,Satisfactory
-2026-07-26,Haryana,Bahadurgarh,PM 2.5,99,Satisfactory
-2026-07-26,Odisha,Balasore,O 3,65,Satisfactory
-2026-07-26,Haryana,Ballabgarh,PM 10,112,Moderate
-2026-07-26,Rajasthan,Banswara,PM 10,90,Satisfactory
-2026-07-26,Rajasthan,Baran,O 3,81,Satisfactory
-2026-07-26,Odisha,Barbil,PM 2.5,47,Good
-2026-07-26,Uttar Pradesh,Bareilly,SO2,41,Good
-2026-07-26,Odisha,Baripada,O 3,40,Good
-2026-07-26,Rajasthan,Barmer,O 3,36,Good
-2026-07-26,West Bengal,Barrackpore,CO,37,Good
-2026-07-26,Punjab,Bathinda,CO,85,Satisfactory
-2026-07-26,Maharashtra,Beed,PM 2.5,41,Good
-2026-07-26,Bihar,Begusarai,PM 10,43,Good
-2026-07-26,Maharashtra,Belapur,PM 10,38,Good
-2026-07-26,Karnataka,Bengaluru,PM 10,50,Good
-2026-07-26,Bihar,Bhagalpur,CO,34,Good
-2026-07-26,Rajasthan,Bharatpur,O 3,53,Satisfactory
-2026-07-26,Gujarat,Bhavnagar,CO,57,Satisfactory
-2026-07-26,Chhattisgarh,Bhilai,"PM , CO 10",28,Good
-2026-07-26,Rajasthan,Bhilwara,O 3,41,Good
-2026-07-26,Rajasthan,Bhiwadi,PM 10,95,Satisfactory
-2026-07-26,Maharashtra,Bhiwandi,PM 10,45,Good
-2026-07-26,Haryana,Bhiwani,PM 2.5,56,Satisfactory
-2026-07-26,Madhya Pradesh,Bhopal,PM 10,37,Good
-2026-07-26,Odisha,Bhubaneswar,CO,50,Good
-2026-07-26,Rajasthan,Bikaner,PM 10,99,Satisfactory
-2026-07-26,Chhattisgarh,Bilaspur,PM 10,35,Good
-2026-07-26,Odisha,Bileipada,PM 2.5,52,Satisfactory
-2026-07-26,Maharashtra,Boisar,PM 10,49,Good
-2026-07-26,Odisha,Brajrajnagar,O 3,41,Good
-2026-07-26,Uttar Pradesh,Bulandshahr,PM 10,57,Satisfactory
-2026-07-26,Rajasthan,Bundi,PM 10,41,Good
-2026-07-26,Bihar,Buxar,PM 2.5,56,Satisfactory
-2026-07-26,Odisha,Byasanagar,PM 2.5,67,Satisfactory
-2026-07-26,Assam,Byrnihat (Assam),PM 2.5,67,Satisfactory
-2026-07-26,Meghalaya,Byrnihat (Meghalaya),PM 2.5,168,Moderate
-2026-07-26,Karnataka,Chamarajanagar,PM 10,45,Good
-2026-07-26,Chandigarh,Chandigarh,O 3,33,Good
-2026-07-26,Maharashtra,Chandrapur,"PM , O 10 3",43,Good
-2026-07-26,Haryana,Charkhi Dadri,PM 2.5,92,Satisfactory
-2026-07-26,Tamil Nadu,Chennai,PM 10,82,Satisfactory
-2026-07-26,Bihar,Chhapra,CO,79,Satisfactory
-2026-07-26,Karnataka,Chikkaballapur,CO,32,Good
-2026-07-26,Karnataka,Chikkamagaluru,PM 10,32,Good
-2026-07-26,Rajasthan,Chittorgarh,O 3,38,Good
-2026-07-26,Rajasthan,Churu,PM 10,67,Satisfactory
-2026-07-26,Odisha,Cuttack,PM 10,94,Satisfactory
-2026-07-26,Rajasthan,Dausa,PM 10,73,Satisfactory
-2026-07-26,Delhi,Delhi,"PM , PM 10 2.5",80,Satisfactory
-2026-07-26,Madhya Pradesh,Dewas,PM 10,76,Satisfactory
-2026-07-26,Jharkhand,Dhanbad,NO2,103,Moderate
-2026-07-26,Haryana,Dharuhera,PM 2.5,74,Satisfactory
-2026-07-26,Rajasthan,Dholpur,PM 2.5,131,Moderate
-2026-07-26,Maharashtra,Dhule,PM 10,51,Satisfactory
-2026-07-26,Rajasthan,Dungarpur,PM 10,52,Satisfactory
-2026-07-26,West Bengal,Durgapur,"NO2, PM , O 10 3",39,Good
-2026-07-26,Andhra Pradesh,Eluru,PM 10,66,Satisfactory
-2026-07-26,Haryana,Faridabad,PM 10,90,Satisfactory
-2026-07-26,Haryana,Fatehabad,PM 10,194,Moderate
-2026-07-26,Uttar Pradesh,Fatehpur Sikri,O 3,29,Good
-2026-07-26,Uttar Pradesh,Firozabad,CO,38,Good
-2026-07-26,Karnataka,Gadag,PM 10,34,Good
-2026-07-26,Gujarat,Gandhinagar,PM 10,54,Satisfactory
-2026-07-26,Sikkim,Gangtok,PM 2.5,19,Good
-2026-07-26,Bihar,Gaya,"PM , PM 2.5 10",58,Satisfactory
-2026-07-26,Uttar Pradesh,Ghaziabad,"CO, PM 10",87,Satisfactory
-2026-07-26,Uttar Pradesh,Gorakhpur,PM 10,76,Satisfactory
-2026-07-26,Uttar Pradesh,Greater Noida,PM 10,103,Moderate
-2026-07-26,Tamil Nadu,Gummidipoondi,PM 10,74,Satisfactory
-2026-07-26,Andhra Pradesh,Guntur,PM 2.5,46,Good
-2026-07-26,Haryana,Gurugram,"PM , PM 2.5 10",108,Moderate
-2026-07-26,Assam,Guwahati,"O , SO2, PM 3 2.5",43,Good
-2026-07-26,Madhya Pradesh,Gwalior,"CO, O 3",56,Satisfactory
-2026-07-26,West Bengal,Haldia,CO,32,Good
-2026-07-26,Rajasthan,Hanumangarh,O 3,70,Satisfactory
-2026-07-26,Haryana,Hisar,NO2,72,Satisfactory
-2026-07-26,West Bengal,Howrah,"CO, PM 10",55,Satisfactory
-2026-07-26,Karnataka,Hubballi,PM 10,53,Satisfactory
-2026-07-26,Telangana,Hyderabad,PM 10,48,Good
-2026-07-26,Madhya Pradesh,Indore,"PM , PM , CO 10 2.5",45,Good
-2026-07-26,Madhya Pradesh,Jabalpur,"NO2, O 3",55,Satisfactory
-2026-07-26,Rajasthan,Jaipur,"O , PM , NH3 3 10",53,Satisfactory
-2026-07-26,Rajasthan,Jaisalmer,PM 10,40,Good
-2026-07-26,Punjab,Jalandhar,PM 10,54,Satisfactory
-2026-07-26,Maharashtra,Jalgaon,O 3,33,Good
-2026-07-26,Maharashtra,Jalna,PM 10,37,Good
-2026-07-26,Rajasthan,Jalore,PM 10,46,Good
-2026-07-26,Rajasthan,Jhalawar,CO,60,Satisfactory
-2026-07-26,Uttar Pradesh,Jhansi,PM 10,52,Satisfactory
-2026-07-26,Rajasthan,Jhunjhunu,PM 10,76,Satisfactory
-2026-07-26,Haryana,Jind,PM 10,45,Good
-2026-07-26,Rajasthan,Jodhpur,"PM , CO 10",47,Good
-2026-07-26,Jharkhand,Jorapokhar,PM 10,102,Moderate
-2026-07-26,Andhra Pradesh,Kadapa,PM 10,62,Satisfactory
-2026-07-26,Haryana,Kaithal,SO2,100,Satisfactory
-2026-07-26,,Kakinada,PM 10,44,Good
-2026-07-26,Maharashtra,Kalyan,"PM , PM 2.5 10",53,Satisfactory
-2026-07-26,Uttar Pradesh,Kanpur,CO,56,Satisfactory
-2026-07-26,Rajasthan,Karauli,NO2,42,Good
-2026-07-26,Haryana,Karnal,PM 10,80,Satisfactory
-2026-07-26,Karnataka,Karwar,CO,37,Good
-2026-07-26,Bihar,Katihar,CO,71,Satisfactory
-2026-07-26,Madhya Pradesh,Katni,PM 10,54,Satisfactory
-2026-07-26,Odisha,Keonjhar,PM 10,39,Good
-2026-07-26,Punjab,Khanna,PM 10,70,Satisfactory
-2026-07-26,Uttar Pradesh,Khora,PM 2.5,106,Moderate
-2026-07-26,Uttar Pradesh,Khurja,CO,87,Satisfactory
-2026-07-26,Bihar,Kishanganj,PM 2.5,43,Good
-2026-07-26,Nagaland,Kohima,SO2,48,Good
-2026-07-26,Maharashtra,Kolhapur,PM 10,35,Good
-2026-07-26,West Bengal,Kolkata,"PM , CO 10",38,Good
-2026-07-26,Chhattisgarh,Korba,"SO2, PM 10",31,Good
-2026-07-26,Rajasthan,Kota,"O , PM 3 2.5",34,Good
-2026-07-26,Chhattisgarh,Kunjemura,CO,27,Good
-2026-07-26,,Kurnool,PM 10,45,Good
-2026-07-26,Haryana,Kurukshetra,PM 10,50,Good
-2026-07-26,Maharashtra,Latur,PM 10,35,Good
-2026-07-26,Uttar Pradesh,Lucknow,"O , PM , PM 3 10 2.5",64,Satisfactory
-2026-07-26,Punjab,Ludhiana,PM 10,57,Satisfactory
-2026-07-26,Andhra Pradesh,Machilipatnam,PM 2.5,54,Satisfactory
-2026-07-26,Karnataka,Madikeri,CO,14,Good
-2026-07-26,Madhya Pradesh,Maihar,PM 10,88,Satisfactory
-2026-07-26,Maharashtra,Malegaon,PM 10,36,Good
-2026-07-26,Madhya Pradesh,Mandideep,O 3,76,Satisfactory
-2026-07-26,Punjab,Mandi Gobindgarh,PM 10,133,Moderate
-2026-07-26,Haryana,Mandikhera,PM 10,78,Satisfactory
-2026-07-26,Haryana,Manesar,PM 2.5,62,Satisfactory
-2026-07-26,Karnataka,Mangalore,PM 10,49,Good
-2026-07-26,Uttar Pradesh,Meerut,"PM , PM 10 2.5",73,Satisfactory
-2026-07-26,Gujarat,Mehsana,PM 10,57,Satisfactory
-2026-07-26,Maharashtra,Mira-Bhayandar,PM 10,42,Good
-2026-07-26,Uttar Pradesh,Modinagar,PM 2.5,50,Good
-2026-07-26,Uttar Pradesh,Moradabad,"PM , CO 10",72,Satisfactory
-2026-07-26,Bihar,Motihari,PM 2.5,74,Satisfactory
-2026-07-26,Maharashtra,Mumbai,"NO2, PM 10",61,Satisfactory
-2026-07-26,Bihar,Munger,PM 10,42,Good
-2026-07-26,Uttar Pradesh,Muzaffarnagar,PM 10,77,Satisfactory
-2026-07-26,Bihar,Muzaffarpur,"PM , PM , O 10 2.5 3",51,Satisfactory
-2026-07-26,Karnataka,Mysuru,O 3,42,Good
-2026-07-26,Assam,Nagaon,PM 2.5,71,Satisfactory
-2026-07-26,Rajasthan,Nagaur,PM 10,64,Satisfactory
-2026-07-26,Maharashtra,Nagpur,PM 10,37,Good
-2026-07-26,Arunachal Pradesh,Naharlagun,PM 10,41,Good
-2026-07-26,Assam,Nalbari,PM 2.5,62,Satisfactory
-2026-07-26,Maharashtra,Nanded,PM 10,33,Good
-2026-07-26,Gujarat,Nandesari,PM 2.5,47,Good
-2026-07-26,Haryana,Narnaul,PM 2.5,138,Moderate
-2026-07-26,Maharashtra,Nashik,"CO, PM 10",37,Good
-2026-07-26,Maharashtra,Navi Mumbai,"CO, PM 10",32,Good
-2026-07-26,Andhra Pradesh,Nellore,PM 10,67,Satisfactory
-2026-07-26,Uttar Pradesh,Noida,"O , PM 3 10",83,Satisfactory
-2026-07-26,Rajasthan,Pali,PM 2.5,92,Satisfactory
-2026-07-26,Haryana,Palwal,CO,73,Satisfactory
-2026-07-26,Jammu and Kashmir,Pampore,PM 10,10,Good
-2026-07-26,Haryana,Panchkula,O 3,44,Good
-2026-07-26,Haryana,Panipat,PM 10,136,Moderate
-2026-07-26,Maharashtra,Parbhani,PM 10,47,Good
-2026-07-26,Punjab,Patiala,PM 10,40,Good
-2026-07-26,Bihar,Patna,PM 10,70,Satisfactory
-2026-07-26,Maharashtra,Pimpri-Chinchwad,"PM , CO 10",37,Good
-2026-07-26,Madhya Pradesh,Pithampur,PM 10,80,Satisfactory
-2026-07-26,Rajasthan,Pratapgarh,O 3,39,Good
-2026-07-26,Uttar Pradesh,Prayagraj,"O , SO2 3",38,Good
-2026-07-26,Puducherry,Puducherry,O 3,46,Good
-2026-07-26,Maharashtra,Pune,"CO, PM 10",46,Good
-2026-07-26,Bihar,Purnia,CO,58,Satisfactory
-2026-07-26,Uttar Pradesh,Raebareli,PM 10,500,Severe
-2026-07-26,Chhattisgarh,Raipur,PM 10,47,Good
-2026-07-26,Andhra Pradesh,Rajamahendravaram,PM 10,47,Good
-2026-07-26,Bihar,Rajgir,PM 2.5,48,Good
-2026-07-26,Gujarat,Rajkot,PM 10,47,Good
-2026-07-26,Rajasthan,Rajsamand,O 3,50,Good
-2026-07-26,Karnataka,Ramanagara,PM 10,33,Good
-2026-07-26,Uttarakhand,Rishikesh,CO,37,Good
-2026-07-26,Haryana,Rohtak,PM 10,52,Satisfactory
-2026-07-26,Odisha,Rourkela,"PM , PM 2.5 10",54,Satisfactory
-2026-07-26,Punjab,Rupnagar,PM 2.5,186,Moderate
-2026-07-26,Madhya Pradesh,Sagar,CO,39,Good
-2026-07-26,Bihar,Saharsa,PM 10,79,Satisfactory
-2026-07-26,Bihar,Samastipur,PM 2.5,38,Good
-2026-07-26,Maharashtra,Sangli,O 3,24,Good
-2026-07-26,Maharashtra,Satara,PM 10,48,Good
-2026-07-26,Madhya Pradesh,Satna,PM 10,70,Satisfactory
-2026-07-26,Rajasthan,Sawai Madhopur,CO,52,Satisfactory
-2026-07-26,,Shamli,PM 10,54,Satisfactory
-2026-07-26,Rajasthan,Sikar,PM 10,46,Good
-2026-07-26,Assam,Silchar,PM 10,49,Good
-2026-07-26,West Bengal,Siliguri,NO2,116,Moderate
-2026-07-26,Madhya Pradesh,Singrauli,PM 10,83,Satisfactory
-2026-07-26,Rajasthan,Sirohi,PM 10,21,Good
-2026-07-26,Haryana,Sirsa,CO,88,Satisfactory
-2026-07-26,Assam,Sivasagar,O 3,65,Satisfactory
-2026-07-26,Bihar,Siwan,PM 10,102,Moderate
-2026-07-26,Maharashtra,Solapur,PM 10,33,Good
-2026-07-26,Haryana,Sonipat,PM 10,148,Moderate
-2026-07-26,Rajasthan,Sri Ganganagar,O 3,100,Satisfactory
-2026-07-26,Jammu and Kashmir,Srinagar,PM 10,28,Good
-2026-07-26,Odisha,Suakati,PM 10,59,Satisfactory
-2026-07-26,Gujarat,Surat,PM 10,68,Satisfactory
-2026-07-26,Odisha,Tensa,NO2,52,Satisfactory
-2026-07-26,Maharashtra,Thane,PM 10,43,Good
-2026-07-26,Kerala,Thiruvananthapuram,PM 10,43,Good
-2026-07-26,Tamil Nadu,Thoothukudi,PM 10,67,Satisfactory
-2026-07-26,Andhra Pradesh,Tirumala,CO,63,Satisfactory
-2026-07-26,Andhra Pradesh,Tirupati,PM 10,66,Satisfactory
-2026-07-26,Rajasthan,Tonk,PM 10,53,Satisfactory
-2026-07-26,Chhattisgarh,Tumidih,O 3,38,Good
-2026-07-26,Rajasthan,Udaipur,PM 10,31,Good
-2026-07-26,Madhya Pradesh,Ujjain,PM 10,50,Good
-2026-07-26,Maharashtra,Ulhasnagar,PM 10,30,Good
-2026-07-26,Gujarat,Vapi,PM 10,20,Good
-2026-07-26,Uttar Pradesh,Varanasi,"PM , PM 10 2.5",62,Satisfactory
-2026-07-26,Karnataka,Vijayapura,PM 10,43,Good
-2026-07-26,Andhra Pradesh,Vijayawada,PM 10,60,Satisfactory
-2026-07-26,Maharashtra,Virar,PM 10,49,Good
-2026-07-26,Andhra Pradesh,Visakhapatnam,PM 10,119,Moderate
-2026-07-26,Uttar Pradesh,Vrindavan,SO2,60,Satisfactory
-2026-07-26,Karnataka,Yadgir,CO,54,Satisfactory
-2026-07-26,Haryana,Yamuna Nagar,PM 10,88,Satisfactory
+2026-07-27,Tripura,Agartala,PM 10,37,Good
+2026-07-27,Uttar Pradesh,Agra,"PM , PM 10 2.5",85,Satisfactory
+2026-07-27,Gujarat,Ahmedabad,PM 10,62,Satisfactory
+2026-07-27,Maharashtra,Ahmednagar,PM 10,48,Good
+2026-07-27,Mizoram,Aizawl,SO2,14,Good
+2026-07-27,Rajasthan,Ajmer,PM 10,53,Satisfactory
+2026-07-27,Maharashtra,Akola,PM 10,31,Good
+2026-07-27,Rajasthan,Alwar,PM 10,96,Satisfactory
+2026-07-27,Andhra Pradesh,Amaravati,PM 10,32,Good
+2026-07-27,Haryana,Ambala,SO2,66,Satisfactory
+2026-07-27,Maharashtra,Ambernath,PM 10,61,Satisfactory
+2026-07-27,Maharashtra,Amravati,PM 10,41,Good
+2026-07-27,Punjab,Amritsar,PM 10,62,Satisfactory
+2026-07-27,Andhra Pradesh,Anantapur,PM 10,64,Satisfactory
+2026-07-27,Odisha,Angul,PM 10,59,Satisfactory
+2026-07-27,Gujarat,Ankleshwar,PM 10,63,Satisfactory
+2026-07-27,Bihar,Araria,PM 2.5,47,Good
+2026-07-27,Bihar,Arrah,PM 10,62,Satisfactory
+2026-07-27,West Bengal,Asansol,"SO2, CO, O 3",48,Good
+2026-07-27,Maharashtra,Aurangabad (Maharashtra),"PM , PM 2.5 10",43,Good
+2026-07-27,Himachal Pradesh,Baddi,PM 10,94,Satisfactory
+2026-07-27,Maharashtra,Badlapur,CO,49,Good
+2026-07-27,Karnataka,Bagalkot,PM 10,51,Satisfactory
+2026-07-27,Uttar Pradesh,Baghpat,PM 10,112,Moderate
+2026-07-27,Haryana,Bahadurgarh,PM 2.5,123,Moderate
+2026-07-27,Odisha,Balasore,O 3,53,Satisfactory
+2026-07-27,Haryana,Ballabgarh,PM 10,101,Moderate
+2026-07-27,Rajasthan,Banswara,PM 10,116,Moderate
+2026-07-27,Rajasthan,Baran,O 3,72,Satisfactory
+2026-07-27,Odisha,Barbil,PM 10,50,Good
+2026-07-27,Uttar Pradesh,Bareilly,SO2,46,Good
+2026-07-27,Odisha,Baripada,O 3,30,Good
+2026-07-27,Rajasthan,Barmer,PM 10,43,Good
+2026-07-27,West Bengal,Barrackpore,CO,40,Good
+2026-07-27,Punjab,Bathinda,PM 10,99,Satisfactory
+2026-07-27,Maharashtra,Beed,PM 2.5,25,Good
+2026-07-27,Maharashtra,Belapur,PM 10,36,Good
+2026-07-27,Karnataka,Bengaluru,PM 10,51,Satisfactory
+2026-07-27,Bihar,Bhagalpur,PM 2.5,64,Satisfactory
+2026-07-27,Rajasthan,Bharatpur,O 3,55,Satisfactory
+2026-07-27,Gujarat,Bhavnagar,CO,58,Satisfactory
+2026-07-27,Chhattisgarh,Bhilai,"PM , CO 10",24,Good
+2026-07-27,Rajasthan,Bhilwara,PM 10,69,Satisfactory
+2026-07-27,Rajasthan,Bhiwadi,PM 10,83,Satisfactory
+2026-07-27,Maharashtra,Bhiwandi,PM 10,42,Good
+2026-07-27,Haryana,Bhiwani,PM 2.5,52,Satisfactory
+2026-07-27,Madhya Pradesh,Bhopal,PM 10,50,Good
+2026-07-27,Odisha,Bhubaneswar,PM 2.5,58,Satisfactory
+2026-07-27,Rajasthan,Bikaner,PM 10,63,Satisfactory
+2026-07-27,Chhattisgarh,Bilaspur,CO,38,Good
+2026-07-27,Odisha,Bileipada,PM 2.5,55,Satisfactory
+2026-07-27,Maharashtra,Boisar,PM 10,49,Good
+2026-07-27,Odisha,Brajrajnagar,O 3,44,Good
+2026-07-27,Uttar Pradesh,Bulandshahr,PM 10,105,Moderate
+2026-07-27,Rajasthan,Bundi,PM 10,57,Satisfactory
+2026-07-27,Bihar,Buxar,PM 2.5,58,Satisfactory
+2026-07-27,Odisha,Byasanagar,PM 2.5,84,Satisfactory
+2026-07-27,Assam,Byrnihat (Assam),PM 2.5,74,Satisfactory
+2026-07-27,Meghalaya,Byrnihat (Meghalaya),PM 2.5,192,Moderate
+2026-07-27,Karnataka,Chamarajanagar,PM 10,39,Good
+2026-07-27,Chandigarh,Chandigarh,"O , CO 3",52,Satisfactory
+2026-07-27,Maharashtra,Chandrapur,"PM , CO 10",44,Good
+2026-07-27,Haryana,Charkhi Dadri,PM 2.5,56,Satisfactory
+2026-07-27,Tamil Nadu,Chennai,PM 10,68,Satisfactory
+2026-07-27,Bihar,Chhapra,CO,90,Satisfactory
+2026-07-27,Karnataka,Chikkaballapur,PM 10,36,Good
+2026-07-27,Karnataka,Chikkamagaluru,PM 10,31,Good
+2026-07-27,Andhra Pradesh,Chittoor,PM 10,62,Satisfactory
+2026-07-27,Rajasthan,Chittorgarh,PM 10,46,Good
+2026-07-27,Rajasthan,Churu,PM 10,49,Good
+2026-07-27,Tamil Nadu,Cuddalore,SO2,23,Good
+2026-07-27,Odisha,Cuttack,PM 10,68,Satisfactory
+2026-07-27,Rajasthan,Dausa,PM 10,89,Satisfactory
+2026-07-27,Uttarakhand,Dehradun,PM 10,40,Good
+2026-07-27,Delhi,Delhi,PM 10,101,Moderate
+2026-07-27,Madhya Pradesh,Dewas,PM 10,83,Satisfactory
+2026-07-27,Jharkhand,Dhanbad,NO2,110,Moderate
+2026-07-27,Haryana,Dharuhera,PM 2.5,83,Satisfactory
+2026-07-27,Karnataka,Dharwad,PM 10,74,Satisfactory
+2026-07-27,Rajasthan,Dholpur,PM 10,38,Good
+2026-07-27,Maharashtra,Dhule,PM 10,57,Satisfactory
+2026-07-27,Rajasthan,Dungarpur,PM 10,56,Satisfactory
+2026-07-27,West Bengal,Durgapur,"NO2, O , PM 3 10",42,Good
+2026-07-27,Andhra Pradesh,Eluru,PM 10,59,Satisfactory
+2026-07-27,Haryana,Faridabad,PM 10,111,Moderate
+2026-07-27,Haryana,Fatehabad,PM 10,185,Moderate
+2026-07-27,Uttar Pradesh,Fatehpur Sikri,O 3,34,Good
+2026-07-27,Uttar Pradesh,Firozabad,"PM , CO 10",48,Good
+2026-07-27,Karnataka,Gadag,PM 10,32,Good
+2026-07-27,Gujarat,Gandhinagar,PM 10,61,Satisfactory
+2026-07-27,Sikkim,Gangtok,PM 2.5,20,Good
+2026-07-27,Bihar,Gaya,PM 10,69,Satisfactory
+2026-07-27,Uttar Pradesh,Ghaziabad,"PM , PM 10 2.5",119,Moderate
+2026-07-27,Uttar Pradesh,Gorakhpur,PM 10,69,Satisfactory
+2026-07-27,Uttar Pradesh,Greater Noida,PM 10,155,Moderate
+2026-07-27,Tamil Nadu,Gummidipoondi,PM 10,84,Satisfactory
+2026-07-27,Andhra Pradesh,Guntur,PM 2.5,46,Good
+2026-07-27,Haryana,Gurugram,"PM , PM 2.5 10",96,Satisfactory
+2026-07-27,Assam,Guwahati,"PM , SO2 2.5",45,Good
+2026-07-27,Madhya Pradesh,Gwalior,O 3,49,Good
+2026-07-27,Bihar,Hajipur,PM 2.5,54,Satisfactory
+2026-07-27,West Bengal,Haldia,CO,31,Good
+2026-07-27,Rajasthan,Hanumangarh,O 3,68,Satisfactory
+2026-07-27,Haryana,Hisar,SO2,90,Satisfactory
+2026-07-27,West Bengal,Howrah,"CO, NO2",53,Satisfactory
+2026-07-27,Telangana,Hyderabad,"PM , CO 10",39,Good
+2026-07-27,Madhya Pradesh,Indore,"PM , SO2 10",48,Good
+2026-07-27,Madhya Pradesh,Jabalpur,"NO2, PM 10",56,Satisfactory
+2026-07-27,Rajasthan,Jaipur,"O , PM 3 10",65,Satisfactory
+2026-07-27,Rajasthan,Jaisalmer,PM 10,66,Satisfactory
+2026-07-27,Punjab,Jalandhar,PM 10,64,Satisfactory
+2026-07-27,Maharashtra,Jalgaon,PM 10,29,Good
+2026-07-27,Maharashtra,Jalna,O 3,30,Good
+2026-07-27,Rajasthan,Jalore,PM 10,45,Good
+2026-07-27,Rajasthan,Jhalawar,PM 10,94,Satisfactory
+2026-07-27,Uttar Pradesh,Jhansi,PM 10,59,Satisfactory
+2026-07-27,Rajasthan,Jhunjhunu,O 3,78,Satisfactory
+2026-07-27,Haryana,Jind,PM 10,61,Satisfactory
+2026-07-27,Rajasthan,Jodhpur,PM 10,65,Satisfactory
+2026-07-27,Jharkhand,Jorapokhar,PM 10,96,Satisfactory
+2026-07-27,Andhra Pradesh,Kadapa,PM 10,61,Satisfactory
+2026-07-27,Haryana,Kaithal,PM 10,52,Satisfactory
+2026-07-27,Maharashtra,Kalyan,"PM , PM 2.5 10",58,Satisfactory
+2026-07-27,Uttar Pradesh,Kanpur,"PM , PM 2.5 10",52,Satisfactory
+2026-07-27,Rajasthan,Karauli,NO2,43,Good
+2026-07-27,Haryana,Karnal,PM 10,99,Satisfactory
+2026-07-27,Karnataka,Karwar,CO,40,Good
+2026-07-27,Uttarakhand,Kashipur,PM 2.5,59,Satisfactory
+2026-07-27,Bihar,Katihar,CO,90,Satisfactory
+2026-07-27,Madhya Pradesh,Katni,PM 10,62,Satisfactory
+2026-07-27,Odisha,Keonjhar,PM 10,38,Good
+2026-07-27,Punjab,Khanna,PM 10,70,Satisfactory
+2026-07-27,Uttar Pradesh,Khora,PM 2.5,198,Moderate
+2026-07-27,Uttar Pradesh,Khurja,PM 10,66,Satisfactory
+2026-07-27,Bihar,Kishanganj,PM 2.5,48,Good
+2026-07-27,Nagaland,Kohima,SO2,55,Satisfactory
+2026-07-27,Maharashtra,Kolhapur,PM 10,32,Good
+2026-07-27,West Bengal,Kolkata,"PM , O , CO 10 3",45,Good
+2026-07-27,Chhattisgarh,Korba,"PM , PM 10 2.5",22,Good
+2026-07-27,Rajasthan,Kota,PM 10,47,Good
+2026-07-27,Chhattisgarh,Kunjemura,PM 10,67,Satisfactory
+2026-07-27,,Kurnool,PM 10,45,Good
+2026-07-27,Haryana,Kurukshetra,PM 10,64,Satisfactory
+2026-07-27,Maharashtra,Latur,PM 10,32,Good
+2026-07-27,Uttar Pradesh,Lucknow,"PM , PM , O 2.5 10 3",84,Satisfactory
+2026-07-27,Punjab,Ludhiana,PM 10,68,Satisfactory
+2026-07-27,Andhra Pradesh,Machilipatnam,PM 10,55,Satisfactory
+2026-07-27,Karnataka,Madikeri,CO,13,Good
+2026-07-27,Maharashtra,Mahad,PM 10,37,Good
+2026-07-27,Madhya Pradesh,Maihar,PM 10,77,Satisfactory
+2026-07-27,Maharashtra,Malegaon,PM 10,51,Satisfactory
+2026-07-27,Madhya Pradesh,Mandideep,PM 10,74,Satisfactory
+2026-07-27,Punjab,Mandi Gobindgarh,PM 10,136,Moderate
+2026-07-27,Haryana,Mandikhera,PM 10,78,Satisfactory
+2026-07-27,Haryana,Manesar,PM 2.5,79,Satisfactory
+2026-07-27,Karnataka,Mangalore,PM 10,48,Good
+2026-07-27,Uttar Pradesh,Meerut,"PM , PM 2.5 10",150,Moderate
+2026-07-27,Gujarat,Mehsana,CO,50,Good
+2026-07-27,Maharashtra,Mira-Bhayandar,PM 10,35,Good
+2026-07-27,Uttar Pradesh,Moradabad,PM 10,76,Satisfactory
+2026-07-27,Bihar,Motihari,O 3,60,Satisfactory
+2026-07-27,Maharashtra,Mumbai,"NO2, PM 10",61,Satisfactory
+2026-07-27,Uttar Pradesh,Muzaffarnagar,PM 2.5,114,Moderate
+2026-07-27,Bihar,Muzaffarpur,"PM , O , PM 2.5 3 10",45,Good
+2026-07-27,Karnataka,Mysuru,PM 10,45,Good
+2026-07-27,Assam,Nagaon,PM 2.5,56,Satisfactory
+2026-07-27,Rajasthan,Nagaur,PM 10,61,Satisfactory
+2026-07-27,Maharashtra,Nagpur,"PM , CO 10",51,Satisfactory
+2026-07-27,Arunachal Pradesh,Naharlagun,PM 10,38,Good
+2026-07-27,Assam,Nalbari,PM 2.5,66,Satisfactory
+2026-07-27,Maharashtra,Nanded,PM 10,26,Good
+2026-07-27,Gujarat,Nandesari,PM 10,47,Good
+2026-07-27,Haryana,Narnaul,PM 2.5,63,Satisfactory
+2026-07-27,Maharashtra,Nashik,"PM , CO 10",38,Good
+2026-07-27,Maharashtra,Navi Mumbai,"PM , PM 10 2.5",29,Good
+2026-07-27,Andhra Pradesh,Nellore,PM 10,58,Satisfactory
+2026-07-27,Uttar Pradesh,Noida,"PM , O 10 3",129,Moderate
+2026-07-27,Rajasthan,Pali,PM 10,109,Moderate
+2026-07-27,Haryana,Palwal,PM 10,52,Satisfactory
+2026-07-27,Jammu and Kashmir,Pampore,PM 10,44,Good
+2026-07-27,Haryana,Panchkula,O 3,40,Good
+2026-07-27,Haryana,Panipat,PM 10,187,Moderate
+2026-07-27,Maharashtra,Parbhani,PM 10,38,Good
+2026-07-27,Punjab,Patiala,PM 10,48,Good
+2026-07-27,Bihar,Patna,"PM , O 10 3",71,Satisfactory
+2026-07-27,Maharashtra,Pimpri-Chinchwad,"PM , CO 10",37,Good
+2026-07-27,Madhya Pradesh,Pithampur,PM 10,98,Satisfactory
+2026-07-27,Rajasthan,Pratapgarh,PM 10,50,Good
+2026-07-27,Uttar Pradesh,Prayagraj,SO2,30,Good
+2026-07-27,Puducherry,Puducherry,O 3,40,Good
+2026-07-27,Maharashtra,Pune,"CO, PM 10",51,Satisfactory
+2026-07-27,Uttar Pradesh,Raebareli,"PM , CO 10",276,Poor
+2026-07-27,Chhattisgarh,Raipur,PM 10,50,Good
+2026-07-27,Odisha,Rairangpur,CO,27,Good
+2026-07-27,Andhra Pradesh,Rajamahendravaram,O 3,68,Satisfactory
+2026-07-27,Bihar,Rajgir,PM 2.5,73,Satisfactory
+2026-07-27,Gujarat,Rajkot,PM 10,52,Satisfactory
+2026-07-27,Rajasthan,Rajsamand,PM 10,51,Satisfactory
+2026-07-27,Karnataka,Ramanagara,CO,41,Good
+2026-07-27,Uttarakhand,Rishikesh,CO,37,Good
+2026-07-27,Haryana,Rohtak,PM 10,44,Good
+2026-07-27,Odisha,Rourkela,"PM , PM 2.5 10",62,Satisfactory
+2026-07-27,Punjab,Rupnagar,PM 2.5,273,Poor
+2026-07-27,Bihar,Saharsa,PM 10,67,Satisfactory
+2026-07-27,Bihar,Samastipur,PM 2.5,59,Satisfactory
+2026-07-27,Maharashtra,Satara,PM 10,49,Good
+2026-07-27,Madhya Pradesh,Satna,PM 10,70,Satisfactory
+2026-07-27,Rajasthan,Sawai Madhopur,PM 10,43,Good
+2026-07-27,,Shamli,PM 10,65,Satisfactory
+2026-07-27,Rajasthan,Sikar,PM 10,49,Good
+2026-07-27,Assam,Silchar,PM 10,49,Good
+2026-07-27,West Bengal,Siliguri,NO2,120,Moderate
+2026-07-27,Madhya Pradesh,Singrauli,PM 10,59,Satisfactory
+2026-07-27,Rajasthan,Sirohi,PM 10,27,Good
+2026-07-27,Haryana,Sirsa,CO,85,Satisfactory
+2026-07-27,Assam,Sivasagar,O 3,65,Satisfactory
+2026-07-27,Bihar,Siwan,PM 10,105,Moderate
+2026-07-27,Maharashtra,Solapur,PM 10,29,Good
+2026-07-27,Haryana,Sonipat,PM 2.5,114,Moderate
+2026-07-27,Rajasthan,Sri Ganganagar,O 3,70,Satisfactory
+2026-07-27,Jammu and Kashmir,Srinagar,PM 10,47,Good
+2026-07-27,Odisha,Suakati,PM 10,54,Satisfactory
+2026-07-27,Gujarat,Surat,PM 10,74,Satisfactory
+2026-07-27,Odisha,Talcher,NO2,65,Satisfactory
+2026-07-27,Odisha,Tensa,NO2,48,Good
+2026-07-27,Maharashtra,Thane,PM 10,36,Good
+2026-07-27,Kerala,Thiruvananthapuram,PM 10,48,Good
+2026-07-27,Tamil Nadu,Thoothukudi,PM 10,67,Satisfactory
+2026-07-27,Kerala,Thrissur,PM 10,53,Satisfactory
+2026-07-27,Andhra Pradesh,Tirumala,NO2,49,Good
+2026-07-27,Andhra Pradesh,Tirupati,PM 10,67,Satisfactory
+2026-07-27,Rajasthan,Tonk,PM 10,79,Satisfactory
+2026-07-27,Karnataka,Tumakuru,PM 10,64,Satisfactory
+2026-07-27,Chhattisgarh,Tumidih,O 3,38,Good
+2026-07-27,Rajasthan,Udaipur,PM 10,50,Good
+2026-07-27,Madhya Pradesh,Ujjain,PM 10,59,Satisfactory
+2026-07-27,Maharashtra,Ulhasnagar,PM 10,28,Good
+2026-07-27,Gujarat,Vadodara,CO,70,Satisfactory
+2026-07-27,Gujarat,Vapi,PM 10,31,Good
+2026-07-27,Uttar Pradesh,Varanasi,"PM , SO2 10",64,Satisfactory
+2026-07-27,Karnataka,Vijayapura,PM 10,43,Good
+2026-07-27,Andhra Pradesh,Vijayawada,"PM , PM 2.5 10",63,Satisfactory
+2026-07-27,Maharashtra,Virar,PM 10,40,Good
+2026-07-27,Andhra Pradesh,Visakhapatnam,PM 10,94,Satisfactory
+2026-07-27,Uttar Pradesh,Vrindavan,SO2,76,Satisfactory
+2026-07-27,Haryana,Yamuna Nagar,PM 10,95,Satisfactory
