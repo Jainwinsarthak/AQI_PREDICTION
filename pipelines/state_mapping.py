@@ -1,14 +1,16 @@
 import pandas as pd
+import os
 
 # ==========================
 # LOAD FILES
 # ==========================
 
+script_dir = os.path.dirname(os.path.abspath(__file__))
+
 new = pd.read_csv(
-    "aqi_extracted_2025_2026.csv"
+    os.path.join(script_dir, "aqi_extracted_2025_2026.csv")
 )
 
-import os
 project_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 old = pd.read_csv(os.path.join(project_root, "data", "aqi_final_merged_291cities.csv"))
 
@@ -141,7 +143,7 @@ new = new[
 # ==========================
 
 new.to_csv(
-    "aqi_extracted_with_state.csv",
+    os.path.join(script_dir, "aqi_extracted_with_state.csv"),
     index=False
 )
 

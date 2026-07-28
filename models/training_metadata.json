@@ -1,0 +1,39 @@
+{
+  "trained_at": "2026-07-28T18:37:03.770960",
+  "dataset_shape": [
+    332835,
+    21
+  ],
+  "train_rows": 292975,
+  "test_rows": 39860,
+  "cutoff_date": "2026-01-27",
+  "features": [
+    "district_encoded",
+    "lag_1",
+    "lag_3",
+    "lag_7",
+    "rolling_mean_7",
+    "day",
+    "month",
+    "year",
+    "month_sin",
+    "month_cos",
+    "pollutant_encoded",
+    "is_winter",
+    "is_summer",
+    "is_monsoon",
+    "crop_burning"
+  ],
+  "metrics": {
+    "mae": 17.64,
+    "rmse": 27.53,
+    "r2": 0.7044
+  },
+  "hyperparameters": {
+    "n_estimators": 1000,
+    "max_depth": 6,
+    "learning_rate": 0.05,
+    "subsample": 0.8,
+    "colsample_bytree": 0.8
+  }
+}

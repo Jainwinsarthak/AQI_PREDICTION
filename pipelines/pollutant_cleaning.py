@@ -1,8 +1,11 @@
 import pandas as pd
 import re
+import os
+
+script_dir = os.path.dirname(os.path.abspath(__file__))
 
 # Load file
-df = pd.read_csv("aqi_extracted_with_state.csv")
+df = pd.read_csv(os.path.join(script_dir, "aqi_extracted_with_state.csv"))
 
 # -------------------------
 # CLEAN POLLUTANTS
@@ -71,7 +74,7 @@ df["main_pollutant"] = (
 # -------------------------
 
 df.to_csv(
-    "aqi_extracted_cleaned.csv",
+    os.path.join(script_dir, "aqi_extracted_cleaned.csv"),
     index=False
 )
 
