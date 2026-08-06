@@ -1,0 +1,51 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Local environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Node modules & build outputs
+node_modules/
+dist/
+dist-ssr/
+build/
+*.local
+
+# Logs
+*.log
+
+# Temporary pipeline processing files & PDF bulletins
+pipelines/bulletins/
+pipelines/aqi_raw.csv
+pipelines/aqi_with_state.csv
+pipelines/aqi_cleaned.csv
+
+# Note: The following files remain TRACKED in Git so the project works immediately after cloning:
+# - data/aqi_master.csv
+# - data/aqi_features.csv
+# - models/aqi_production_model.pkl
+
+# Editor / IDE configuration
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS files
+.DS_Store
+Thumbs.db
