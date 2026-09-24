@@ -1,240 +1,246 @@
 date,state,area,prominent_pollutants,aqi_value,air_quality_status,main_pollutant
-2026-09-23,Tripura,Agartala,PM10,46,Good,PM10
-2026-09-23,Uttar Pradesh,Agra,PM2.5 PM10,121,Moderate,PM2.5
-2026-09-23,Gujarat,Ahmedabad,PM2.5 PM10,117,Moderate,PM2.5
-2026-09-23,Maharashtra,Ahmednagar,O3,63,Satisfactory,O3
-2026-09-23,Mizoram,Aizawl,SO2,15,Good,SO2
-2026-09-23,Rajasthan,Ajmer,PM10,92,Satisfactory,PM10
-2026-09-23,Maharashtra,Akola,PM10,47,Good,PM10
-2026-09-23,Rajasthan,Alwar,PM10 CO,118,Moderate,PM10
-2026-09-23,Andhra Pradesh,Amaravati,PM2.5,79,Satisfactory,PM2.5
-2026-09-23,Haryana,Ambala,PM10,128,Moderate,PM10
-2026-09-23,Maharashtra,Ambernath,PM10,73,Satisfactory,PM10
-2026-09-23,Maharashtra,Amravati,PM10,47,Good,PM10
-2026-09-23,Punjab,Amritsar,PM10,92,Satisfactory,PM10
-2026-09-23,Odisha,Angul,PM10,47,Good,PM10
-2026-09-23,Bihar,Araria,PM2.5,58,Satisfactory,PM2.5
-2026-09-23,Bihar,Arrah,CO,53,Satisfactory,CO
-2026-09-23,West Bengal,Asansol,PM10 CO,32,Good,PM10
-2026-09-23,Maharashtra,Aurangabad (Maharashtra),PM2.5 CO,72,Satisfactory,PM2.5
-2026-09-23,Himachal Pradesh,Baddi,PM10,93,Satisfactory,PM10
-2026-09-23,Maharashtra,Badlapur,CO,51,Satisfactory,CO
-2026-09-23,Uttar Pradesh,Baghpat,PM10,182,Moderate,PM10
-2026-09-23,Haryana,Bahadurgarh,PM2.5,147,Moderate,PM2.5
-2026-09-23,Odisha,Balasore,CO,46,Good,CO
-2026-09-23,Haryana,Ballabgarh,PM10,84,Satisfactory,PM10
-2026-09-23,Rajasthan,Banswara,PM10,77,Satisfactory,PM10
-2026-09-23,Rajasthan,Baran,PM10,83,Satisfactory,PM10
-2026-09-23,,Baraut,PM2.5,143,Moderate,PM2.5
-2026-09-23,Odisha,Barbil,O3,29,Good,O3
-2026-09-23,Uttar Pradesh,Bareilly,SO2,96,Satisfactory,SO2
-2026-09-23,Odisha,Baripada,O3,46,Good,O3
-2026-09-23,Rajasthan,Barmer,PM10,83,Satisfactory,PM10
-2026-09-23,West Bengal,Barrackpore,CO,34,Good,CO
-2026-09-23,Punjab,Bathinda,PM10,87,Satisfactory,PM10
-2026-09-23,Bihar,Begusarai,CO,62,Satisfactory,CO
-2026-09-23,Maharashtra,Belapur,PM10,68,Satisfactory,PM10
-2026-09-23,Karnataka,Bengaluru,PM10,71,Satisfactory,PM10
-2026-09-23,Bihar,Bettiah,CO,30,Good,CO
-2026-09-23,Bihar,Bhagalpur,PM10 CO,64,Satisfactory,PM10
-2026-09-23,Rajasthan,Bharatpur,PM10,117,Moderate,PM10
-2026-09-23,Gujarat,Bhavnagar,PM10,67,Satisfactory,PM10
-2026-09-23,Chhattisgarh,Bhilai,PM10 CO,26,Good,PM10
-2026-09-23,Rajasthan,Bhilwara,PM10,130,Moderate,PM10
-2026-09-23,Rajasthan,Bhiwadi,PM10,137,Moderate,PM10
-2026-09-23,Maharashtra,Bhiwandi,PM10,73,Satisfactory,PM10
-2026-09-23,Haryana,Bhiwani,PM2.5,114,Moderate,PM2.5
-2026-09-23,Madhya Pradesh,Bhopal,PM10,82,Satisfactory,PM10
-2026-09-23,Odisha,Bhubaneswar,O3,42,Good,O3
-2026-09-23,Rajasthan,Bikaner,PM10,157,Moderate,PM10
-2026-09-23,Chhattisgarh,Bilaspur,CO,35,Good,CO
-2026-09-23,Odisha,Bileipada,PM10,22,Good,PM10
-2026-09-23,Maharashtra,Boisar,PM10,62,Satisfactory,PM10
-2026-09-23,Odisha,Brajrajnagar,CO,57,Satisfactory,CO
-2026-09-23,Uttar Pradesh,Bulandshahr,PM10,124,Moderate,PM10
-2026-09-23,Rajasthan,Bundi,PM10,87,Satisfactory,PM10
-2026-09-23,Odisha,Byasanagar,O3,46,Good,O3
-2026-09-23,Assam,Byrnihat (Assam),PM2.5,81,Satisfactory,PM2.5
-2026-09-23,Meghalaya,Byrnihat (Meghalaya),PM10,146,Moderate,PM10
-2026-09-23,Karnataka,Chamarajanagar,PM10,43,Good,PM10
-2026-09-23,Chandigarh,Chandigarh,PM10 CO,50,Good,PM10
-2026-09-23,Maharashtra,Chandrapur,PM10,93,Satisfactory,PM10
-2026-09-23,Haryana,Charkhi Dadri,PM2.5,108,Moderate,PM2.5
-2026-09-23,Tamil Nadu,Chennai,PM10,83,Satisfactory,PM10
-2026-09-23,Chhattisgarh,Chhal,O3,50,Good,O3
-2026-09-23,Karnataka,Chikkaballapur,PM10,45,Good,PM10
-2026-09-23,Rajasthan,Chittorgarh,PM10,117,Moderate,PM10
-2026-09-23,Rajasthan,Churu,PM10,115,Moderate,PM10
-2026-09-23,Odisha,Cuttack,O3,68,Satisfactory,O3
-2026-09-23,Rajasthan,Dausa,PM10,143,Moderate,PM10
-2026-09-23,Uttarakhand,Dehradun,PM10,78,Satisfactory,PM10
-2026-09-23,Delhi,Delhi,PM10,154,Moderate,PM10
-2026-09-23,Madhya Pradesh,Dewas,PM10,96,Satisfactory,PM10
-2026-09-23,Haryana,Dharuhera,PM2.5,131,Moderate,PM2.5
-2026-09-23,Rajasthan,Dholpur,PM10,103,Moderate,PM10
-2026-09-23,Rajasthan,Dungarpur,PM10,72,Satisfactory,PM10
-2026-09-23,West Bengal,Durgapur,PM10 CO,71,Satisfactory,PM10
-2026-09-23,Kerala,Eloor,CO,107,Moderate,CO
-2026-09-23,Andhra Pradesh,Eluru,PM10,56,Satisfactory,PM10
-2026-09-23,Haryana,Faridabad,PM10 CO,81,Satisfactory,PM10
-2026-09-23,Haryana,Fatehabad,PM10,92,Satisfactory,PM10
-2026-09-23,Uttar Pradesh,Fatehpur Sikri,PM2.5,259,Poor,PM2.5
-2026-09-23,Uttar Pradesh,Firozabad,PM10,44,Good,PM10
-2026-09-23,,Gajraula,PM2.5,171,Moderate,PM2.5
-2026-09-23,Gujarat,Gandhinagar,PM10,117,Moderate,PM10
-2026-09-23,Sikkim,Gangtok,PM2.5,16,Good,PM2.5
-2026-09-23,Bihar,Gaya,PM10 CO,61,Satisfactory,PM10
-2026-09-23,Uttar Pradesh,Ghaziabad,PM2.5,170,Moderate,PM2.5
-2026-09-23,Uttar Pradesh,Gorakhpur,PM2.5,84,Satisfactory,PM2.5
-2026-09-23,Uttar Pradesh,Greater Noida,PM2.5 PM10,170,Moderate,PM2.5
-2026-09-23,Andhra Pradesh,Guntur,PM10,54,Satisfactory,PM10
-2026-09-23,Haryana,Gurugram,PM2.5,214,Poor,PM2.5
-2026-09-23,Assam,Guwahati,PM2.5 PM10 CO,53,Satisfactory,PM2.5
-2026-09-23,Madhya Pradesh,Gwalior,PM2.5 PM10,104,Moderate,PM2.5
-2026-09-23,Bihar,Hajipur,PM10,74,Satisfactory,PM10
-2026-09-23,West Bengal,Haldia,CO,31,Good,CO
-2026-09-23,Rajasthan,Hanumangarh,PM2.5,110,Moderate,PM2.5
-2026-09-23,Uttar Pradesh,Hapur,PM2.5,175,Moderate,PM2.5
-2026-09-23,Maharashtra,Hingoli,PM10,78,Satisfactory,PM10
-2026-09-23,Haryana,Hisar,PM10,105,Moderate,PM10
-2026-09-23,West Bengal,Howrah,PM10 CO,52,Satisfactory,PM10
-2026-09-23,Karnataka,Hubballi,PM10,56,Satisfactory,PM10
-2026-09-23,Telangana,Hyderabad,PM10,51,Satisfactory,PM10
-2026-09-23,Madhya Pradesh,Indore,PM10,69,Satisfactory,PM10
-2026-09-23,Madhya Pradesh,Jabalpur,PM10 CO,81,Satisfactory,PM10
-2026-09-23,Rajasthan,Jaipur,PM2.5 PM10,133,Moderate,PM2.5
-2026-09-23,Rajasthan,Jaisalmer,PM10,76,Satisfactory,PM10
-2026-09-23,Punjab,Jalandhar,PM2.5,105,Moderate,PM2.5
-2026-09-23,Maharashtra,Jalgaon,PM10,79,Satisfactory,PM10
-2026-09-23,Maharashtra,Jalna,PM2.5,158,Moderate,PM2.5
-2026-09-23,Rajasthan,Jalore,PM10,104,Moderate,PM10
-2026-09-23,Rajasthan,Jhalawar,PM10,87,Satisfactory,PM10
-2026-09-23,Uttar Pradesh,Jhansi,PM10,96,Satisfactory,PM10
-2026-09-23,Rajasthan,Jhunjhunu,O3,115,Moderate,O3
-2026-09-23,Haryana,Jind,PM2.5,210,Poor,PM2.5
-2026-09-23,Rajasthan,Jodhpur,PM10,123,Moderate,PM10
-2026-09-23,Andhra Pradesh,Kadapa,PM2.5,73,Satisfactory,PM2.5
-2026-09-23,Haryana,Kaithal,PM10,110,Moderate,PM10
-2026-09-23,,Kakinada,CO,65,Satisfactory,CO
-2026-09-23,Karnataka,Kalaburagi,CO,40,Good,CO
-2026-09-23,Maharashtra,Kalyan,PM2.5,61,Satisfactory,PM2.5
-2026-09-23,Uttar Pradesh,Kanpur,PM10 CO,62,Satisfactory,PM10
-2026-09-23,Rajasthan,Karauli,O3,72,Satisfactory,O3
-2026-09-23,Haryana,Karnal,PM10,47,Good,PM10
-2026-09-23,Bihar,Katihar,CO,93,Satisfactory,CO
-2026-09-23,Madhya Pradesh,Katni,PM10,79,Satisfactory,PM10
-2026-09-23,Odisha,Keonjhar,CO,46,Good,CO
-2026-09-23,Punjab,Khanna,CO,78,Satisfactory,CO
-2026-09-23,Uttar Pradesh,Khora,PM2.5,239,Poor,PM2.5
-2026-09-23,Uttar Pradesh,Khurja,PM10,109,Moderate,PM10
-2026-09-23,Bihar,Kishanganj,CO,40,Good,CO
-2026-09-23,Maharashtra,Kolhapur,PM10,37,Good,PM10
-2026-09-23,West Bengal,Kolkata,PM10,39,Good,PM10
-2026-09-23,Chhattisgarh,Korba,O3,12,Good,O3
-2026-09-23,Rajasthan,Kota,PM10,96,Satisfactory,PM10
-2026-09-23,Chhattisgarh,Kunjemura,PM10,20,Good,PM10
-2026-09-23,,Kurnool,PM2.5,39,Good,PM2.5
-2026-09-23,Haryana,Kurukshetra,PM10,107,Moderate,PM10
-2026-09-23,Maharashtra,Latur,PM10,58,Satisfactory,PM10
-2026-09-23,,Leh,CO,196,Moderate,CO
-2026-09-23,Uttar Pradesh,Lucknow,UNKNOWN,73,Satisfactory,UNKNOWN
-2026-09-23,Punjab,Ludhiana,PM2.5,108,Moderate,PM2.5
-2026-09-23,Andhra Pradesh,Machilipatnam,PM10,64,Satisfactory,PM10
-2026-09-23,Maharashtra,Mahad,PM10,49,Good,PM10
-2026-09-23,Maharashtra,Malegaon,PM10,101,Moderate,PM10
-2026-09-23,Madhya Pradesh,Mandideep,PM10,136,Moderate,PM10
-2026-09-23,Punjab,Mandi Gobindgarh,PM2.5,168,Moderate,PM2.5
-2026-09-23,Haryana,Mandikhera,CO,62,Satisfactory,CO
-2026-09-23,Haryana,Manesar,PM2.5,188,Moderate,PM2.5
-2026-09-23,Karnataka,Mangalore,PM10,50,Good,PM10
-2026-09-23,Bihar,Manguraha,PM10,71,Satisfactory,PM10
-2026-09-23,Uttar Pradesh,Mathura,PM2.5,183,Moderate,PM2.5
-2026-09-23,Uttar Pradesh,Meerut,PM10,148,Moderate,PM10
-2026-09-23,Gujarat,Mehsana,PM10,97,Satisfactory,PM10
-2026-09-23,Chhattisgarh,Milupara,PM10,19,Good,PM10
-2026-09-23,Maharashtra,Mira-Bhayandar,PM2.5,38,Good,PM2.5
-2026-09-23,Uttar Pradesh,Modinagar,O3,230,Poor,O3
-2026-09-23,Uttar Pradesh,Moradabad,PM10,112,Moderate,PM10
-2026-09-23,Maharashtra,Mumbai,PM10,49,Good,PM10
-2026-09-23,Uttar Pradesh,Muzaffarnagar,PM2.5,149,Moderate,PM2.5
-2026-09-23,Bihar,Muzaffarpur,PM10,49,Good,PM10
-2026-09-23,Karnataka,Mysuru,PM10,65,Satisfactory,PM10
-2026-09-23,Assam,Nagaon,PM2.5,58,Satisfactory,PM2.5
-2026-09-23,Rajasthan,Nagaur,PM10,148,Moderate,PM10
-2026-09-23,Maharashtra,Nagpur,PM10,44,Good,PM10
-2026-09-23,Arunachal Pradesh,Naharlagun,PM10,36,Good,PM10
-2026-09-23,Assam,Nalbari,PM2.5,72,Satisfactory,PM2.5
-2026-09-23,Maharashtra,Nanded,PM10,71,Satisfactory,PM10
-2026-09-23,Gujarat,Nandesari,PM2.5,86,Satisfactory,PM2.5
-2026-09-23,Haryana,Narnaul,PM10,114,Moderate,PM10
-2026-09-23,Maharashtra,Nashik,PM10,60,Satisfactory,PM10
-2026-09-23,Maharashtra,Navi Mumbai,PM2.5 PM10,60,Satisfactory,PM2.5
-2026-09-23,Odisha,Nayagarh,SO2,18,Good,SO2
-2026-09-23,Andhra Pradesh,Nellore,PM2.5,61,Satisfactory,PM2.5
-2026-09-23,Uttar Pradesh,Noida,PM10,199,Moderate,PM10
-2026-09-23,Rajasthan,Pali,PM2.5,89,Satisfactory,PM2.5
-2026-09-23,Haryana,Palwal,PM10,61,Satisfactory,PM10
-2026-09-23,Haryana,Panchgaon,NO2,60,Satisfactory,NO2
-2026-09-23,Haryana,Panipat,PM2.5,180,Moderate,PM2.5
-2026-09-23,,Paradeep,CO,80,Satisfactory,CO
-2026-09-23,Maharashtra,Parbhani,PM10,109,Moderate,PM10
-2026-09-23,Punjab,Patiala,PM10,88,Satisfactory,PM10
-2026-09-23,Bihar,Patna,PM10 CO,59,Satisfactory,PM10
-2026-09-23,Maharashtra,Pimpri-Chinchwad,PM10,59,Satisfactory,PM10
-2026-09-23,Madhya Pradesh,Pithampur,PM10,209,Poor,PM10
-2026-09-23,Rajasthan,Pratapgarh,PM10,89,Satisfactory,PM10
-2026-09-23,Uttar Pradesh,Prayagraj,PM10,50,Good,PM10
-2026-09-23,Puducherry,Puducherry,O3,40,Good,O3
-2026-09-23,Maharashtra,Pune,PM10 CO,70,Satisfactory,PM10
-2026-09-23,Uttar Pradesh,Raebareli,CO,75,Satisfactory,CO
-2026-09-23,Chhattisgarh,Raipur,PM10,54,Satisfactory,PM10
-2026-09-23,Odisha,Rairangpur,PM10,22,Good,PM10
-2026-09-23,Andhra Pradesh,Rajamahendravaram,PM10,30,Good,PM10
-2026-09-23,Bihar,Rajgir,CO,43,Good,CO
-2026-09-23,Gujarat,Rajkot,PM10,84,Satisfactory,PM10
-2026-09-23,Rajasthan,Rajsamand,PM10,82,Satisfactory,PM10
-2026-09-23,Karnataka,Ramanagara,PM10,54,Satisfactory,PM10
-2026-09-23,Madhya Pradesh,Ratlam,PM10,59,Satisfactory,PM10
-2026-09-23,Uttarakhand,Rishikesh,O3,47,Good,O3
-2026-09-23,Haryana,Rohtak,PM10,95,Satisfactory,PM10
-2026-09-23,Odisha,Rourkela,PM10,35,Good,PM10
-2026-09-23,Punjab,Rupnagar,CO,60,Satisfactory,CO
-2026-09-23,Bihar,Saharsa,PM10,51,Satisfactory,PM10
-2026-09-23,Maharashtra,Sangli,PM2.5,41,Good,PM2.5
-2026-09-23,Maharashtra,Satara,PM10,63,Satisfactory,PM10
-2026-09-23,Madhya Pradesh,Satna,PM10,70,Satisfactory,PM10
-2026-09-23,Rajasthan,Sawai Madhopur,PM10,119,Moderate,PM10
-2026-09-23,Karnataka,Shivamogga,O3,49,Good,O3
-2026-09-23,Rajasthan,Sikar,PM10,117,Moderate,PM10
-2026-09-23,Assam,Silchar,PM10,43,Good,PM10
-2026-09-23,West Bengal,Siliguri,PM10,27,Good,PM10
-2026-09-23,Rajasthan,Sirohi,O3,74,Satisfactory,O3
-2026-09-23,Haryana,Sirsa,PM10,119,Moderate,PM10
-2026-09-23,Assam,Sivasagar,PM10,36,Good,PM10
-2026-09-23,Maharashtra,Solapur,PM10,48,Good,PM10
-2026-09-23,Haryana,Sonipat,PM10,80,Satisfactory,PM10
-2026-09-23,Rajasthan,Sri Ganganagar,PM10,186,Moderate,PM10
-2026-09-23,Jammu and Kashmir,Srinagar,PM10,59,Satisfactory,PM10
-2026-09-23,Gujarat,Surat,PM10,70,Satisfactory,PM10
-2026-09-23,Odisha,Talcher,CO,27,Good,CO
-2026-09-23,Odisha,Tensa,CO,27,Good,CO
-2026-09-23,Maharashtra,Thane,PM10,63,Satisfactory,PM10
-2026-09-23,Kerala,Thiruvananthapuram,PM10,55,Satisfactory,PM10
-2026-09-23,Kerala,Thrissur,PM2.5,52,Satisfactory,PM2.5
-2026-09-23,Andhra Pradesh,Tirumala,NO2,51,Satisfactory,NO2
-2026-09-23,Rajasthan,Tonk,PM10,126,Moderate,PM10
-2026-09-23,Chhattisgarh,Tumidih,NO2,15,Good,NO2
-2026-09-23,Rajasthan,Udaipur,PM10,120,Moderate,PM10
-2026-09-23,Karnataka,Udupi,CO,61,Satisfactory,CO
-2026-09-23,Madhya Pradesh,Ujjain,O3,101,Moderate,O3
-2026-09-23,Maharashtra,Ulhasnagar,PM10,63,Satisfactory,PM10
-2026-09-23,Gujarat,Vadodara,PM10,88,Satisfactory,PM10
-2026-09-23,Gujarat,Vapi,PM10,62,Satisfactory,PM10
-2026-09-23,Uttar Pradesh,Varanasi,PM2.5 PM10,94,Satisfactory,PM2.5
-2026-09-23,Gujarat,Vatva,PM10,118,Moderate,PM10
-2026-09-23,Andhra Pradesh,Vijayawada,PM10,60,Satisfactory,PM10
-2026-09-23,Maharashtra,Virar,PM10,44,Good,PM10
-2026-09-23,Andhra Pradesh,Visakhapatnam,NO2,24,Good,NO2
-2026-09-23,Uttar Pradesh,Vrindavan,PM10,160,Moderate,PM10
-2026-09-23,Karnataka,Yadgir,PM10,36,Good,PM10
-2026-09-23,Haryana,Yamuna Nagar,PM2.5,178,Moderate,PM2.5
+2026-09-24,Tripura,Agartala,PM10,33,Good,PM10
+2026-09-24,Uttar Pradesh,Agra,PM10,60,Satisfactory,PM10
+2026-09-24,Gujarat,Ahmedabad,PM10,115,Moderate,PM10
+2026-09-24,Maharashtra,Ahmednagar,O3,70,Satisfactory,O3
+2026-09-24,Mizoram,Aizawl,SO2,14,Good,SO2
+2026-09-24,Rajasthan,Ajmer,PM10,102,Moderate,PM10
+2026-09-24,Maharashtra,Akola,PM10,38,Good,PM10
+2026-09-24,Rajasthan,Alwar,PM10 CO,105,Moderate,PM10
+2026-09-24,Haryana,Ambala,PM10,110,Moderate,PM10
+2026-09-24,Maharashtra,Ambernath,PM10,115,Moderate,PM10
+2026-09-24,Maharashtra,Amravati,PM10,41,Good,PM10
+2026-09-24,Punjab,Amritsar,PM10,92,Satisfactory,PM10
+2026-09-24,Andhra Pradesh,Anantapur,PM10,58,Satisfactory,PM10
+2026-09-24,Odisha,Angul,NO2,117,Moderate,NO2
+2026-09-24,Bihar,Araria,PM10,47,Good,PM10
+2026-09-24,Bihar,Arrah,CO,58,Satisfactory,CO
+2026-09-24,West Bengal,Asansol,PM10 CO,33,Good,PM10
+2026-09-24,Maharashtra,Aurangabad (Maharashtra),PM2.5 PM10,84,Satisfactory,PM2.5
+2026-09-24,Himachal Pradesh,Baddi,PM10,90,Satisfactory,PM10
+2026-09-24,Maharashtra,Badlapur,CO,46,Good,CO
+2026-09-24,Uttar Pradesh,Baghpat,PM2.5,146,Moderate,PM2.5
+2026-09-24,Haryana,Bahadurgarh,PM2.5,173,Moderate,PM2.5
+2026-09-24,Odisha,Balasore,CO,45,Good,CO
+2026-09-24,Haryana,Ballabgarh,PM10,74,Satisfactory,PM10
+2026-09-24,Rajasthan,Banswara,PM10,80,Satisfactory,PM10
+2026-09-24,Rajasthan,Baran,PM10,69,Satisfactory,PM10
+2026-09-24,,Baraut,PM2.5,161,Moderate,PM2.5
+2026-09-24,Odisha,Barbil,O3,36,Good,O3
+2026-09-24,Uttar Pradesh,Bareilly,PM10 SO2,60,Satisfactory,PM10
+2026-09-24,Odisha,Baripada,O3,44,Good,O3
+2026-09-24,Rajasthan,Barmer,PM10,82,Satisfactory,PM10
+2026-09-24,West Bengal,Barrackpore,CO,34,Good,CO
+2026-09-24,Punjab,Bathinda,PM10,99,Satisfactory,PM10
+2026-09-24,Maharashtra,Beed,PM10,64,Satisfactory,PM10
+2026-09-24,Bihar,Begusarai,CO,54,Satisfactory,CO
+2026-09-24,Maharashtra,Belapur,PM10,68,Satisfactory,PM10
+2026-09-24,Karnataka,Bengaluru,PM10,53,Satisfactory,PM10
+2026-09-24,Bihar,Bettiah,CO,29,Good,CO
+2026-09-24,Rajasthan,Bharatpur,PM10,61,Satisfactory,PM10
+2026-09-24,Gujarat,Bhavnagar,PM10,82,Satisfactory,PM10
+2026-09-24,Chhattisgarh,Bhilai,PM10,18,Good,PM10
+2026-09-24,Rajasthan,Bhilwara,PM10,130,Moderate,PM10
+2026-09-24,Rajasthan,Bhiwadi,PM10,126,Moderate,PM10
+2026-09-24,Maharashtra,Bhiwandi,PM10,97,Satisfactory,PM10
+2026-09-24,Haryana,Bhiwani,PM2.5,166,Moderate,PM2.5
+2026-09-24,Madhya Pradesh,Bhopal,PM10,56,Satisfactory,PM10
+2026-09-24,Odisha,Bhubaneswar,O3 CO,46,Good,O3
+2026-09-24,Rajasthan,Bikaner,PM10,165,Moderate,PM10
+2026-09-24,Chhattisgarh,Bilaspur,CO,25,Good,CO
+2026-09-24,Odisha,Bileipada,CO,25,Good,CO
+2026-09-24,Maharashtra,Boisar,PM10,83,Satisfactory,PM10
+2026-09-24,Odisha,Brajrajnagar,CO,56,Satisfactory,CO
+2026-09-24,Uttar Pradesh,Bulandshahr,PM2.5,73,Satisfactory,PM2.5
+2026-09-24,Rajasthan,Bundi,PM10,120,Moderate,PM10
+2026-09-24,Odisha,Byasanagar,O3,43,Good,O3
+2026-09-24,Assam,Byrnihat (Assam),PM2.5,83,Satisfactory,PM2.5
+2026-09-24,Meghalaya,Byrnihat (Meghalaya),PM10,97,Satisfactory,PM10
+2026-09-24,Chandigarh,Chandigarh,PM10 NO2,57,Satisfactory,PM10
+2026-09-24,Maharashtra,Chandrapur,PM10,55,Satisfactory,PM10
+2026-09-24,Haryana,Charkhi Dadri,PM2.5,153,Moderate,PM2.5
+2026-09-24,Tamil Nadu,Chennai,PM10,86,Satisfactory,PM10
+2026-09-24,Chhattisgarh,Chhal,O3,52,Satisfactory,O3
+2026-09-24,Bihar,Chhapra,PM10,109,Moderate,PM10
+2026-09-24,Karnataka,Chikkaballapur,PM10,39,Good,PM10
+2026-09-24,Karnataka,Chikkamagaluru,PM10,36,Good,PM10
+2026-09-24,Andhra Pradesh,Chittoor,PM2.5,67,Satisfactory,PM2.5
+2026-09-24,Rajasthan,Chittorgarh,PM10,130,Moderate,PM10
+2026-09-24,Rajasthan,Churu,PM10,125,Moderate,PM10
+2026-09-24,Odisha,Cuttack,O3,57,Satisfactory,O3
+2026-09-24,Rajasthan,Dausa,PM10,106,Moderate,PM10
+2026-09-24,Uttarakhand,Dehradun,PM10,81,Satisfactory,PM10
+2026-09-24,Delhi,Delhi,PM10,145,Moderate,PM10
+2026-09-24,Madhya Pradesh,Dewas,PM10,81,Satisfactory,PM10
+2026-09-24,Haryana,Dharuhera,PM2.5,111,Moderate,PM2.5
+2026-09-24,Karnataka,Dharwad,PM10,72,Satisfactory,PM10
+2026-09-24,Rajasthan,Dholpur,PM10,44,Good,PM10
+2026-09-24,Maharashtra,Dombivli,O3,46,Good,O3
+2026-09-24,Rajasthan,Dungarpur,PM10,76,Satisfactory,PM10
+2026-09-24,West Bengal,Durgapur,PM10 CO,69,Satisfactory,PM10
+2026-09-24,Kerala,Eloor,CO,102,Moderate,CO
+2026-09-24,Andhra Pradesh,Eluru,PM10,45,Good,PM10
+2026-09-24,Haryana,Faridabad,PM10,105,Moderate,PM10
+2026-09-24,Haryana,Fatehabad,PM10,94,Satisfactory,PM10
+2026-09-24,Uttar Pradesh,Fatehpur Sikri,PM10,111,Moderate,PM10
+2026-09-24,Uttar Pradesh,Firozabad,PM10,44,Good,PM10
+2026-09-24,,Gajraula,PM10,95,Satisfactory,PM10
+2026-09-24,Gujarat,Gandhinagar,PM10,116,Moderate,PM10
+2026-09-24,Bihar,Gaya,PM2.5 PM10,100,Satisfactory,PM2.5
+2026-09-24,Uttar Pradesh,Ghaziabad,PM2.5 PM10,146,Moderate,PM2.5
+2026-09-24,Uttar Pradesh,Gorakhpur,PM2.5,58,Satisfactory,PM2.5
+2026-09-24,Uttar Pradesh,Greater Noida,PM10,173,Moderate,PM10
+2026-09-24,Tamil Nadu,Gummidipoondi,PM2.5,196,Moderate,PM2.5
+2026-09-24,Andhra Pradesh,Guntur,PM10,54,Satisfactory,PM10
+2026-09-24,Haryana,Gurugram,PM2.5,237,Poor,PM2.5
+2026-09-24,Assam,Guwahati,PM2.5 PM10 CO,54,Satisfactory,PM2.5
+2026-09-24,Madhya Pradesh,Gwalior,PM10 NO2 CO,58,Satisfactory,PM10
+2026-09-24,Bihar,Hajipur,PM10,38,Good,PM10
+2026-09-24,West Bengal,Haldia,PM10,27,Good,PM10
+2026-09-24,Rajasthan,Hanumangarh,PM2.5,127,Moderate,PM2.5
+2026-09-24,Uttar Pradesh,Hapur,PM2.5,110,Moderate,PM2.5
+2026-09-24,Maharashtra,Hingoli,PM2.5,74,Satisfactory,PM2.5
+2026-09-24,Haryana,Hisar,PM10,117,Moderate,PM10
+2026-09-24,West Bengal,Howrah,CO,45,Good,CO
+2026-09-24,Telangana,Hyderabad,PM10,54,Satisfactory,PM10
+2026-09-24,Madhya Pradesh,Indore,PM10 SO2,69,Satisfactory,PM10
+2026-09-24,Madhya Pradesh,Jabalpur,O3 NO2 CO,53,Satisfactory,O3
+2026-09-24,Rajasthan,Jaipur,PM2.5 PM10,139,Moderate,PM2.5
+2026-09-24,Rajasthan,Jaisalmer,PM10,73,Satisfactory,PM10
+2026-09-24,Punjab,Jalandhar,PM2.5,80,Satisfactory,PM2.5
+2026-09-24,Maharashtra,Jalgaon,PM2.5,66,Satisfactory,PM2.5
+2026-09-24,Rajasthan,Jalore,PM10,103,Moderate,PM10
+2026-09-24,Rajasthan,Jhalawar,PM10,86,Satisfactory,PM10
+2026-09-24,Uttar Pradesh,Jhansi,PM10,55,Satisfactory,PM10
+2026-09-24,Rajasthan,Jhunjhunu,O3,118,Moderate,O3
+2026-09-24,Haryana,Jind,PM2.5,231,Poor,PM2.5
+2026-09-24,Rajasthan,Jodhpur,PM10,119,Moderate,PM10
+2026-09-24,Andhra Pradesh,Kadapa,PM10,58,Satisfactory,PM10
+2026-09-24,Haryana,Kaithal,PM2.5,201,Poor,PM2.5
+2026-09-24,,Kakinada,O3,41,Good,O3
+2026-09-24,Karnataka,Kalaburagi,CO,32,Good,CO
+2026-09-24,Maharashtra,Kalyan,PM2.5 PM10,74,Satisfactory,PM2.5
+2026-09-24,Kerala,Kannur,PM10,63,Satisfactory,PM10
+2026-09-24,Uttar Pradesh,Kanpur,PM10 CO,43,Good,PM10
+2026-09-24,Rajasthan,Karauli,O3,35,Good,O3
+2026-09-24,Haryana,Karnal,PM10,28,Good,PM10
+2026-09-24,Bihar,Katihar,CO,93,Satisfactory,CO
+2026-09-24,Madhya Pradesh,Katni,PM10,39,Good,PM10
+2026-09-24,Odisha,Keonjhar,CO,45,Good,CO
+2026-09-24,Rajasthan,Khairthal,PM2.5,129,Moderate,PM2.5
+2026-09-24,Punjab,Khanna,CO,74,Satisfactory,CO
+2026-09-24,Uttar Pradesh,Khora,PM2.5,136,Moderate,PM2.5
+2026-09-24,Uttar Pradesh,Khurja,PM10,70,Satisfactory,PM10
+2026-09-24,Bihar,Kishanganj,CO,39,Good,CO
+2026-09-24,Nagaland,Kohima,SO2,65,Satisfactory,SO2
+2026-09-24,Maharashtra,Kolhapur,PM10,42,Good,PM10
+2026-09-24,West Bengal,Kolkata,PM10,37,Good,PM10
+2026-09-24,Chhattisgarh,Korba,PM10,24,Good,PM10
+2026-09-24,Rajasthan,Kota,PM10,103,Moderate,PM10
+2026-09-24,Chhattisgarh,Kunjemura,CO,20,Good,CO
+2026-09-24,,Kurnool,PM2.5,36,Good,PM2.5
+2026-09-24,Haryana,Kurukshetra,PM2.5,137,Moderate,PM2.5
+2026-09-24,Maharashtra,Latur,PM10,47,Good,PM10
+2026-09-24,,Leh,CO,193,Moderate,CO
+2026-09-24,Uttar Pradesh,Lucknow,PM10,48,Good,PM10
+2026-09-24,Punjab,Ludhiana,PM10,102,Moderate,PM10
+2026-09-24,Andhra Pradesh,Machilipatnam,PM10,59,Satisfactory,PM10
+2026-09-24,Karnataka,Madikeri,PM10,15,Good,PM10
+2026-09-24,Maharashtra,Mahad,PM10,65,Satisfactory,PM10
+2026-09-24,Maharashtra,Malegaon,PM10,114,Moderate,PM10
+2026-09-24,Madhya Pradesh,Mandideep,SO2,128,Moderate,SO2
+2026-09-24,Punjab,Mandi Gobindgarh,PM2.5,155,Moderate,PM2.5
+2026-09-24,Haryana,Mandikhera,CO,62,Satisfactory,CO
+2026-09-24,Haryana,Manesar,PM2.5,155,Moderate,PM2.5
+2026-09-24,Karnataka,Mangalore,PM10,63,Satisfactory,PM10
+2026-09-24,Uttar Pradesh,Mathura,PM10,96,Satisfactory,PM10
+2026-09-24,Uttar Pradesh,Meerut,PM10,103,Moderate,PM10
+2026-09-24,Gujarat,Mehsana,PM10,93,Satisfactory,PM10
+2026-09-24,Maharashtra,Mira-Bhayandar,PM10,41,Good,PM10
+2026-09-24,Uttar Pradesh,Modinagar,O3,139,Moderate,O3
+2026-09-24,Uttar Pradesh,Moradabad,PM10,72,Satisfactory,PM10
+2026-09-24,Bihar,Motihari,O3,57,Satisfactory,O3
+2026-09-24,Maharashtra,Mumbai,PM10,56,Satisfactory,PM10
+2026-09-24,Uttar Pradesh,Muzaffarnagar,PM2.5,123,Moderate,PM2.5
+2026-09-24,Bihar,Muzaffarpur,PM10,31,Good,PM10
+2026-09-24,Assam,Nagaon,PM2.5,56,Satisfactory,PM2.5
+2026-09-24,Rajasthan,Nagaur,PM10,140,Moderate,PM10
+2026-09-24,Maharashtra,Nagpur,PM10,31,Good,PM10
+2026-09-24,Arunachal Pradesh,Naharlagun,PM10,29,Good,PM10
+2026-09-24,Assam,Nalbari,PM2.5,79,Satisfactory,PM2.5
+2026-09-24,Maharashtra,Nanded,PM10,69,Satisfactory,PM10
+2026-09-24,Gujarat,Nandesari,PM2.5,98,Satisfactory,PM2.5
+2026-09-24,Haryana,Narnaul,PM10,115,Moderate,PM10
+2026-09-24,Maharashtra,Nashik,PM10,84,Satisfactory,PM10
+2026-09-24,Maharashtra,Navi Mumbai,PM2.5 PM10,57,Satisfactory,PM2.5
+2026-09-24,Odisha,Nayagarh,SO2,18,Good,SO2
+2026-09-24,Andhra Pradesh,Nellore,PM2.5,61,Satisfactory,PM2.5
+2026-09-24,Uttar Pradesh,Noida,PM10,158,Moderate,PM10
+2026-09-24,Rajasthan,Pali,PM10,172,Moderate,PM10
+2026-09-24,Haryana,Palwal,PM10,66,Satisfactory,PM10
+2026-09-24,Haryana,Panchgaon,NO2,46,Good,NO2
+2026-09-24,Haryana,Panchkula,PM2.5,66,Satisfactory,PM2.5
+2026-09-24,Haryana,Panipat,PM2.5,125,Moderate,PM2.5
+2026-09-24,,Paradeep,CO,80,Satisfactory,CO
+2026-09-24,Maharashtra,Parbhani,PM10,111,Moderate,PM10
+2026-09-24,Punjab,Patiala,PM10,93,Satisfactory,PM10
+2026-09-24,Bihar,Patna,PM10 NO2 CO,61,Satisfactory,PM10
+2026-09-24,Maharashtra,Pimpri-Chinchwad,PM10,75,Satisfactory,PM10
+2026-09-24,Madhya Pradesh,Pithampur,PM10,268,Poor,PM10
+2026-09-24,Rajasthan,Pratapgarh,O3,95,Satisfactory,O3
+2026-09-24,Uttar Pradesh,Prayagraj,PM10 SO2,39,Good,PM10
+2026-09-24,Puducherry,Puducherry,O3,52,Satisfactory,O3
+2026-09-24,Maharashtra,Pune,PM10,86,Satisfactory,PM10
+2026-09-24,Uttar Pradesh,Raebareli,CO,74,Satisfactory,CO
+2026-09-24,Chhattisgarh,Raipur,PM10 CO,35,Good,PM10
+2026-09-24,Odisha,Rairangpur,PM2.5,21,Good,PM2.5
+2026-09-24,Andhra Pradesh,Rajamahendravaram,O3,26,Good,O3
+2026-09-24,Bihar,Rajgir,CO,42,Good,CO
+2026-09-24,Gujarat,Rajkot,PM10,92,Satisfactory,PM10
+2026-09-24,Rajasthan,Rajsamand,PM10,90,Satisfactory,PM10
+2026-09-24,Karnataka,Ramanagara,PM10,45,Good,PM10
+2026-09-24,Madhya Pradesh,Ratlam,PM10,75,Satisfactory,PM10
+2026-09-24,Uttarakhand,Rishikesh,O3,59,Satisfactory,O3
+2026-09-24,Haryana,Rohtak,PM10,90,Satisfactory,PM10
+2026-09-24,Odisha,Rourkela,PM10,34,Good,PM10
+2026-09-24,Punjab,Rupnagar,CO,59,Satisfactory,CO
+2026-09-24,Madhya Pradesh,Sagar,O3,41,Good,O3
+2026-09-24,Bihar,Saharsa,PM2.5,49,Good,PM2.5
+2026-09-24,Bihar,Samastipur,PM2.5,27,Good,PM2.5
+2026-09-24,Maharashtra,Sangli,PM10,34,Good,PM10
+2026-09-24,Maharashtra,Satara,PM10,86,Satisfactory,PM10
+2026-09-24,Madhya Pradesh,Satna,PM10,70,Satisfactory,PM10
+2026-09-24,Rajasthan,Sawai Madhopur,PM10,107,Moderate,PM10
+2026-09-24,Rajasthan,Sikar,PM10,114,Moderate,PM10
+2026-09-24,Assam,Silchar,PM10,53,Satisfactory,PM10
+2026-09-24,West Bengal,Siliguri,CO,24,Good,CO
+2026-09-24,Rajasthan,Sirohi,PM10,65,Satisfactory,PM10
+2026-09-24,Haryana,Sirsa,PM10,130,Moderate,PM10
+2026-09-24,Assam,Sivasagar,O3,40,Good,O3
+2026-09-24,Maharashtra,Solapur,PM2.5,70,Satisfactory,PM2.5
+2026-09-24,Haryana,Sonipat,PM10,88,Satisfactory,PM10
+2026-09-24,Rajasthan,Sri Ganganagar,PM10,315,Very Poor,PM10
+2026-09-24,Jammu and Kashmir,Srinagar,PM10,48,Good,PM10
+2026-09-24,Gujarat,Surat,PM10,84,Satisfactory,PM10
+2026-09-24,Odisha,Talcher,SO2,28,Good,SO2
+2026-09-24,Odisha,Tensa,SO2,29,Good,SO2
+2026-09-24,Maharashtra,Thane,PM10,67,Satisfactory,PM10
+2026-09-24,Kerala,Thiruvananthapuram,PM10 CO,49,Good,PM10
+2026-09-24,Tamil Nadu,Thoothukudi,PM10,66,Satisfactory,PM10
+2026-09-24,Kerala,Thrissur,PM2.5,51,Satisfactory,PM2.5
+2026-09-24,Andhra Pradesh,Tirumala,NO2,52,Satisfactory,NO2
+2026-09-24,Andhra Pradesh,Tirupati,PM10,83,Satisfactory,PM10
+2026-09-24,Rajasthan,Tonk,PM2.5,149,Moderate,PM2.5
+2026-09-24,Rajasthan,Udaipur,PM10,128,Moderate,PM10
+2026-09-24,Karnataka,Udupi,CO,56,Satisfactory,CO
+2026-09-24,Maharashtra,Ulhasnagar,PM2.5,110,Moderate,PM2.5
+2026-09-24,Gujarat,Vadodara,PM10,106,Moderate,PM10
+2026-09-24,Gujarat,Vapi,PM10,73,Satisfactory,PM10
+2026-09-24,Uttar Pradesh,Varanasi,PM2.5 PM10,47,Good,PM2.5
+2026-09-24,Gujarat,Vatva,PM2.5,179,Moderate,PM2.5
+2026-09-24,Andhra Pradesh,Vijayawada,PM10,45,Good,PM10
+2026-09-24,Maharashtra,Virar,PM10,31,Good,PM10
+2026-09-24,Andhra Pradesh,Visakhapatnam,NO2,30,Good,NO2
+2026-09-24,Uttar Pradesh,Vrindavan,PM2.5 CO,104,Moderate,PM2.5
+2026-09-24,Karnataka,Yadgir,PM10,49,Good,PM10
+2026-09-24,Haryana,Yamuna Nagar,PM2.5,178,Moderate,PM2.5
