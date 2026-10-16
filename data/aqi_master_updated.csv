@@ -1469,6 +1469,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Tripura,Agartala,PM10,144,Moderate
 2026-10-14,Tripura,Agartala,PM10,98,Satisfactory
 2026-10-15,Tripura,Agartala,PM10,120,Moderate
+2026-10-16,Tripura,Agartala,PM10,97,Satisfactory
 2022-04-01,Uttar Pradesh,Agra,PM10,150,Moderate
 2022-04-02,Uttar Pradesh,Agra,"O3,PM2.5,PM10",137,Moderate
 2022-04-03,Uttar Pradesh,Agra,PM10,106,Moderate
@@ -3122,6 +3123,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Uttar Pradesh,Agra,PM10,75,Satisfactory
 2026-10-14,Uttar Pradesh,Agra,PM10,80,Satisfactory
 2026-10-15,Uttar Pradesh,Agra,PM10,87,Satisfactory
+2026-10-16,Uttar Pradesh,Agra,PM10 SO2,63,Satisfactory
 2022-04-01,Gujarat,Ahmedabad,"PM2.5,PM10",242,Poor
 2022-04-02,Gujarat,Ahmedabad,"PM2.5,PM10",259,Poor
 2022-04-03,Gujarat,Ahmedabad,PM2.5,202,Poor
@@ -4765,6 +4767,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Gujarat,Ahmedabad,PM10,127,Moderate
 2026-10-14,Gujarat,Ahmedabad,PM10,140,Moderate
 2026-10-15,Gujarat,Ahmedabad,PM10,140,Moderate
+2026-10-16,Gujarat,Ahmedabad,PM10,131,Moderate
 2024-03-01,Maharashtra,Ahmednagar,PM10,144,Moderate
 2024-03-02,Maharashtra,Ahmednagar,PM10,109,Moderate
 2024-03-03,Maharashtra,Ahmednagar,O3,63,Satisfactory
@@ -5613,6 +5616,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Maharashtra,Ahmednagar,O3,88,Satisfactory
 2026-10-14,Maharashtra,Ahmednagar,PM10,99,Satisfactory
 2026-10-15,Maharashtra,Ahmednagar,PM10,90,Satisfactory
+2026-10-16,Maharashtra,Ahmednagar,PM10,122,Moderate
 2022-04-01,Mizoram,Aizawl,O3,90,Satisfactory
 2022-04-02,Mizoram,Aizawl,PM10,73,Satisfactory
 2022-04-03,Mizoram,Aizawl,O3,91,Satisfactory
@@ -6961,6 +6965,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Mizoram,Aizawl,PM10,26,Good
 2026-10-14,Mizoram,Aizawl,PM10,17,Good
 2026-10-15,Mizoram,Aizawl,PM10,22,Good
+2026-10-16,Mizoram,Aizawl,PM10,16,Good
 2022-04-01,Rajasthan,Ajmer,PM10,103,Moderate
 2022-04-02,Rajasthan,Ajmer,PM10,106,Moderate
 2022-04-03,Rajasthan,Ajmer,PM10,111,Moderate
@@ -8527,6 +8532,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Rajasthan,Ajmer,PM10,92,Satisfactory
 2026-10-14,Rajasthan,Ajmer,PM10,97,Satisfactory
 2026-10-15,Rajasthan,Ajmer,PM10,105,Moderate
+2026-10-16,Rajasthan,Ajmer,PM10,71,Satisfactory
 2023-06-13,Maharashtra,Akola,PM10,73,Satisfactory
 2023-06-14,Maharashtra,Akola,PM10,78,Satisfactory
 2023-06-15,Maharashtra,Akola,PM10,92,Satisfactory
@@ -9720,6 +9726,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Maharashtra,Akola,PM10,80,Satisfactory
 2026-10-14,Maharashtra,Akola,PM10,75,Satisfactory
 2026-10-15,Maharashtra,Akola,PM10,83,Satisfactory
+2026-10-16,Maharashtra,Akola,PM10,100,Satisfactory
 2022-04-01,Rajasthan,Alwar,PM10,101,Moderate
 2022-04-02,Rajasthan,Alwar,PM10,88,Satisfactory
 2022-04-03,Rajasthan,Alwar,PM10,119,Moderate
@@ -11333,6 +11340,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Rajasthan,Alwar,UNKNOWN,76,Satisfactory
 2026-10-14,Rajasthan,Alwar,PM2.5 PM10,76,Satisfactory
 2026-10-15,Rajasthan,Alwar,CO,76,Satisfactory
+2026-10-16,Rajasthan,Alwar,CO,59,Satisfactory
 2022-04-01,Andhra Pradesh,Amaravati,O3,44,Good
 2022-04-02,Andhra Pradesh,Amaravati,O3,42,Good
 2022-04-03,Andhra Pradesh,Amaravati,O3,37,Good
@@ -12884,6 +12892,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Andhra Pradesh,Amaravati,PM10,107,Moderate
 2026-10-14,Andhra Pradesh,Amaravati,PM10,97,Satisfactory
 2026-10-15,Andhra Pradesh,Amaravati,PM10,39,Good
+2026-10-16,Andhra Pradesh,Amaravati,O3,28,Good
 2022-04-01,Haryana,Ambala,PM10,137,Moderate
 2022-04-02,Haryana,Ambala,PM10,154,Moderate
 2022-04-03,Haryana,Ambala,PM10,130,Moderate
@@ -14134,6 +14143,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Haryana,Ambala,PM10,120,Moderate
 2026-10-14,Haryana,Ambala,PM10,111,Moderate
 2026-10-15,Haryana,Ambala,PM10,94,Satisfactory
+2026-10-16,Haryana,Ambala,PM10,103,Moderate
 2026-07-01,,Ambernath,PM2.5,22,Good
 2026-07-02,,Ambernath,PM2.5,23,Good
 2026-07-03,Maharashtra,Ambernath,NO2,25,Good
@@ -14231,6 +14241,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-11,Maharashtra,Ambernath,PM10,95,Satisfactory
 2026-10-12,Maharashtra,Ambernath,PM10,87,Satisfactory
 2026-10-13,Maharashtra,Ambernath,PM10,92,Satisfactory
+2026-10-16,Maharashtra,Ambernath,PM10,100,Satisfactory
 2023-06-01,Maharashtra,Amravati,PM10,112,Moderate
 2023-06-02,Maharashtra,Amravati,PM10,108,Moderate
 2023-06-03,Maharashtra,Amravati,PM10,108,Moderate
@@ -15447,6 +15458,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Maharashtra,Amravati,PM10,82,Satisfactory
 2026-10-14,Maharashtra,Amravati,PM10,85,Satisfactory
 2026-10-15,Maharashtra,Amravati,PM10,97,Satisfactory
+2026-10-16,Maharashtra,Amravati,PM10,101,Moderate
 2022-04-01,Punjab,Amritsar,PM10,101,Moderate
 2022-04-02,Punjab,Amritsar,PM10,116,Moderate
 2022-04-03,Punjab,Amritsar,PM10,97,Satisfactory
@@ -16997,6 +17009,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Punjab,Amritsar,PM10,78,Satisfactory
 2026-10-14,Punjab,Amritsar,PM10,81,Satisfactory
 2026-10-15,Punjab,Amritsar,PM10,78,Satisfactory
+2026-10-16,Punjab,Amritsar,PM10,80,Satisfactory
 2022-08-27,Andhra Pradesh,Anantapur,PM2.5,42,Good
 2022-08-28,Andhra Pradesh,Anantapur,PM2.5,44,Good
 2022-08-29,Andhra Pradesh,Anantapur,PM10,56,Satisfactory
@@ -18248,6 +18261,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Andhra Pradesh,Anantapur,PM10,95,Satisfactory
 2026-10-14,Andhra Pradesh,Anantapur,PM2.5,104,Moderate
 2026-10-15,Andhra Pradesh,Anantapur,PM2.5,48,Good
+2026-10-16,Andhra Pradesh,Anantapur,PM10,59,Satisfactory
 2023-10-26,Odisha,Angul,O3,163,Moderate
 2023-10-27,Odisha,Angul,PM2.5,228,Poor
 2023-10-28,Odisha,Angul,PM2.5,187,Moderate
@@ -19268,6 +19282,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Odisha,Angul,O3,90,Satisfactory
 2026-10-14,Odisha,Angul,O3,81,Satisfactory
 2026-10-15,Odisha,Angul,CO,64,Satisfactory
+2026-10-16,Odisha,Angul,CO,63,Satisfactory
 2022-04-01,Gujarat,Ankleshwar,PM2.5,223,Poor
 2022-04-02,Gujarat,Ankleshwar,PM2.5,226,Poor
 2022-04-03,Gujarat,Ankleshwar,PM2.5,144,Moderate
@@ -20677,6 +20692,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Gujarat,Ankleshwar,PM2.5,158,Moderate
 2026-10-14,Gujarat,Ankleshwar,PM10,131,Moderate
 2026-10-15,Gujarat,Ankleshwar,PM2.5,150,Moderate
+2026-10-16,Gujarat,Ankleshwar,PM2.5,117,Moderate
 2026-10-10,,Anpara,PM10,60,Satisfactory
 2026-10-11,,Anpara,PM10,59,Satisfactory
 2026-10-14,,Anpara,PM2.5,73,Satisfactory
@@ -21978,6 +21994,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Bihar,Araria,PM2.5,118,Moderate
 2026-10-14,Bihar,Araria,PM10,92,Satisfactory
 2026-10-15,Bihar,Araria,PM2.5,125,Moderate
+2026-10-16,Bihar,Araria,PM2.5,131,Moderate
 2022-12-21,Tamil Nadu,Ariyalur,CO,157,Moderate
 2022-12-22,Tamil Nadu,Ariyalur,CO,146,Moderate
 2022-12-23,Tamil Nadu,Ariyalur,PM2.5,148,Moderate
@@ -24127,6 +24144,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Bihar,Arrah,CO,52,Satisfactory
 2026-10-14,Bihar,Arrah,CO,51,Satisfactory
 2026-10-15,Bihar,Arrah,CO,52,Satisfactory
+2026-10-16,Bihar,Arrah,CO,56,Satisfactory
 2022-04-01,West Bengal,Asansol,PM10,119,Moderate
 2022-04-02,West Bengal,Asansol,PM10,90,Satisfactory
 2022-04-03,West Bengal,Asansol,PM10,84,Satisfactory
@@ -25716,6 +25734,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,West Bengal,Asansol,PM10,85,Satisfactory
 2026-10-14,West Bengal,Asansol,PM10,82,Satisfactory
 2026-10-15,West Bengal,Asansol,PM2.5 PM10,78,Satisfactory
+2026-10-16,West Bengal,Asansol,PM2.5 PM10,92,Satisfactory
 2022-04-01,Bihar,Aurangabad,PM10,312,Very Poor
 2022-04-02,Maharashtra,Aurangabad,PM10,117,Moderate
 2022-04-03,Bihar,Aurangabad,PM10,317,Very Poor
@@ -26848,6 +26867,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Bihar,Aurangabad (Bihar),PM10,92,Satisfactory
 2026-10-14,Bihar,Aurangabad (Bihar),PM10,84,Satisfactory
 2026-10-15,Bihar,Aurangabad (Bihar),PM10,103,Moderate
+2026-10-16,Bihar,Aurangabad (Bihar),PM10,130,Moderate
 2026-06-30,Maharashtra,Aurangabad (Maharashtra),PM2.5 PM10,48,Good
 2026-07-01,,Aurangabad (Maharashtra),PM2.5 PM10,41,Good
 2026-07-02,,Aurangabad (Maharashtra),PM10,41,Good
@@ -26951,6 +26971,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Maharashtra,Aurangabad (Maharashtra),PM10,93,Satisfactory
 2026-10-14,Maharashtra,Aurangabad (Maharashtra),PM10,91,Satisfactory
 2026-10-15,Maharashtra,Aurangabad (Maharashtra),UNKNOWN,95,Satisfactory
+2026-10-16,Maharashtra,Aurangabad (Maharashtra),UNKNOWN,99,Satisfactory
 2022-04-01,Himachal Pradesh,Baddi,PM10,182,Moderate
 2022-04-02,Himachal Pradesh,Baddi,PM10,130,Moderate
 2022-04-03,Himachal Pradesh,Baddi,PM10,111,Moderate
@@ -28533,6 +28554,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Himachal Pradesh,Baddi,PM10,117,Moderate
 2026-10-14,Himachal Pradesh,Baddi,O3,96,Satisfactory
 2026-10-15,Himachal Pradesh,Baddi,PM10,100,Satisfactory
+2026-10-16,Himachal Pradesh,Baddi,PM10,105,Moderate
 2023-06-17,Maharashtra,Badlapur,PM10,47,Good
 2023-06-18,Maharashtra,Badlapur,PM10,66,Satisfactory
 2023-06-19,Maharashtra,Badlapur,PM10,88,Satisfactory
@@ -29662,6 +29684,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Maharashtra,Badlapur,CO,60,Satisfactory
 2026-10-14,Maharashtra,Badlapur,PM10,67,Satisfactory
 2026-10-15,Maharashtra,Badlapur,PM10,55,Satisfactory
+2026-10-16,Maharashtra,Badlapur,PM10,61,Satisfactory
 2022-04-01,Karnataka,Bagalkot,PM2.5,50,Good
 2022-04-02,Karnataka,Bagalkot,PM2.5,50,Good
 2022-04-03,Karnataka,Bagalkot,PM2.5,50,Good
@@ -31077,6 +31100,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-08-10,Karnataka,Bagalkot,PM10,51,Satisfactory
 2026-08-11,Karnataka,Bagalkot,PM10,51,Satisfactory
 2026-08-12,Karnataka,Bagalkot,PM10,51,Satisfactory
+2026-10-16,Karnataka,Bagalkot,PM10,51,Satisfactory
 2022-04-01,Uttar Pradesh,Baghpat,PM10,201,Poor
 2022-04-02,Uttar Pradesh,Baghpat,PM10,232,Poor
 2022-04-03,Uttar Pradesh,Baghpat,PM2.5,261,Poor
@@ -32502,6 +32526,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Uttar Pradesh,Baghpat,PM10,96,Satisfactory
 2026-10-14,Uttar Pradesh,Baghpat,PM2.5,176,Moderate
 2026-10-15,Uttar Pradesh,Baghpat,PM2.5,219,Poor
+2026-10-16,Uttar Pradesh,Baghpat,PM2.5,81,Satisfactory
 2022-04-01,Haryana,Bahadurgarh,PM2.5,226,Poor
 2022-04-02,Haryana,Bahadurgarh,PM2.5,224,Poor
 2022-04-03,Haryana,Bahadurgarh,PM10,254,Poor
@@ -33760,6 +33785,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Haryana,Bahadurgarh,PM10,126,Moderate
 2026-10-14,Haryana,Bahadurgarh,PM10,163,Moderate
 2026-10-15,Haryana,Bahadurgarh,PM10,152,Moderate
+2026-10-16,Haryana,Bahadurgarh,PM2.5,98,Satisfactory
 2023-10-24,Odisha,Balasore,O3,38,Good
 2023-10-25,Odisha,Balasore,O3,68,Satisfactory
 2023-10-26,Odisha,Balasore,PM10,103,Moderate
@@ -34799,6 +34825,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Odisha,Balasore,O3,82,Satisfactory
 2026-10-14,Odisha,Balasore,PM2.5,72,Satisfactory
 2026-10-15,Odisha,Balasore,O3,42,Good
+2026-10-16,Odisha,Balasore,O3,43,Good
 2022-04-01,Haryana,Ballabgarh,PM10,262,Poor
 2022-04-02,Haryana,Ballabgarh,PM10,204,Poor
 2022-04-03,Haryana,Ballabgarh,PM10,121,Moderate
@@ -36072,6 +36099,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Haryana,Ballabgarh,PM10,227,Poor
 2026-10-14,Haryana,Ballabgarh,PM10,180,Moderate
 2026-10-15,Haryana,Ballabgarh,PM10,168,Moderate
+2026-10-16,Haryana,Ballabgarh,PM10,117,Moderate
 2023-03-15,Rajasthan,Banswara,PM10,115,Moderate
 2023-03-16,Rajasthan,Banswara,O3,111,Moderate
 2023-03-17,Rajasthan,Banswara,O3,110,Moderate
@@ -37309,6 +37337,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Rajasthan,Banswara,PM10,67,Satisfactory
 2026-10-14,Rajasthan,Banswara,PM10,75,Satisfactory
 2026-10-15,Rajasthan,Banswara,PM10,80,Satisfactory
+2026-10-16,Rajasthan,Banswara,PM10,84,Satisfactory
 2023-06-20,Rajasthan,Baran,PM10,89,Satisfactory
 2023-06-21,Rajasthan,Baran,PM2.5,85,Satisfactory
 2023-06-22,Rajasthan,Baran,PM10,80,Satisfactory
@@ -38466,6 +38495,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Rajasthan,Baran,PM10,85,Satisfactory
 2026-10-14,Rajasthan,Baran,PM10,87,Satisfactory
 2026-10-15,Rajasthan,Baran,PM10,83,Satisfactory
+2026-10-16,Rajasthan,Baran,PM10,81,Satisfactory
 2026-08-14,,Baraut,PM2.5,220,Poor
 2026-08-15,,Baraut,CO,94,Satisfactory
 2026-08-16,,Baraut,PM2.5,130,Moderate
@@ -38503,6 +38533,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,,Baraut,PM2.5,141,Moderate
 2026-10-14,,Baraut,PM2.5,240,Poor
 2026-10-15,,Baraut,PM2.5,232,Poor
+2026-10-16,,Baraut,PM2.5,84,Satisfactory
 2023-11-03,Odisha,Barbil,PM10,122,Moderate
 2023-11-04,Odisha,Barbil,PM10,89,Satisfactory
 2023-11-05,Odisha,Barbil,PM10,93,Satisfactory
@@ -39540,6 +39571,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Odisha,Barbil,PM10,79,Satisfactory
 2026-10-14,Odisha,Barbil,PM10,75,Satisfactory
 2026-10-15,Odisha,Barbil,PM10,71,Satisfactory
+2026-10-16,Odisha,Barbil,CO,44,Good
 2022-06-03,Uttar Pradesh,Bareilly,PM10,208,Poor
 2022-06-04,Uttar Pradesh,Bareilly,PM10,153,Moderate
 2022-06-05,Uttar Pradesh,Bareilly,PM10,158,Moderate
@@ -41080,6 +41112,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Uttar Pradesh,Bareilly,PM10 SO2,83,Satisfactory
 2026-10-14,Uttar Pradesh,Bareilly,PM10 SO2,96,Satisfactory
 2026-10-15,Uttar Pradesh,Bareilly,PM10 SO2,94,Satisfactory
+2026-10-16,Uttar Pradesh,Bareilly,PM10,76,Satisfactory
 2022-11-27,Odisha,Baripada,PM10,143,Moderate
 2022-11-28,Odisha,Baripada,PM2.5,199,Moderate
 2022-11-29,Odisha,Baripada,PM2.5,218,Poor
@@ -42371,6 +42404,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Odisha,Baripada,PM10,97,Satisfactory
 2026-10-14,Odisha,Baripada,PM10,101,Moderate
 2026-10-15,Odisha,Baripada,PM10,48,Good
+2026-10-16,Odisha,Baripada,NO2,31,Good
 2023-03-13,Rajasthan,Barmer,O3,147,Moderate
 2023-03-14,Rajasthan,Barmer,O3,192,Moderate
 2023-03-15,Rajasthan,Barmer,O3,179,Moderate
@@ -43643,6 +43677,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Rajasthan,Barmer,PM10,90,Satisfactory
 2026-10-14,Rajasthan,Barmer,PM10,112,Moderate
 2026-10-15,Rajasthan,Barmer,PM10,76,Satisfactory
+2026-10-16,Rajasthan,Barmer,PM10,107,Moderate
 2023-12-02,West Bengal,Barrackpore,PM2.5,224,Poor
 2023-12-03,West Bengal,Barrackpore,PM2.5,320,Very Poor
 2023-12-05,West Bengal,Barrackpore,PM2.5,210,Poor
@@ -44613,6 +44648,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,West Bengal,Barrackpore,PM10,92,Satisfactory
 2026-10-14,West Bengal,Barrackpore,PM2.5,92,Satisfactory
 2026-10-15,West Bengal,Barrackpore,PM10,82,Satisfactory
+2026-10-16,West Bengal,Barrackpore,PM10,77,Satisfactory
 2022-04-01,Punjab,Bathinda,PM10,60,Satisfactory
 2022-04-02,Punjab,Bathinda,PM10,74,Satisfactory
 2022-04-03,Punjab,Bathinda,PM10,87,Satisfactory
@@ -46076,6 +46112,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Punjab,Bathinda,PM10,70,Satisfactory
 2026-10-14,Punjab,Bathinda,PM10,93,Satisfactory
 2026-10-15,Punjab,Bathinda,PM10,59,Satisfactory
+2026-10-16,Punjab,Bathinda,PM10,78,Satisfactory
 2026-06-30,Maharashtra,Beed,PM10,57,Satisfactory
 2026-07-01,,Beed,PM10,33,Good
 2026-07-02,,Beed,PM10,42,Good
@@ -46176,6 +46213,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Maharashtra,Beed,PM10,77,Satisfactory
 2026-10-14,Maharashtra,Beed,PM10,77,Satisfactory
 2026-10-15,Maharashtra,Beed,PM10,72,Satisfactory
+2026-10-16,Maharashtra,Beed,PM10,76,Satisfactory
 2022-04-05,Bihar,Begusarai,PM2.5,197,Moderate
 2022-04-07,Bihar,Begusarai,PM10,177,Moderate
 2022-04-08,Bihar,Begusarai,PM10,119,Moderate
@@ -47221,6 +47259,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Bihar,Begusarai,PM2.5,109,Moderate
 2026-10-14,Bihar,Begusarai,PM10,91,Satisfactory
 2026-10-15,Bihar,Begusarai,PM10,122,Moderate
+2026-10-16,Bihar,Begusarai,PM10,70,Satisfactory
 2023-06-20,Maharashtra,Belapur,PM10,78,Satisfactory
 2023-06-21,Maharashtra,Belapur,PM10,83,Satisfactory
 2023-06-22,Maharashtra,Belapur,PM10,73,Satisfactory
@@ -48334,6 +48373,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Maharashtra,Belapur,PM10,117,Moderate
 2026-10-14,Maharashtra,Belapur,PM10,115,Moderate
 2026-10-15,Maharashtra,Belapur,PM10,107,Moderate
+2026-10-16,Maharashtra,Belapur,PM10,112,Moderate
 2022-08-09,Karnataka,Belgaum,CO,46,Good
 2022-08-10,Karnataka,Belgaum,PM10,50,Good
 2022-08-11,Karnataka,Belgaum,CO,45,Good
@@ -50987,6 +51027,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Karnataka,Bengaluru,PM10,108,Moderate
 2026-10-14,Karnataka,Bengaluru,PM10,110,Moderate
 2026-10-15,Karnataka,Bengaluru,PM10,79,Satisfactory
+2026-10-16,Karnataka,Bengaluru,PM10,56,Satisfactory
 2022-04-03,Bihar,Bettiah,PM10,138,Moderate
 2022-04-04,Bihar,Bettiah,PM10,145,Moderate
 2022-04-05,Bihar,Bettiah,PM2.5,244,Poor
@@ -52154,6 +52195,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Bihar,Bettiah,NO2,27,Good
 2026-10-14,Bihar,Bettiah,NO2,27,Good
 2026-10-15,Bihar,Bettiah,NO2,27,Good
+2026-10-16,Bihar,Bettiah,PM2.5,23,Good
 2022-04-01,Bihar,Bhagalpur,"PM2.5,PM10",233,Poor
 2022-04-02,Bihar,Bhagalpur,"PM2.5,PM10",218,Poor
 2022-04-03,Bihar,Bhagalpur,"PM2.5,PM10",140,Moderate
@@ -53737,6 +53779,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Bihar,Bhagalpur,PM2.5,45,Good
 2026-10-14,Bihar,Bhagalpur,PM2.5,49,Good
 2026-10-15,Bihar,Bhagalpur,PM2.5,66,Satisfactory
+2026-10-16,Bihar,Bhagalpur,PM2.5,103,Moderate
 2023-02-02,Rajasthan,Bharatpur,PM2.5,140,Moderate
 2023-02-03,Rajasthan,Bharatpur,PM2.5,151,Moderate
 2023-02-04,Rajasthan,Bharatpur,PM2.5,190,Moderate
@@ -55041,6 +55084,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Rajasthan,Bharatpur,PM10,118,Moderate
 2026-10-14,Rajasthan,Bharatpur,PM10,143,Moderate
 2026-10-15,Rajasthan,Bharatpur,PM10,146,Moderate
+2026-10-16,Rajasthan,Bharatpur,O3,52,Satisfactory
 2026-06-30,Gujarat,Bhavnagar,PM10,88,Satisfactory
 2026-07-01,,Bhavnagar,PM10,123,Moderate
 2026-07-02,,Bhavnagar,CO,81,Satisfactory
@@ -55146,6 +55190,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Gujarat,Bhavnagar,PM2.5,171,Moderate
 2026-10-14,Gujarat,Bhavnagar,PM2.5,188,Moderate
 2026-10-15,Gujarat,Bhavnagar,PM10,150,Moderate
+2026-10-16,Gujarat,Bhavnagar,PM10,135,Moderate
 2022-06-28,Chhattisgarh,Bhilai,NO2,25,Good
 2022-08-19,Chhattisgarh,Bhilai,NO2,25,Good
 2022-08-20,Chhattisgarh,Bhilai,CO,22,Good
@@ -56531,6 +56576,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Chhattisgarh,Bhilai,PM10,64,Satisfactory
 2026-10-14,Chhattisgarh,Bhilai,PM10,65,Satisfactory
 2026-10-15,Chhattisgarh,Bhilai,PM10,69,Satisfactory
+2026-10-16,Chhattisgarh,Bhilai,PM10,58,Satisfactory
 2023-05-16,Rajasthan,Bhilwara,PM10,144,Moderate
 2023-05-17,Rajasthan,Bhilwara,PM10,75,Satisfactory
 2023-05-18,Rajasthan,Bhilwara,PM10,88,Satisfactory
@@ -57653,6 +57699,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Rajasthan,Bhilwara,PM10,138,Moderate
 2026-10-14,Rajasthan,Bhilwara,PM10,139,Moderate
 2026-10-15,Rajasthan,Bhilwara,PM10,124,Moderate
+2026-10-16,Rajasthan,Bhilwara,PM10,92,Satisfactory
 2022-04-01,Rajasthan,Bhiwadi,PM2.5,258,Poor
 2022-04-02,Rajasthan,Bhiwadi,PM2.5,261,Poor
 2022-04-03,Rajasthan,Bhiwadi,PM2.5,248,Poor
@@ -59268,6 +59315,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Rajasthan,Bhiwadi,PM10,156,Moderate
 2026-10-14,Rajasthan,Bhiwadi,PM10,167,Moderate
 2026-10-15,Rajasthan,Bhiwadi,PM10,165,Moderate
+2026-10-16,Rajasthan,Bhiwadi,PM10,84,Satisfactory
 2023-06-21,Maharashtra,Bhiwandi,PM10,70,Satisfactory
 2023-06-22,Maharashtra,Bhiwandi,PM10,65,Satisfactory
 2023-06-23,Maharashtra,Bhiwandi,PM10,62,Satisfactory
@@ -60361,6 +60409,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Maharashtra,Bhiwandi,PM2.5,150,Moderate
 2026-10-14,Maharashtra,Bhiwandi,PM2.5,170,Moderate
 2026-10-15,Maharashtra,Bhiwandi,PM2.5,129,Moderate
+2026-10-16,Maharashtra,Bhiwandi,PM2.5,169,Moderate
 2022-04-01,Haryana,Bhiwani,PM2.5,161,Moderate
 2022-04-02,Haryana,Bhiwani,PM2.5,170,Moderate
 2022-04-03,Haryana,Bhiwani,PM2.5,183,Moderate
@@ -61633,6 +61682,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Haryana,Bhiwani,PM2.5,74,Satisfactory
 2026-10-14,Haryana,Bhiwani,PM2.5,119,Moderate
 2026-10-15,Haryana,Bhiwani,PM2.5,125,Moderate
+2026-10-16,Haryana,Bhiwani,PM2.5,48,Good
 2022-04-01,Madhya Pradesh,Bhopal,O3,133,Moderate
 2022-04-02,Madhya Pradesh,Bhopal,O3,197,Moderate
 2022-04-03,Madhya Pradesh,Bhopal,O3,165,Moderate
@@ -63258,6 +63308,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Madhya Pradesh,Bhopal,PM10,105,Moderate
 2026-10-14,Madhya Pradesh,Bhopal,PM10,110,Moderate
 2026-10-15,Madhya Pradesh,Bhopal,PM10,113,Moderate
+2026-10-16,Madhya Pradesh,Bhopal,PM10,121,Moderate
 2023-11-02,Odisha,Bhubaneswar,PM10,93,Satisfactory
 2023-11-03,Odisha,Bhubaneswar,CO,64,Satisfactory
 2023-11-04,Odisha,Bhubaneswar,CO,84,Satisfactory
@@ -64273,6 +64324,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Odisha,Bhubaneswar,O3,79,Satisfactory
 2026-10-14,Odisha,Bhubaneswar,O3,63,Satisfactory
 2026-10-15,Odisha,Bhubaneswar,O3 CO,45,Good
+2026-10-16,Odisha,Bhubaneswar,O3 CO,45,Good
 2022-04-03,Karnataka,Bidar,PM10,96,Satisfactory
 2022-04-05,Karnataka,Bidar,PM10,100,Satisfactory
 2022-04-06,Karnataka,Bidar,PM10,86,Satisfactory
@@ -66061,6 +66113,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Bihar,Bihar Sharif,PM10,94,Satisfactory
 2026-10-14,Bihar,Bihar Sharif,PM10,89,Satisfactory
 2026-10-15,Bihar,Bihar Sharif,PM10,99,Satisfactory
+2026-10-16,Bihar,Bihar Sharif,PM10,97,Satisfactory
 2023-03-13,Rajasthan,Bikaner,PM10,258,Poor
 2023-03-14,Rajasthan,Bikaner,PM10,237,Poor
 2023-03-15,Rajasthan,Bikaner,PM10,224,Poor
@@ -67295,6 +67348,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Rajasthan,Bikaner,PM10,178,Moderate
 2026-10-14,Rajasthan,Bikaner,PM10,204,Poor
 2026-10-15,Rajasthan,Bikaner,PM10,138,Moderate
+2026-10-16,Rajasthan,Bikaner,PM10,105,Moderate
 2022-04-01,Chhattisgarh,Bilaspur,PM10,58,Satisfactory
 2022-04-02,Chhattisgarh,Bilaspur,PM10,58,Satisfactory
 2022-04-03,Chhattisgarh,Bilaspur,PM10,70,Satisfactory
@@ -68695,6 +68749,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Chhattisgarh,Bilaspur,PM10,76,Satisfactory
 2026-10-14,Chhattisgarh,Bilaspur,PM2.5,95,Satisfactory
 2026-10-15,Chhattisgarh,Bilaspur,PM2.5,105,Moderate
+2026-10-16,Chhattisgarh,Bilaspur,PM2.5,95,Satisfactory
 2022-11-27,Odisha,Bileipada,PM10,150,Moderate
 2022-11-28,Odisha,Bileipada,PM10,147,Moderate
 2022-11-29,Odisha,Bileipada,PM2.5,176,Moderate
@@ -69902,6 +69957,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Odisha,Bileipada,PM2.5,111,Moderate
 2026-10-14,Odisha,Bileipada,PM2.5,126,Moderate
 2026-10-15,Odisha,Bileipada,PM10,117,Moderate
+2026-10-16,Odisha,Bileipada,PM10,65,Satisfactory
 2024-03-01,Maharashtra,Boisar,PM10,79,Satisfactory
 2024-03-03,Maharashtra,Boisar,O3,76,Satisfactory
 2024-03-04,Maharashtra,Boisar,PM10,69,Satisfactory
@@ -70762,6 +70818,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Maharashtra,Boisar,PM10,84,Satisfactory
 2026-10-14,Maharashtra,Boisar,PM10,78,Satisfactory
 2026-10-15,Maharashtra,Boisar,PM10,84,Satisfactory
+2026-10-16,Maharashtra,Boisar,PM10,82,Satisfactory
 2022-04-01,Odisha,Brajrajnagar,O3,270,Poor
 2022-04-02,Odisha,Brajrajnagar,PM10,111,Moderate
 2022-04-05,Odisha,Brajrajnagar,PM2.5,120,Moderate
@@ -72004,6 +72061,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Odisha,Brajrajnagar,PM10,126,Moderate
 2026-10-14,Odisha,Brajrajnagar,PM10,146,Moderate
 2026-10-15,Odisha,Brajrajnagar,PM10,66,Satisfactory
+2026-10-16,Odisha,Brajrajnagar,CO,52,Satisfactory
 2022-04-01,Uttar Pradesh,Bulandshahr,PM10,231,Poor
 2022-04-02,Uttar Pradesh,Bulandshahr,PM10,228,Poor
 2022-04-03,Uttar Pradesh,Bulandshahr,O3,226,Poor
@@ -73644,6 +73702,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Uttar Pradesh,Bulandshahr,PM10,142,Moderate
 2026-10-14,Uttar Pradesh,Bulandshahr,PM10,137,Moderate
 2026-10-15,Uttar Pradesh,Bulandshahr,PM10,120,Moderate
+2026-10-16,Uttar Pradesh,Bulandshahr,O3,65,Satisfactory
 2023-05-16,Rajasthan,Bundi,PM10,126,Moderate
 2023-05-17,Rajasthan,Bundi,PM10,104,Moderate
 2023-05-19,Rajasthan,Bundi,PM10,113,Moderate
@@ -74795,6 +74854,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Rajasthan,Bundi,PM10,145,Moderate
 2026-10-14,Rajasthan,Bundi,PM10,131,Moderate
 2026-10-15,Rajasthan,Bundi,PM10,120,Moderate
+2026-10-16,Rajasthan,Bundi,PM10,94,Satisfactory
 2022-04-10,Bihar,Buxar,PM10,214,Poor
 2022-04-11,Bihar,Buxar,PM2.5,103,Moderate
 2022-04-12,Bihar,Buxar,PM2.5,108,Moderate
@@ -75675,6 +75735,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Bihar,Buxar,SO2,30,Good
 2026-10-14,Bihar,Buxar,SO2,32,Good
 2026-10-15,Bihar,Buxar,SO2,33,Good
+2026-10-16,Bihar,Buxar,SO2,33,Good
 2023-11-02,Odisha,Byasanagar,PM2.5,100,Satisfactory
 2023-11-03,Odisha,Byasanagar,PM2.5,85,Satisfactory
 2023-11-04,Odisha,Byasanagar,O3,67,Satisfactory
@@ -76676,6 +76737,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Odisha,Byasanagar,O3,83,Satisfactory
 2026-10-14,Odisha,Byasanagar,O3,73,Satisfactory
 2026-10-15,Odisha,Byasanagar,O3,43,Good
+2026-10-16,Odisha,Byasanagar,O3,48,Good
 2022-12-24,Assam,Byrnihat,PM2.5,413,Severe
 2022-12-25,Assam,Byrnihat,PM2.5,382,Very Poor
 2022-12-26,Assam,Byrnihat,PM2.5,391,Very Poor
@@ -77651,6 +77713,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Assam,Byrnihat (Assam),PM2.5,101,Moderate
 2026-10-14,Assam,Byrnihat (Assam),PM2.5,94,Satisfactory
 2026-10-15,Assam,Byrnihat (Assam),PM2.5,96,Satisfactory
+2026-10-16,Assam,Byrnihat (Assam),PM2.5,95,Satisfactory
 2026-06-30,Meghalaya,Byrnihat (Meghalaya),PM2.5,132,Moderate
 2026-07-01,Meghalaya,Byrnihat (Meghalaya),PM2.5,132,Moderate
 2026-07-02,,Byrnihat (Meghalaya),PM2.5,121,Moderate
@@ -77715,6 +77778,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-08,Meghalaya,Byrnihat (Meghalaya),PM10,131,Moderate
 2026-10-14,Meghalaya,Byrnihat (Meghalaya),PM10,123,Moderate
 2026-10-15,Meghalaya,Byrnihat (Meghalaya),PM10,77,Satisfactory
+2026-10-16,Meghalaya,Byrnihat (Meghalaya),PM10,108,Moderate
 2022-04-04,Karnataka,Chamarajanagar,PM10,48,Good
 2022-04-05,Karnataka,Chamarajanagar,CO,59,Satisfactory
 2022-04-06,Karnataka,Chamarajanagar,PM10,47,Good
@@ -79280,6 +79344,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Karnataka,Chamarajanagar,PM10,48,Good
 2026-10-14,Karnataka,Chamarajanagar,PM10,45,Good
 2026-10-15,Karnataka,Chamarajanagar,PM10,53,Satisfactory
+2026-10-16,Karnataka,Chamarajanagar,PM10,44,Good
 2022-04-01,Chandigarh,Chandigarh,"PM10,O3",153,Moderate
 2022-04-02,Chandigarh,Chandigarh,"O3,PM2.5,PM10",166,Moderate
 2022-04-03,Chandigarh,Chandigarh,"PM10,O3",165,Moderate
@@ -80904,6 +80969,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Chandigarh,Chandigarh,PM10,57,Satisfactory
 2026-10-14,Chandigarh,Chandigarh,PM10 NO2,58,Satisfactory
 2026-10-15,Chandigarh,Chandigarh,PM10 NO2,47,Good
+2026-10-16,Chandigarh,Chandigarh,PM10,44,Good
 2022-04-01,Maharashtra,Chandrapur,PM2.5,201,Poor
 2022-04-02,Maharashtra,Chandrapur,PM2.5,142,Moderate
 2022-04-03,Maharashtra,Chandrapur,PM2.5,112,Moderate
@@ -82525,6 +82591,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Maharashtra,Chandrapur,PM10,102,Moderate
 2026-10-14,Maharashtra,Chandrapur,PM10,121,Moderate
 2026-10-15,Maharashtra,Chandrapur,PM10,133,Moderate
+2026-10-16,Maharashtra,Chandrapur,PM10,118,Moderate
 2022-04-01,Haryana,Charkhi Dadri,PM2.5,211,Poor
 2022-04-02,Haryana,Charkhi Dadri,PM2.5,227,Poor
 2022-04-03,Haryana,Charkhi Dadri,PM2.5,242,Poor
@@ -83937,6 +84004,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Haryana,Charkhi Dadri,PM2.5,75,Satisfactory
 2026-10-14,Haryana,Charkhi Dadri,PM2.5,109,Moderate
 2026-10-15,Haryana,Charkhi Dadri,PM2.5,175,Moderate
+2026-10-16,Haryana,Charkhi Dadri,PM2.5,56,Satisfactory
 2022-08-13,Tamil Nadu,Chengalpattu,SO2,60,Satisfactory
 2022-08-17,Tamil Nadu,Chengalpattu,SO2,60,Satisfactory
 2022-08-24,Tamil Nadu,Chengalpattu,SO2,57,Satisfactory
@@ -86119,6 +86187,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Tamil Nadu,Chennai,PM2.5 PM10,109,Moderate
 2026-10-14,Tamil Nadu,Chennai,PM10,73,Satisfactory
 2026-10-15,Tamil Nadu,Chennai,PM10,69,Satisfactory
+2026-10-16,Tamil Nadu,Chennai,PM10,77,Satisfactory
 2023-03-13,Chhattisgarh,Chhal,PM10,94,Satisfactory
 2023-03-14,Chhattisgarh,Chhal,PM2.5,114,Moderate
 2023-03-15,Chhattisgarh,Chhal,PM2.5,190,Moderate
@@ -87163,6 +87232,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Chhattisgarh,Chhal,PM10,54,Satisfactory
 2026-10-14,Chhattisgarh,Chhal,PM10,71,Satisfactory
 2026-10-15,Chhattisgarh,Chhal,PM10,70,Satisfactory
+2026-10-16,Chhattisgarh,Chhal,PM10,81,Satisfactory
 2022-04-01,Bihar,Chhapra,PM10,367,Very Poor
 2022-04-02,Bihar,Chhapra,PM2.5,219,Poor
 2022-04-03,Bihar,Chhapra,PM2.5,185,Moderate
@@ -88489,6 +88559,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Bihar,Chhapra,PM10,105,Moderate
 2026-10-14,Bihar,Chhapra,CO,111,Moderate
 2026-10-15,Bihar,Chhapra,PM10,105,Moderate
+2026-10-16,Bihar,Chhapra,PM10,105,Moderate
 2022-04-01,Karnataka,Chikkaballapur,PM10,102,Moderate
 2022-04-02,Karnataka,Chikkaballapur,PM2.5,87,Satisfactory
 2022-04-03,Karnataka,Chikkaballapur,PM10,92,Satisfactory
@@ -89920,6 +89991,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-09,Karnataka,Chikkaballapur,PM10,52,Satisfactory
 2026-10-10,Karnataka,Chikkaballapur,PM10,66,Satisfactory
 2026-10-11,Karnataka,Chikkaballapur,PM10,82,Satisfactory
+2026-10-16,Karnataka,Chikkaballapur,CO,35,Good
 2022-04-01,Karnataka,Chikkamagaluru,PM10,53,Satisfactory
 2022-04-04,Karnataka,Chikkamagaluru,PM10,41,Good
 2022-04-06,Karnataka,Chikkamagaluru,PM10,86,Satisfactory
@@ -93549,6 +93621,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-12,Rajasthan,Chittorgarh,PM10,110,Moderate
 2026-10-13,Rajasthan,Chittorgarh,PM10,139,Moderate
 2026-10-14,Rajasthan,Chittorgarh,PM10,177,Moderate
+2026-10-16,Rajasthan,Chittorgarh,O3,100,Satisfactory
 2023-03-13,Rajasthan,Churu,PM10,120,Moderate
 2023-03-14,Rajasthan,Churu,PM10,125,Moderate
 2023-03-15,Rajasthan,Churu,PM10,116,Moderate
@@ -94766,6 +94839,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Rajasthan,Churu,O3,117,Moderate
 2026-10-14,Rajasthan,Churu,O3,138,Moderate
 2026-10-15,Rajasthan,Churu,PM10,126,Moderate
+2026-10-16,Rajasthan,Churu,O3,92,Satisfactory
 2022-04-01,Tamil Nadu,Coimbatore,PM2.5,53,Satisfactory
 2022-04-02,Tamil Nadu,Coimbatore,PM2.5,57,Satisfactory
 2022-04-03,Tamil Nadu,Coimbatore,PM2.5,52,Satisfactory
@@ -96983,6 +97057,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-09-10,Tamil Nadu,Cuddalore,PM10,221,Poor
 2026-09-17,Tamil Nadu,Cuddalore,PM10,222,Poor
 2026-09-18,Tamil Nadu,Cuddalore,PM10,102,Moderate
+2026-10-16,Tamil Nadu,Cuddalore,NO2,21,Good
 2023-11-02,Odisha,Cuttack,PM10,112,Moderate
 2023-11-03,Odisha,Cuttack,PM10,73,Satisfactory
 2023-11-04,Odisha,Cuttack,PM10,59,Satisfactory
@@ -97994,6 +98069,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Odisha,Cuttack,O3,106,Moderate
 2026-10-14,Odisha,Cuttack,O3,62,Satisfactory
 2026-10-15,Odisha,Cuttack,O3,38,Good
+2026-10-16,Odisha,Cuttack,O3,36,Good
 2022-04-01,Madhya Pradesh,Damoh,PM10,54,Satisfactory
 2022-04-02,Madhya Pradesh,Damoh,PM10,66,Satisfactory
 2022-04-03,Madhya Pradesh,Damoh,PM10,46,Good
@@ -99238,6 +99314,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Madhya Pradesh,Damoh,PM10,70,Satisfactory
 2026-10-14,Madhya Pradesh,Damoh,PM10,70,Satisfactory
 2026-10-15,Madhya Pradesh,Damoh,PM10,89,Satisfactory
+2026-10-16,Madhya Pradesh,Damoh,PM2.5,122,Moderate
 2022-04-01,Bihar,Darbhanga,PM10,163,Moderate
 2022-04-02,Bihar,Darbhanga,PM10,170,Moderate
 2022-04-03,Bihar,Darbhanga,PM10,144,Moderate
@@ -100746,6 +100823,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-12,Rajasthan,Dausa,PM10,95,Satisfactory
 2026-10-14,Rajasthan,Dausa,PM10,91,Satisfactory
 2026-10-15,Rajasthan,Dausa,PM10,102,Moderate
+2026-10-16,Rajasthan,Dausa,O3,69,Satisfactory
 2022-04-01,Karnataka,Davanagere,PM10,90,Satisfactory
 2022-04-02,Karnataka,Davanagere,PM10,85,Satisfactory
 2022-04-04,Karnataka,Davanagere,PM10,88,Satisfactory
@@ -101910,6 +101988,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-02,Karnataka,Davanagere,PM10,86,Satisfactory
 2026-10-03,Karnataka,Davanagere,PM10,80,Satisfactory
 2026-10-08,Karnataka,Davanagere,PM10,35,Good
+2026-10-16,Karnataka,Davanagere,CO,23,Good
 2022-04-23,Uttarakhand,Dehradun,PM10,103,Moderate
 2022-04-24,Uttarakhand,Dehradun,PM10,119,Moderate
 2022-04-25,Uttarakhand,Dehradun,PM10,99,Satisfactory
@@ -103272,6 +103351,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Uttarakhand,Dehradun,PM10,42,Good
 2026-10-14,Uttarakhand,Dehradun,PM10,47,Good
 2026-10-15,Uttarakhand,Dehradun,PM2.5,51,Satisfactory
+2026-10-16,Uttarakhand,Dehradun,PM10,36,Good
 2022-04-01,Delhi,Delhi,"PM10,PM2.5,NO2",218,Poor
 2022-04-02,Delhi,Delhi,"PM10,PM2.5,NO2",226,Poor
 2022-04-03,Delhi,Delhi,"PM2.5,PM10",245,Poor
@@ -104900,6 +104980,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Delhi,Delhi,PM2.5,158,Moderate
 2026-10-14,Delhi,Delhi,PM2.5,181,Moderate
 2026-10-15,Delhi,Delhi,PM2.5,149,Moderate
+2026-10-16,Delhi,Delhi,CO,90,Satisfactory
 2022-04-01,Madhya Pradesh,Dewas,PM10,111,Moderate
 2022-04-02,Madhya Pradesh,Dewas,PM10,125,Moderate
 2022-04-03,Madhya Pradesh,Dewas,PM2.5,129,Moderate
@@ -106430,6 +106511,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Madhya Pradesh,Dewas,NO2,137,Moderate
 2026-10-14,Madhya Pradesh,Dewas,NO2,116,Moderate
 2026-10-15,Madhya Pradesh,Dewas,NO2,115,Moderate
+2026-10-16,Madhya Pradesh,Dewas,PM10,118,Moderate
 2023-02-28,Jharkhand,Dhanbad,PM2.5,236,Poor
 2023-03-02,Jharkhand,Dhanbad,PM2.5,180,Moderate
 2023-03-03,Jharkhand,Dhanbad,PM2.5,157,Moderate
@@ -108478,6 +108560,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Haryana,Dharuhera,PM2.5,141,Moderate
 2026-10-14,Haryana,Dharuhera,PM2.5,162,Moderate
 2026-10-15,Haryana,Dharuhera,PM10,101,Moderate
+2026-10-16,Haryana,Dharuhera,PM2.5,100,Satisfactory
 2022-11-22,Karnataka,Dharwad,PM10,116,Moderate
 2022-11-23,Karnataka,Dharwad,PM2.5,146,Moderate
 2022-11-24,Karnataka,Dharwad,PM10,100,Satisfactory
@@ -109561,6 +109644,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Karnataka,Dharwad,PM10,73,Satisfactory
 2026-10-14,Karnataka,Dharwad,PM10,71,Satisfactory
 2026-10-15,Karnataka,Dharwad,PM10,71,Satisfactory
+2026-10-16,Karnataka,Dharwad,PM10,83,Satisfactory
 2023-03-13,Rajasthan,Dholpur,PM2.5,130,Moderate
 2023-03-14,Rajasthan,Dholpur,PM2.5,166,Moderate
 2023-03-15,Rajasthan,Dholpur,PM10,85,Satisfactory
@@ -110690,6 +110774,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Rajasthan,Dholpur,PM10,63,Satisfactory
 2026-10-14,Rajasthan,Dholpur,PM10,69,Satisfactory
 2026-10-15,Rajasthan,Dholpur,PM10,71,Satisfactory
+2026-10-16,Rajasthan,Dholpur,CO,45,Good
 2023-06-20,Maharashtra,Dhule,PM10,139,Moderate
 2023-06-21,Maharashtra,Dhule,PM10,130,Moderate
 2023-06-22,Maharashtra,Dhule,PM10,119,Moderate
@@ -111783,6 +111868,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Maharashtra,Dhule,PM10,54,Satisfactory
 2026-10-14,Maharashtra,Dhule,PM10,119,Moderate
 2026-10-15,Maharashtra,Dhule,PM10,103,Moderate
+2026-10-16,Maharashtra,Dhule,PM10,93,Satisfactory
 2022-09-13,Tamil Nadu,Dindigul,SO2,46,Good
 2022-09-14,Tamil Nadu,Dindigul,SO2,45,Good
 2022-09-15,Tamil Nadu,Dindigul,SO2,45,Good
@@ -112488,6 +112574,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Maharashtra,Dombivli,CO,95,Satisfactory
 2026-10-14,Maharashtra,Dombivli,CO,100,Satisfactory
 2026-10-15,Maharashtra,Dombivli,CO,95,Satisfactory
+2026-10-16,Maharashtra,Dombivli,CO,100,Satisfactory
 2024-03-01,Rajasthan,Dungarpur,PM10,105,Moderate
 2024-03-02,Rajasthan,Dungarpur,PM10,113,Moderate
 2024-03-03,Rajasthan,Dungarpur,O3,64,Satisfactory
@@ -113382,6 +113469,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Rajasthan,Dungarpur,PM10,65,Satisfactory
 2026-10-14,Rajasthan,Dungarpur,PM10,69,Satisfactory
 2026-10-15,Rajasthan,Dungarpur,PM10,81,Satisfactory
+2026-10-16,Rajasthan,Dungarpur,PM10,84,Satisfactory
 2022-04-01,West Bengal,Durgapur,PM2.5,174,Moderate
 2022-04-02,West Bengal,Durgapur,PM2.5,174,Moderate
 2022-04-03,West Bengal,Durgapur,PM2.5,133,Moderate
@@ -114932,6 +115020,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,West Bengal,Durgapur,PM10 CO,80,Satisfactory
 2026-10-14,West Bengal,Durgapur,PM10 CO,83,Satisfactory
 2026-10-15,West Bengal,Durgapur,PM10 CO,81,Satisfactory
+2026-10-16,West Bengal,Durgapur,PM2.5 PM10 CO,96,Satisfactory
 2022-04-02,Kerala,Eloor,PM10,72,Satisfactory
 2022-04-03,Kerala,Eloor,PM10,70,Satisfactory
 2022-04-04,Kerala,Eloor,PM10,67,Satisfactory
@@ -116031,6 +116120,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-09,Kerala,Eloor,CO,123,Moderate
 2026-10-10,Kerala,Eloor,CO,121,Moderate
 2026-10-15,Kerala,Eloor,CO,70,Satisfactory
+2026-10-16,Kerala,Eloor,PM10,62,Satisfactory
 2026-06-30,Andhra Pradesh,Eluru,PM2.5,54,Satisfactory
 2026-07-01,,Eluru,PM10,63,Satisfactory
 2026-07-02,,Eluru,PM10,62,Satisfactory
@@ -116132,6 +116222,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Andhra Pradesh,Eluru,PM10,74,Satisfactory
 2026-10-14,Andhra Pradesh,Eluru,PM10,58,Satisfactory
 2026-10-15,Andhra Pradesh,Eluru,CO,33,Good
+2026-10-16,Andhra Pradesh,Eluru,PM2.5,58,Satisfactory
 2022-04-01,Kerala,Ernakulam,PM2.5,54,Satisfactory
 2022-04-02,Kerala,Ernakulam,PM2.5,45,Good
 2022-04-03,Kerala,Ernakulam,PM2.5,47,Good
@@ -117800,6 +117891,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Haryana,Faridabad,PM10,103,Moderate
 2026-10-14,Haryana,Faridabad,PM10,110,Moderate
 2026-10-15,Haryana,Faridabad,PM10,116,Moderate
+2026-10-16,Haryana,Faridabad,PM10,91,Satisfactory
 2022-04-01,Haryana,Fatehabad,PM10,162,Moderate
 2022-04-03,Haryana,Fatehabad,PM10,136,Moderate
 2022-04-05,Haryana,Fatehabad,PM10,141,Moderate
@@ -118903,6 +118995,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Haryana,Fatehabad,PM10,88,Satisfactory
 2026-10-14,Haryana,Fatehabad,PM10,68,Satisfactory
 2026-10-15,Haryana,Fatehabad,PM10,69,Satisfactory
+2026-10-16,Haryana,Fatehabad,PM10,36,Good
 2026-07-24,Uttar Pradesh,Fatehpur Sikri,PM10,44,Good
 2026-07-25,Uttar Pradesh,Fatehpur Sikri,O3,30,Good
 2026-07-26,Uttar Pradesh,Fatehpur Sikri,O3,29,Good
@@ -120565,6 +120658,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Uttar Pradesh,Firozabad,PM10,36,Good
 2026-10-14,Uttar Pradesh,Firozabad,PM10 CO,58,Satisfactory
 2026-10-15,Uttar Pradesh,Firozabad,PM10 CO,60,Satisfactory
+2026-10-16,Uttar Pradesh,Firozabad,PM10 CO,46,Good
 2022-04-01,Karnataka,Gadag,PM2.5,56,Satisfactory
 2022-04-02,Karnataka,Gadag,PM2.5,51,Satisfactory
 2022-04-03,Karnataka,Gadag,PM2.5,56,Satisfactory
@@ -121683,6 +121777,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,,Gajraula,PM2.5,141,Moderate
 2026-10-14,,Gajraula,PM2.5,189,Moderate
 2026-10-15,,Gajraula,PM2.5,244,Poor
+2026-10-16,,Gajraula,CO,104,Moderate
 2022-04-01,Gujarat,Gandhi Nagar,"PM2.5,PM10",220,Poor
 2022-04-02,Gujarat,Gandhi Nagar,"PM2.5,PM10",246,Poor
 2022-04-03,Gujarat,Gandhi Nagar,"PM2.5,PM10",201,Poor
@@ -122904,6 +122999,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Gujarat,Gandhinagar,PM10,104,Moderate
 2026-10-14,Gujarat,Gandhinagar,PM2.5 PM10,112,Moderate
 2026-10-15,Gujarat,Gandhinagar,PM10,103,Moderate
+2026-10-16,Gujarat,Gandhinagar,PM10,120,Moderate
 2022-04-07,Sikkim,Gangtok,O3,77,Satisfactory
 2022-04-15,Sikkim,Gangtok,O3,76,Satisfactory
 2022-04-20,Sikkim,Gangtok,O3,59,Satisfactory
@@ -124105,6 +124201,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-12,Sikkim,Gangtok,PM2.5,21,Good
 2026-10-13,Sikkim,Gangtok,PM10,20,Good
 2026-10-15,Sikkim,Gangtok,PM2.5,20,Good
+2026-10-16,Sikkim,Gangtok,PM2.5,33,Good
 2022-04-01,Bihar,Gaya,"PM2.5,PM10",171,Moderate
 2022-04-02,Bihar,Gaya,"PM2.5,PM10",185,Moderate
 2022-04-03,Bihar,Gaya,"PM2.5,PM10",204,Poor
@@ -125745,6 +125842,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Bihar,Gaya,PM2.5 PM10,115,Moderate
 2026-10-14,Bihar,Gaya,PM10,91,Satisfactory
 2026-10-15,Bihar,Gaya,PM2.5 PM10,121,Moderate
+2026-10-16,Bihar,Gaya,PM2.5 PM10,137,Moderate
 2022-04-01,Uttar Pradesh,Ghaziabad,PM10,220,Poor
 2022-04-02,Uttar Pradesh,Ghaziabad,PM10,216,Poor
 2022-04-03,Uttar Pradesh,Ghaziabad,PM10,253,Poor
@@ -127388,6 +127486,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Uttar Pradesh,Ghaziabad,PM2.5,166,Moderate
 2026-10-14,Uttar Pradesh,Ghaziabad,PM2.5,208,Poor
 2026-10-15,Uttar Pradesh,Ghaziabad,PM2.5,169,Moderate
+2026-10-16,Uttar Pradesh,Ghaziabad,PM2.5 PM10 CO,105,Moderate
 2022-04-01,Uttar Pradesh,Gorakhpur,PM2.5,79,Satisfactory
 2022-04-02,Uttar Pradesh,Gorakhpur,PM2.5,80,Satisfactory
 2022-04-03,Uttar Pradesh,Gorakhpur,PM2.5,61,Satisfactory
@@ -130564,6 +130663,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Uttar Pradesh,Greater Noida,PM2.5 PM10,235,Poor
 2026-10-14,Uttar Pradesh,Greater Noida,PM2.5 PM10,224,Poor
 2026-10-15,Uttar Pradesh,Greater Noida,PM10,184,Moderate
+2026-10-16,Uttar Pradesh,Greater Noida,PM2.5 PM10,77,Satisfactory
 2022-04-06,Tamil Nadu,Gummidipoondi,PM10,24,Good
 2022-04-07,Tamil Nadu,Gummidipoondi,PM10,29,Good
 2022-04-08,Tamil Nadu,Gummidipoondi,PM10,35,Good
@@ -131949,6 +132049,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Tamil Nadu,Gummidipoondi,PM2.5,252,Poor
 2026-10-14,Tamil Nadu,Gummidipoondi,PM2.5,183,Moderate
 2026-10-15,Tamil Nadu,Gummidipoondi,PM2.5,212,Poor
+2026-10-16,Tamil Nadu,Gummidipoondi,PM2.5,204,Poor
 2026-06-30,Andhra Pradesh,Guntur,PM10,73,Satisfactory
 2026-07-01,,Guntur,PM10,62,Satisfactory
 2026-07-02,,Guntur,PM2.5,71,Satisfactory
@@ -132053,6 +132154,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Andhra Pradesh,Guntur,PM10,78,Satisfactory
 2026-10-14,Andhra Pradesh,Guntur,PM10,72,Satisfactory
 2026-10-15,Andhra Pradesh,Guntur,PM10,50,Good
+2026-10-16,Andhra Pradesh,Guntur,PM10,58,Satisfactory
 2022-04-01,Haryana,Gurugram,PM2.5,230,Poor
 2022-04-02,Haryana,Gurugram,"PM2.5,PM10",212,Poor
 2022-04-03,Haryana,Gurugram,PM2.5,220,Poor
@@ -133674,6 +133776,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Haryana,Gurugram,PM2.5 PM10,151,Moderate
 2026-10-14,Haryana,Gurugram,PM2.5 PM10,145,Moderate
 2026-10-15,Haryana,Gurugram,PM2.5 PM10,137,Moderate
+2026-10-16,Haryana,Gurugram,PM10,89,Satisfactory
 2022-04-01,Assam,Guwahati,PM2.5,100,Satisfactory
 2022-04-02,Assam,Guwahati,"PM2.5,O3",55,Satisfactory
 2022-04-03,Assam,Guwahati,"PM2.5,O3",52,Satisfactory
@@ -135279,6 +135382,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Assam,Guwahati,PM10 CO,73,Satisfactory
 2026-10-14,Assam,Guwahati,PM10 SO2 CO,75,Satisfactory
 2026-10-15,Assam,Guwahati,PM10 SO2 CO,78,Satisfactory
+2026-10-16,Assam,Guwahati,PM10 SO2 CO,74,Satisfactory
 2022-04-01,Madhya Pradesh,Gwalior,O3,171,Moderate
 2022-04-02,Madhya Pradesh,Gwalior,PM2.5,142,Moderate
 2022-04-03,Madhya Pradesh,Gwalior,PM10,103,Moderate
@@ -136872,6 +136976,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Madhya Pradesh,Gwalior,PM10,114,Moderate
 2026-10-14,Madhya Pradesh,Gwalior,PM10 NO2,105,Moderate
 2026-10-15,Madhya Pradesh,Gwalior,PM10 NO2,109,Moderate
+2026-10-16,Madhya Pradesh,Gwalior,PM10 NO2,99,Satisfactory
 2022-04-01,Bihar,Hajipur,PM2.5,214,Poor
 2022-04-02,Bihar,Hajipur,PM2.5,158,Moderate
 2022-04-03,Bihar,Hajipur,PM2.5,110,Moderate
@@ -138444,6 +138549,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Bihar,Hajipur,PM2.5,133,Moderate
 2026-10-14,Bihar,Hajipur,PM2.5,187,Moderate
 2026-10-15,Bihar,Hajipur,PM2.5,191,Moderate
+2026-10-16,Bihar,Hajipur,PM2.5,188,Moderate
 2022-04-01,West Bengal,Haldia,PM2.5,39,Good
 2022-04-02,West Bengal,Haldia,PM2.5,31,Good
 2022-04-03,West Bengal,Haldia,PM2.5,22,Good
@@ -140022,6 +140128,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,West Bengal,Haldia,PM10,100,Satisfactory
 2026-10-14,West Bengal,Haldia,PM10,84,Satisfactory
 2026-10-15,West Bengal,Haldia,PM10,46,Good
+2026-10-16,West Bengal,Haldia,PM10,54,Satisfactory
 2023-03-13,Rajasthan,Hanumangarh,PM10,165,Moderate
 2023-03-16,Rajasthan,Hanumangarh,PM10,219,Poor
 2023-03-17,Rajasthan,Hanumangarh,PM10,193,Moderate
@@ -141237,6 +141344,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Rajasthan,Hanumangarh,PM10,105,Moderate
 2026-10-14,Rajasthan,Hanumangarh,PM10,113,Moderate
 2026-10-15,Rajasthan,Hanumangarh,PM10,87,Satisfactory
+2026-10-16,Rajasthan,Hanumangarh,O3,61,Satisfactory
 2022-04-01,Uttar Pradesh,Hapur,PM2.5,148,Moderate
 2022-04-02,Uttar Pradesh,Hapur,O3,277,Poor
 2022-04-03,Uttar Pradesh,Hapur,PM2.5,190,Moderate
@@ -142774,6 +142882,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-11,Uttar Pradesh,Hapur,PM10,83,Satisfactory
 2026-10-13,Uttar Pradesh,Hapur,PM2.5,127,Moderate
 2026-10-14,Uttar Pradesh,Hapur,PM2.5,165,Moderate
+2026-10-16,Uttar Pradesh,Hapur,PM10,52,Satisfactory
 2022-04-01,Karnataka,Hassan,PM10,111,Moderate
 2022-04-02,Karnataka,Hassan,PM10,100,Satisfactory
 2022-04-03,Karnataka,Hassan,PM10,78,Satisfactory
@@ -144495,6 +144604,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-09,Karnataka,Haveri,PM10,45,Good
 2026-10-12,Karnataka,Haveri,PM10,48,Good
 2026-10-13,Karnataka,Haveri,PM10,43,Good
+2026-10-16,Karnataka,Haveri,PM10,50,Good
 2026-06-30,Maharashtra,Hingoli,O3,33,Good
 2026-07-01,,Hingoli,O3,22,Good
 2026-07-02,,Hingoli,O3,26,Good
@@ -144593,6 +144703,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Maharashtra,Hingoli,PM10,121,Moderate
 2026-10-14,Maharashtra,Hingoli,PM2.5,131,Moderate
 2026-10-15,Maharashtra,Hingoli,PM2.5,234,Poor
+2026-10-16,Maharashtra,Hingoli,PM2.5,188,Moderate
 2022-04-01,Haryana,Hisar,PM10,171,Moderate
 2022-04-02,Haryana,Hisar,PM10,180,Moderate
 2022-04-03,Haryana,Hisar,PM2.5,218,Poor
@@ -145632,6 +145743,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Haryana,Hisar,PM10,73,Satisfactory
 2026-10-14,Haryana,Hisar,PM10,99,Satisfactory
 2026-10-15,Haryana,Hisar,PM10,96,Satisfactory
+2026-10-16,Haryana,Hisar,O3,64,Satisfactory
 2022-08-10,Tamil Nadu,Hosur,CO,48,Good
 2022-08-11,Tamil Nadu,Hosur,PM10,39,Good
 2022-08-13,Tamil Nadu,Hosur,PM10,44,Good
@@ -147810,6 +147922,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,West Bengal,Howrah,PM2.5 PM10,125,Moderate
 2026-10-14,West Bengal,Howrah,PM2.5 PM10,113,Moderate
 2026-10-15,West Bengal,Howrah,PM10,97,Satisfactory
+2026-10-16,West Bengal,Howrah,PM2.5 PM10,79,Satisfactory
 2022-04-01,Karnataka,Hubballi,PM10,99,Satisfactory
 2022-04-02,Karnataka,Hubballi,PM10,82,Satisfactory
 2022-04-03,Karnataka,Hubballi,PM10,114,Moderate
@@ -149364,6 +149477,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Karnataka,Hubballi,PM10,54,Satisfactory
 2026-10-14,Karnataka,Hubballi,PM10,56,Satisfactory
 2026-10-15,Karnataka,Hubballi,PM10,56,Satisfactory
+2026-10-16,Karnataka,Hubballi,PM10,59,Satisfactory
 2022-04-01,Telangana,Hyderabad,"PM2.5,PM10",137,Moderate
 2022-04-02,Telangana,Hyderabad,"PM2.5,PM10",105,Moderate
 2022-04-03,Telangana,Hyderabad,"O3,PM2.5,PM10",120,Moderate
@@ -151015,6 +151129,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Telangana,Hyderabad,PM2.5 PM10,76,Satisfactory
 2026-10-14,Telangana,Hyderabad,PM10,72,Satisfactory
 2026-10-15,Telangana,Hyderabad,PM10,72,Satisfactory
+2026-10-16,Telangana,Hyderabad,PM10,67,Satisfactory
 2022-04-19,Manipur,Imphal,SO2,71,Satisfactory
 2022-04-20,Manipur,Imphal,"PM10,SO2",64,Satisfactory
 2022-04-21,Manipur,Imphal,"PM10,SO2",65,Satisfactory
@@ -153522,6 +153637,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Madhya Pradesh,Indore,PM2.5 PM10,89,Satisfactory
 2026-10-14,Madhya Pradesh,Indore,PM10,81,Satisfactory
 2026-10-15,Madhya Pradesh,Indore,PM10,72,Satisfactory
+2026-10-16,Madhya Pradesh,Indore,PM10,76,Satisfactory
 2022-04-01,Madhya Pradesh,Jabalpur,PM10,232,Poor
 2022-04-02,Madhya Pradesh,Jabalpur,PM10,253,Poor
 2022-04-03,Madhya Pradesh,Jabalpur,PM10,207,Poor
@@ -155128,6 +155244,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Madhya Pradesh,Jabalpur,PM10,90,Satisfactory
 2026-10-14,Madhya Pradesh,Jabalpur,PM10,102,Moderate
 2026-10-15,Madhya Pradesh,Jabalpur,PM10,116,Moderate
+2026-10-16,Madhya Pradesh,Jabalpur,PM10,116,Moderate
 2022-04-01,Rajasthan,Jaipur,"PM2.5,PM10",158,Moderate
 2022-04-02,Rajasthan,Jaipur,"PM2.5,PM10",165,Moderate
 2022-04-03,Rajasthan,Jaipur,"PM2.5,O3",231,Poor
@@ -156747,6 +156864,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Rajasthan,Jaipur,UNKNOWN,116,Moderate
 2026-10-14,Rajasthan,Jaipur,PM2.5,116,Moderate
 2026-10-15,Rajasthan,Jaipur,PM2.5 PM10,107,Moderate
+2026-10-16,Rajasthan,Jaipur,UNKNOWN,74,Satisfactory
 2023-05-16,Rajasthan,Jaisalmer,PM10,232,Poor
 2023-05-17,Rajasthan,Jaisalmer,PM10,127,Moderate
 2023-05-18,Rajasthan,Jaisalmer,PM10,115,Moderate
@@ -157965,6 +158083,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Rajasthan,Jaisalmer,PM10,121,Moderate
 2026-10-14,Rajasthan,Jaisalmer,PM10,135,Moderate
 2026-10-15,Rajasthan,Jaisalmer,PM10,119,Moderate
+2026-10-16,Rajasthan,Jaisalmer,PM10,178,Moderate
 2022-04-01,Punjab,Jalandhar,PM10,117,Moderate
 2022-04-02,Punjab,Jalandhar,PM10,125,Moderate
 2022-04-03,Punjab,Jalandhar,PM10,76,Satisfactory
@@ -159595,6 +159714,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Punjab,Jalandhar,PM2.5,100,Satisfactory
 2026-10-14,Punjab,Jalandhar,PM2.5,102,Moderate
 2026-10-15,Punjab,Jalandhar,PM2.5,118,Moderate
+2026-10-16,Punjab,Jalandhar,PM2.5,87,Satisfactory
 2023-06-13,Maharashtra,Jalgaon,PM10,110,Moderate
 2023-06-14,Maharashtra,Jalgaon,PM10,106,Moderate
 2023-06-15,Maharashtra,Jalgaon,PM10,118,Moderate
@@ -160757,6 +160877,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Maharashtra,Jalgaon,PM10,84,Satisfactory
 2026-10-14,Maharashtra,Jalgaon,PM2.5,80,Satisfactory
 2026-10-15,Maharashtra,Jalgaon,PM10,100,Satisfactory
+2026-10-16,Maharashtra,Jalgaon,PM10,97,Satisfactory
 2023-06-13,Maharashtra,Jalna,PM10,87,Satisfactory
 2023-06-14,Maharashtra,Jalna,PM2.5,100,Satisfactory
 2023-06-15,Maharashtra,Jalna,PM10,100,Satisfactory
@@ -161722,6 +161843,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Maharashtra,Jalna,PM10,110,Moderate
 2026-10-14,Maharashtra,Jalna,PM10,95,Satisfactory
 2026-10-15,Maharashtra,Jalna,PM2.5,119,Moderate
+2026-10-16,Maharashtra,Jalna,PM2.5,132,Moderate
 2023-11-14,Rajasthan,Jalore,PM10,165,Moderate
 2023-11-15,Rajasthan,Jalore,O3,174,Moderate
 2023-11-16,Rajasthan,Jalore,PM2.5,161,Moderate
@@ -162753,6 +162875,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Rajasthan,Jalore,PM10,124,Moderate
 2026-10-14,Rajasthan,Jalore,PM10,156,Moderate
 2026-10-15,Rajasthan,Jalore,PM10,131,Moderate
+2026-10-16,Rajasthan,Jalore,PM10,122,Moderate
 2023-03-13,Rajasthan,Jhalawar,PM10,118,Moderate
 2023-03-14,Rajasthan,Jhalawar,O3,167,Moderate
 2023-03-15,Rajasthan,Jhalawar,O3,165,Moderate
@@ -164026,6 +164149,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Rajasthan,Jhalawar,PM10,103,Moderate
 2026-10-14,Rajasthan,Jhalawar,PM10,97,Satisfactory
 2026-10-15,Rajasthan,Jhalawar,O3,99,Satisfactory
+2026-10-16,Rajasthan,Jhalawar,PM10,103,Moderate
 2022-04-01,Uttar Pradesh,Jhansi,PM10,178,Moderate
 2022-04-02,Uttar Pradesh,Jhansi,PM10,178,Moderate
 2022-04-03,Uttar Pradesh,Jhansi,PM10,159,Moderate
@@ -165551,6 +165675,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Uttar Pradesh,Jhansi,PM2.5,123,Moderate
 2026-10-14,Uttar Pradesh,Jhansi,PM2.5,89,Satisfactory
 2026-10-15,Uttar Pradesh,Jhansi,PM2.5,92,Satisfactory
+2026-10-16,Uttar Pradesh,Jhansi,PM2.5,94,Satisfactory
 2023-03-13,Rajasthan,Jhunjhunu,O3,164,Moderate
 2023-03-14,Rajasthan,Jhunjhunu,O3,162,Moderate
 2023-03-15,Rajasthan,Jhunjhunu,O3,205,Poor
@@ -166831,6 +166956,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Rajasthan,Jhunjhunu,PM10,101,Moderate
 2026-10-14,Rajasthan,Jhunjhunu,PM10,115,Moderate
 2026-10-15,Rajasthan,Jhunjhunu,PM10,129,Moderate
+2026-10-16,Rajasthan,Jhunjhunu,O3,73,Satisfactory
 2022-04-01,Haryana,Jind,PM10,141,Moderate
 2022-04-02,Haryana,Jind,PM2.5,147,Moderate
 2022-04-03,Haryana,Jind,PM2.5,186,Moderate
@@ -168058,6 +168184,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Haryana,Jind,PM2.5,103,Moderate
 2026-10-14,Haryana,Jind,PM2.5,102,Moderate
 2026-10-15,Haryana,Jind,PM2.5,123,Moderate
+2026-10-16,Haryana,Jind,PM2.5,33,Good
 2022-04-01,Rajasthan,Jodhpur,PM2.5,167,Moderate
 2022-04-02,Rajasthan,Jodhpur,PM10,240,Poor
 2022-04-03,Rajasthan,Jodhpur,PM2.5,175,Moderate
@@ -169684,6 +169811,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Rajasthan,Jodhpur,PM10,105,Moderate
 2026-10-14,Rajasthan,Jodhpur,PM10,108,Moderate
 2026-10-15,Rajasthan,Jodhpur,PM10,113,Moderate
+2026-10-16,Rajasthan,Jodhpur,PM10,118,Moderate
 2022-10-11,Jharkhand,Jorapokhar,PM10,91,Satisfactory
 2022-10-12,Jharkhand,Jorapokhar,PM10,99,Satisfactory
 2022-10-13,Jharkhand,Jorapokhar,PM10,132,Moderate
@@ -170073,6 +170201,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Jharkhand,Jorapokhar,PM10,120,Moderate
 2026-10-14,Jharkhand,Jorapokhar,PM10,132,Moderate
 2026-10-15,Jharkhand,Jorapokhar,PM10,101,Moderate
+2026-10-16,Jharkhand,Jorapokhar,PM10,118,Moderate
 2023-01-25,Andhra Pradesh,Kadapa,PM2.5,99,Satisfactory
 2023-01-26,Andhra Pradesh,Kadapa,PM2.5,144,Moderate
 2023-01-27,Andhra Pradesh,Kadapa,PM2.5,178,Moderate
@@ -171133,6 +171262,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-12,Andhra Pradesh,Kadapa,PM10,58,Satisfactory
 2026-10-13,Andhra Pradesh,Kadapa,PM2.5,62,Satisfactory
 2026-10-14,Andhra Pradesh,Kadapa,PM2.5,67,Satisfactory
+2026-10-16,Andhra Pradesh,Kadapa,PM2.5,65,Satisfactory
 2022-04-01,Haryana,Kaithal,PM10,140,Moderate
 2022-04-02,Haryana,Kaithal,PM2.5,173,Moderate
 2022-04-03,Haryana,Kaithal,NO2,202,Poor
@@ -172385,6 +172515,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Haryana,Kaithal,PM10,43,Good
 2026-10-14,Haryana,Kaithal,PM10,37,Good
 2026-10-15,Haryana,Kaithal,PM2.5,144,Moderate
+2026-10-16,Haryana,Kaithal,PM10,77,Satisfactory
 2026-07-25,,Kakinada,PM10,51,Satisfactory
 2026-07-26,,Kakinada,PM10,44,Good
 2026-07-28,,Kakinada,PM10,44,Good
@@ -173917,6 +174048,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-12,Karnataka,Kalaburagi,PM10,38,Good
 2026-10-14,Karnataka,Kalaburagi,PM10,39,Good
 2026-10-15,Karnataka,Kalaburagi,PM10,47,Good
+2026-10-16,Karnataka,Kalaburagi,PM10,42,Good
 2022-04-01,Maharashtra,Kalyan,PM10,201,Poor
 2022-04-02,Maharashtra,Kalyan,PM10,240,Poor
 2022-04-03,Maharashtra,Kalyan,PM10,185,Moderate
@@ -175409,6 +175541,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Maharashtra,Kalyan,PM10,85,Satisfactory
 2026-10-14,Maharashtra,Kalyan,PM10,84,Satisfactory
 2026-10-15,Maharashtra,Kalyan,PM10,85,Satisfactory
+2026-10-16,Maharashtra,Kalyan,PM10,81,Satisfactory
 2022-10-27,Tamil Nadu,Kanchipuram,SO2,55,Satisfactory
 2022-10-28,Tamil Nadu,Kanchipuram,SO2,55,Satisfactory
 2022-10-29,Tamil Nadu,Kanchipuram,SO2,55,Satisfactory
@@ -177200,6 +177333,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Kerala,Kannur,PM10,59,Satisfactory
 2026-10-14,Kerala,Kannur,PM10,79,Satisfactory
 2026-10-15,Kerala,Kannur,PM2.5,66,Satisfactory
+2026-10-16,Kerala,Kannur,PM10,77,Satisfactory
 2022-04-01,Uttar Pradesh,Kanpur,"PM2.5,PM10",160,Moderate
 2022-04-02,Uttar Pradesh,Kanpur,"PM2.5,PM10",121,Moderate
 2022-04-03,Uttar Pradesh,Kanpur,PM10,139,Moderate
@@ -178852,6 +178986,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Uttar Pradesh,Kanpur,PM2.5 PM10,92,Satisfactory
 2026-10-14,Uttar Pradesh,Kanpur,PM2.5 PM10,87,Satisfactory
 2026-10-15,Uttar Pradesh,Kanpur,PM2.5 PM10,93,Satisfactory
+2026-10-16,Uttar Pradesh,Kanpur,PM2.5,114,Moderate
 2023-03-13,Rajasthan,Karauli,O3,56,Satisfactory
 2023-03-14,Rajasthan,Karauli,O3,57,Satisfactory
 2023-03-15,Rajasthan,Karauli,O3,49,Good
@@ -180019,6 +180154,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-12,Rajasthan,Karauli,O3,63,Satisfactory
 2026-10-13,Rajasthan,Karauli,O3,63,Satisfactory
 2026-10-15,Rajasthan,Karauli,O3,66,Satisfactory
+2026-10-16,Rajasthan,Karauli,PM10,71,Satisfactory
 2022-04-01,Haryana,Karnal,PM10,136,Moderate
 2022-04-02,Haryana,Karnal,PM10,115,Moderate
 2022-04-03,Haryana,Karnal,PM2.5,136,Moderate
@@ -181319,6 +181455,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Haryana,Karnal,PM10,70,Satisfactory
 2026-10-14,Haryana,Karnal,PM10,72,Satisfactory
 2026-10-15,Haryana,Karnal,PM10,59,Satisfactory
+2026-10-16,Haryana,Karnal,PM10,94,Satisfactory
 2024-10-09,Tamil Nadu,Karur,CO,53,Satisfactory
 2024-10-10,Tamil Nadu,Karur,CO,56,Satisfactory
 2024-10-11,Tamil Nadu,Karur,CO,56,Satisfactory
@@ -182080,6 +182217,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Karnataka,Karwar,PM10,86,Satisfactory
 2026-10-14,Karnataka,Karwar,PM10,78,Satisfactory
 2026-10-15,Karnataka,Karwar,PM10,84,Satisfactory
+2026-10-16,Karnataka,Karwar,PM10,80,Satisfactory
 2023-02-14,Uttarakhand,Kashipur,PM10,129,Moderate
 2023-02-15,Uttarakhand,Kashipur,PM2.5,240,Poor
 2023-02-16,Uttarakhand,Kashipur,PM2.5,166,Moderate
@@ -184442,6 +184580,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Bihar,Katihar,CO,73,Satisfactory
 2026-10-14,Bihar,Katihar,CO,66,Satisfactory
 2026-10-15,Bihar,Katihar,CO,66,Satisfactory
+2026-10-16,Bihar,Katihar,PM2.5,76,Satisfactory
 2022-04-01,Madhya Pradesh,Katni,PM10,240,Poor
 2022-04-02,Madhya Pradesh,Katni,PM10,244,Poor
 2022-04-03,Madhya Pradesh,Katni,PM10,236,Poor
@@ -186007,6 +186146,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Madhya Pradesh,Katni,PM10,112,Moderate
 2026-10-14,Madhya Pradesh,Katni,PM2.5,121,Moderate
 2026-10-15,Madhya Pradesh,Katni,PM2.5,95,Satisfactory
+2026-10-16,Madhya Pradesh,Katni,PM2.5,112,Moderate
 2022-11-27,Odisha,Keonjhar,O3,152,Moderate
 2022-11-28,Odisha,Keonjhar,O3,154,Moderate
 2022-11-29,Odisha,Keonjhar,PM2.5,256,Poor
@@ -187220,6 +187360,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Odisha,Keonjhar,PM10,58,Satisfactory
 2026-10-14,Odisha,Keonjhar,PM10,69,Satisfactory
 2026-10-15,Odisha,Keonjhar,SO2,30,Good
+2026-10-16,Odisha,Keonjhar,SO2,30,Good
 2026-06-30,Rajasthan,Khairthal,PM10,102,Moderate
 2026-07-01,,Khairthal,PM2.5,114,Moderate
 2026-07-06,Rajasthan,Khairthal,PM2.5,49,Good
@@ -188881,6 +189022,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Punjab,Khanna,PM10,73,Satisfactory
 2026-10-14,Punjab,Khanna,PM10,64,Satisfactory
 2026-10-15,Punjab,Khanna,PM10,61,Satisfactory
+2026-10-16,Punjab,Khanna,PM10,62,Satisfactory
 2026-06-30,Uttar Pradesh,Khora,PM2.5,128,Moderate
 2026-07-01,,Khora,PM2.5,203,Poor
 2026-07-02,,Khora,PM2.5,130,Moderate
@@ -188975,6 +189117,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Uttar Pradesh,Khora,PM2.5,251,Poor
 2026-10-14,Uttar Pradesh,Khora,PM2.5,240,Poor
 2026-10-15,Uttar Pradesh,Khora,PM2.5,182,Moderate
+2026-10-16,Uttar Pradesh,Khora,PM2.5,106,Moderate
 2022-06-03,Uttar Pradesh,Khurja,PM2.5,213,Poor
 2022-06-04,Uttar Pradesh,Khurja,PM10,136,Moderate
 2022-06-05,Uttar Pradesh,Khurja,PM10,150,Moderate
@@ -190410,6 +190553,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-12,Uttar Pradesh,Khurja,PM10,87,Satisfactory
 2026-10-13,Uttar Pradesh,Khurja,PM2.5,154,Moderate
 2026-10-14,Uttar Pradesh,Khurja,PM2.5,127,Moderate
+2026-10-16,Uttar Pradesh,Khurja,PM10,83,Satisfactory
 2022-04-01,Bihar,Kishanganj,PM2.5,122,Moderate
 2022-04-02,Bihar,Kishanganj,PM10,75,Satisfactory
 2022-04-03,Bihar,Kishanganj,O3,46,Good
@@ -191775,6 +191919,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Bihar,Kishanganj,PM10,53,Satisfactory
 2026-10-14,Bihar,Kishanganj,PM10,44,Good
 2026-10-15,Bihar,Kishanganj,PM10,53,Satisfactory
+2026-10-16,Bihar,Kishanganj,PM10,61,Satisfactory
 2022-04-01,Kerala,Kochi,PM2.5,126,Moderate
 2022-04-02,Kerala,Kochi,PM2.5,60,Satisfactory
 2022-04-03,Kerala,Kochi,PM2.5,82,Satisfactory
@@ -193805,6 +193950,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Nagaland,Kohima,SO2,67,Satisfactory
 2026-10-14,Nagaland,Kohima,SO2,68,Satisfactory
 2026-10-15,Nagaland,Kohima,SO2,63,Satisfactory
+2026-10-16,Nagaland,Kohima,SO2,62,Satisfactory
 2022-04-01,Karnataka,Kolar,PM10,98,Satisfactory
 2022-04-05,Karnataka,Kolar,PM2.5,87,Satisfactory
 2022-04-06,Karnataka,Kolar,PM10,79,Satisfactory
@@ -195598,6 +195744,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Maharashtra,Kolhapur,PM10,71,Satisfactory
 2026-10-14,Maharashtra,Kolhapur,PM10,83,Satisfactory
 2026-10-15,Maharashtra,Kolhapur,PM10,77,Satisfactory
+2026-10-16,Maharashtra,Kolhapur,PM10,66,Satisfactory
 2022-04-01,West Bengal,Kolkata,"PM10,NO2",70,Satisfactory
 2022-04-02,West Bengal,Kolkata,"PM10,NO2",65,Satisfactory
 2022-04-03,West Bengal,Kolkata,"PM10,NO2",57,Satisfactory
@@ -197237,6 +197384,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,West Bengal,Kolkata,PM2.5 PM10,101,Moderate
 2026-10-14,West Bengal,Kolkata,PM2.5 PM10,96,Satisfactory
 2026-10-15,West Bengal,Kolkata,PM10 NO2,71,Satisfactory
+2026-10-16,West Bengal,Kolkata,PM10,71,Satisfactory
 2022-04-01,Kerala,Kollam,PM10,81,Satisfactory
 2022-04-02,Kerala,Kollam,PM10,81,Satisfactory
 2022-04-03,Kerala,Kollam,PM10,84,Satisfactory
@@ -199466,6 +199614,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Karnataka,Koppal,PM10,88,Satisfactory
 2026-10-14,Karnataka,Koppal,PM10,70,Satisfactory
 2026-10-15,Karnataka,Koppal,PM10,48,Good
+2026-10-16,Karnataka,Koppal,PM10,62,Satisfactory
 2022-10-26,Chhattisgarh,Korba,PM2.5,60,Satisfactory
 2022-10-27,Chhattisgarh,Korba,PM10,98,Satisfactory
 2022-10-28,Chhattisgarh,Korba,PM10,116,Moderate
@@ -200794,6 +200943,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Chhattisgarh,Korba,PM10,45,Good
 2026-10-14,Chhattisgarh,Korba,PM10,48,Good
 2026-10-15,Chhattisgarh,Korba,PM10,49,Good
+2026-10-16,Chhattisgarh,Korba,PM10,52,Satisfactory
 2022-04-02,Rajasthan,Kota,PM2.5,129,Moderate
 2022-04-03,Rajasthan,Kota,PM2.5,141,Moderate
 2022-04-04,Rajasthan,Kota,PM2.5,136,Moderate
@@ -202403,6 +202553,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Rajasthan,Kota,PM10,125,Moderate
 2026-10-14,Rajasthan,Kota,PM10,142,Moderate
 2026-10-15,Rajasthan,Kota,PM2.5 PM10,127,Moderate
+2026-10-16,Rajasthan,Kota,PM10,115,Moderate
 2022-04-01,Kerala,Kozhikode,PM10,57,Satisfactory
 2022-04-02,Kerala,Kozhikode,PM10,54,Satisfactory
 2022-04-03,Kerala,Kozhikode,PM10,58,Satisfactory
@@ -203895,6 +204046,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,,Kurnool,O3,64,Satisfactory
 2026-10-14,,Kurnool,PM10,50,Good
 2026-10-15,,Kurnool,PM10,50,Good
+2026-10-16,,Kurnool,PM2.5,38,Good
 2022-04-02,Haryana,Kurukshetra,O3,171,Moderate
 2022-04-03,Haryana,Kurukshetra,O3,218,Poor
 2022-04-04,Haryana,Kurukshetra,PM2.5,238,Poor
@@ -205197,6 +205349,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Haryana,Kurukshetra,PM10,104,Moderate
 2026-10-14,Haryana,Kurukshetra,PM2.5,115,Moderate
 2026-10-15,Haryana,Kurukshetra,PM10,94,Satisfactory
+2026-10-16,Haryana,Kurukshetra,PM10,81,Satisfactory
 2023-05-23,Maharashtra,Latur,O3,76,Satisfactory
 2023-05-29,Maharashtra,Latur,PM10,85,Satisfactory
 2023-05-31,Maharashtra,Latur,O3,85,Satisfactory
@@ -206369,6 +206522,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Maharashtra,Latur,PM10,78,Satisfactory
 2026-10-14,Maharashtra,Latur,PM2.5,70,Satisfactory
 2026-10-15,Maharashtra,Latur,PM2.5,66,Satisfactory
+2026-10-16,Maharashtra,Latur,PM10,87,Satisfactory
 2026-08-11,,Leh,CO,183,Moderate
 2026-08-12,,Leh,CO,183,Moderate
 2026-08-13,,Leh,CO,184,Moderate
@@ -208053,6 +208207,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Uttar Pradesh,Lucknow,PM10,67,Satisfactory
 2026-10-14,Uttar Pradesh,Lucknow,PM10,85,Satisfactory
 2026-10-15,Uttar Pradesh,Lucknow,PM2.5 PM10,103,Moderate
+2026-10-16,Uttar Pradesh,Lucknow,PM2.5 PM10,89,Satisfactory
 2022-04-01,Punjab,Ludhiana,PM10,126,Moderate
 2022-04-02,Punjab,Ludhiana,PM10,165,Moderate
 2022-04-03,Punjab,Ludhiana,PM10,152,Moderate
@@ -209654,6 +209809,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Punjab,Ludhiana,PM10,77,Satisfactory
 2026-10-14,Punjab,Ludhiana,PM10,89,Satisfactory
 2026-10-15,Punjab,Ludhiana,PM10,93,Satisfactory
+2026-10-16,Punjab,Ludhiana,PM10,78,Satisfactory
 2026-06-30,Andhra Pradesh,Machilipatnam,PM2.5,100,Satisfactory
 2026-07-01,,Machilipatnam,PM2.5,86,Satisfactory
 2026-07-02,,Machilipatnam,PM2.5,92,Satisfactory
@@ -212867,6 +213023,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Maharashtra,Mahad,PM10,110,Moderate
 2026-10-14,Maharashtra,Mahad,PM10,115,Moderate
 2026-10-15,Maharashtra,Mahad,PM10,114,Moderate
+2026-10-16,Maharashtra,Mahad,PM10,99,Satisfactory
 2022-05-11,Madhya Pradesh,Maihar,CO,87,Satisfactory
 2022-05-12,Madhya Pradesh,Maihar,CO,89,Satisfactory
 2022-05-13,Madhya Pradesh,Maihar,CO,88,Satisfactory
@@ -213962,6 +214119,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Madhya Pradesh,Maihar,PM10,61,Satisfactory
 2026-10-14,Madhya Pradesh,Maihar,PM10,61,Satisfactory
 2026-10-15,Madhya Pradesh,Maihar,PM10,61,Satisfactory
+2026-10-16,Madhya Pradesh,Maihar,PM10,61,Satisfactory
 2024-03-01,Maharashtra,Malegaon,PM10,135,Moderate
 2024-03-02,Maharashtra,Malegaon,PM10,109,Moderate
 2024-03-03,Maharashtra,Malegaon,PM10,89,Satisfactory
@@ -214824,6 +214982,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Maharashtra,Malegaon,CO,170,Moderate
 2026-10-14,Maharashtra,Malegaon,PM10,87,Satisfactory
 2026-10-15,Maharashtra,Malegaon,PM2.5,100,Satisfactory
+2026-10-16,Maharashtra,Malegaon,PM10,117,Moderate
 2022-04-01,Punjab,Mandi Gobindgarh,PM2.5,130,Moderate
 2022-04-02,Punjab,Mandi Gobindgarh,PM2.5,96,Satisfactory
 2022-04-03,Punjab,Mandi Gobindgarh,PM2.5,45,Good
@@ -216298,6 +216457,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Punjab,Mandi Gobindgarh,PM10,115,Moderate
 2026-10-14,Punjab,Mandi Gobindgarh,PM10,106,Moderate
 2026-10-15,Punjab,Mandi Gobindgarh,PM10,106,Moderate
+2026-10-16,Punjab,Mandi Gobindgarh,PM10,106,Moderate
 2022-04-01,Madhya Pradesh,Mandideep,PM10,94,Satisfactory
 2022-04-02,Madhya Pradesh,Mandideep,PM10,136,Moderate
 2022-04-03,Madhya Pradesh,Mandideep,PM10,134,Moderate
@@ -217837,6 +217997,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Madhya Pradesh,Mandideep,PM2.5,164,Moderate
 2026-10-14,Madhya Pradesh,Mandideep,PM2.5,173,Moderate
 2026-10-15,Madhya Pradesh,Mandideep,PM2.5,154,Moderate
+2026-10-16,Madhya Pradesh,Mandideep,PM10,152,Moderate
 2022-04-01,Haryana,Mandikhera,PM10,91,Satisfactory
 2022-04-02,Haryana,Mandikhera,PM10,89,Satisfactory
 2022-04-03,Haryana,Mandikhera,PM10,91,Satisfactory
@@ -219069,6 +219230,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Haryana,Mandikhera,CO,46,Good
 2026-10-14,Haryana,Mandikhera,PM10,59,Satisfactory
 2026-10-15,Haryana,Mandikhera,PM10,57,Satisfactory
+2026-10-16,Haryana,Mandikhera,PM10,73,Satisfactory
 2022-04-01,Haryana,Manesar,PM2.5,249,Poor
 2022-04-02,Haryana,Manesar,PM2.5,255,Poor
 2022-04-03,Haryana,Manesar,PM2.5,207,Poor
@@ -220299,6 +220461,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-12,Haryana,Manesar,O3,63,Satisfactory
 2026-10-13,Haryana,Manesar,PM10,101,Moderate
 2026-10-14,Haryana,Manesar,PM10,125,Moderate
+2026-10-16,Haryana,Manesar,PM10,70,Satisfactory
 2022-04-01,Karnataka,Mangalore,CO,56,Satisfactory
 2022-04-02,Karnataka,Mangalore,CO,53,Satisfactory
 2022-04-03,Karnataka,Mangalore,CO,54,Satisfactory
@@ -221623,6 +221786,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Karnataka,Mangalore,PM10,59,Satisfactory
 2026-10-14,Karnataka,Mangalore,PM10,40,Good
 2026-10-15,Karnataka,Mangalore,PM10,48,Good
+2026-10-16,Karnataka,Mangalore,PM10,58,Satisfactory
 2022-04-05,Bihar,Manguraha,PM10,212,Poor
 2022-04-06,Bihar,Manguraha,O3,91,Satisfactory
 2022-04-08,Bihar,Manguraha,CO,125,Moderate
@@ -222660,6 +222824,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Bihar,Manguraha,PM10,68,Satisfactory
 2026-10-14,Bihar,Manguraha,PM10,96,Satisfactory
 2026-10-15,Bihar,Manguraha,PM10,75,Satisfactory
+2026-10-16,Bihar,Manguraha,PM10,70,Satisfactory
 2026-06-30,Uttar Pradesh,Mathura,PM10,133,Moderate
 2026-07-01,Uttar Pradesh,Mathura,PM10,133,Moderate
 2026-07-02,,Mathura,PM2.5,90,Satisfactory
@@ -222743,6 +222908,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-12,Uttar Pradesh,Mathura,PM2.5,51,Satisfactory
 2026-10-14,Uttar Pradesh,Mathura,PM2.5,85,Satisfactory
 2026-10-15,Uttar Pradesh,Mathura,PM2.5,99,Satisfactory
+2026-10-16,Uttar Pradesh,Mathura,PM2.5,27,Good
 2022-04-01,Uttar Pradesh,Meerut,"O3,PM2.5,PM10",247,Poor
 2022-04-02,Uttar Pradesh,Meerut,"O3,PM2.5,PM10",280,Poor
 2022-04-03,Uttar Pradesh,Meerut,"PM10,O3",295,Poor
@@ -224385,6 +224551,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Uttar Pradesh,Meerut,PM10,131,Moderate
 2026-10-14,Uttar Pradesh,Meerut,PM2.5 PM10,172,Moderate
 2026-10-15,Uttar Pradesh,Meerut,PM2.5 PM10,193,Moderate
+2026-10-16,Uttar Pradesh,Meerut,PM2.5 PM10,76,Satisfactory
 2026-06-30,Gujarat,Mehsana,CO,67,Satisfactory
 2026-07-01,,Mehsana,CO,67,Satisfactory
 2026-07-02,,Mehsana,CO,66,Satisfactory
@@ -224490,6 +224657,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Gujarat,Mehsana,PM2.5,74,Satisfactory
 2026-10-14,Gujarat,Mehsana,PM10,78,Satisfactory
 2026-10-15,Gujarat,Mehsana,PM2.5,92,Satisfactory
+2026-10-16,Gujarat,Mehsana,PM2.5,102,Moderate
 2023-03-14,Chhattisgarh,Milupara,PM2.5,58,Satisfactory
 2023-03-16,Chhattisgarh,Milupara,PM10,80,Satisfactory
 2023-03-17,Chhattisgarh,Milupara,PM2.5,52,Satisfactory
@@ -225221,6 +225389,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-12,Chhattisgarh,Milupara,PM10,40,Good
 2026-10-13,Chhattisgarh,Milupara,PM10,49,Good
 2026-10-14,Chhattisgarh,Milupara,PM10,56,Satisfactory
+2026-10-16,Chhattisgarh,Milupara,PM10,55,Satisfactory
 2024-03-01,Maharashtra,Mira Bhayandar,PM2.5,196,Moderate
 2024-03-02,Maharashtra,Mira Bhayandar,PM10,95,Satisfactory
 2024-03-03,Maharashtra,Mira Bhayandar,PM10,65,Satisfactory
@@ -225698,6 +225867,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Maharashtra,Mira-Bhayandar,PM10,57,Satisfactory
 2026-10-14,Maharashtra,Mira-Bhayandar,PM10,75,Satisfactory
 2026-10-15,Maharashtra,Mira-Bhayandar,PM10,74,Satisfactory
+2026-10-16,Maharashtra,Mira-Bhayandar,PM10,75,Satisfactory
 2026-06-30,Uttar Pradesh,Modinagar,PM2.5,190,Moderate
 2026-07-01,,Modinagar,PM2.5,90,Satisfactory
 2026-07-02,,Modinagar,CO,116,Moderate
@@ -227418,6 +227588,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Uttar Pradesh,Moradabad,PM2.5 PM10,81,Satisfactory
 2026-10-14,Uttar Pradesh,Moradabad,PM2.5,113,Moderate
 2026-10-15,Uttar Pradesh,Moradabad,PM2.5 PM10,120,Moderate
+2026-10-16,Uttar Pradesh,Moradabad,PM10,57,Satisfactory
 2022-04-01,Bihar,Motihari,PM2.5,199,Moderate
 2022-04-02,Bihar,Motihari,PM10,158,Moderate
 2022-04-03,Bihar,Motihari,PM10,120,Moderate
@@ -228738,6 +228909,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Bihar,Motihari,PM10,85,Satisfactory
 2026-10-14,Bihar,Motihari,PM2.5,101,Moderate
 2026-10-15,Bihar,Motihari,PM2.5,100,Satisfactory
+2026-10-16,Bihar,Motihari,PM2.5,103,Moderate
 2022-04-01,Maharashtra,Mumbai,"PM2.5,PM10",196,Moderate
 2022-04-02,Maharashtra,Mumbai,"PM2.5,PM10",214,Poor
 2022-04-03,Maharashtra,Mumbai,"PM2.5,PM10",172,Moderate
@@ -230375,6 +230547,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Maharashtra,Mumbai,PM10,87,Satisfactory
 2026-10-14,Maharashtra,Mumbai,PM10,101,Moderate
 2026-10-15,Maharashtra,Mumbai,PM10,97,Satisfactory
+2026-10-16,Maharashtra,Mumbai,PM10,99,Satisfactory
 2022-04-01,Bihar,Munger,PM10,234,Poor
 2022-04-02,Bihar,Munger,PM2.5,249,Poor
 2022-04-03,Bihar,Munger,PM2.5,228,Poor
@@ -231741,6 +231914,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Bihar,Munger,CO,83,Satisfactory
 2026-10-14,Bihar,Munger,CO,84,Satisfactory
 2026-10-15,Bihar,Munger,CO,86,Satisfactory
+2026-10-16,Bihar,Munger,CO,86,Satisfactory
 2022-04-01,Uttar Pradesh,Muzaffarnagar,O3,217,Poor
 2022-04-02,Uttar Pradesh,Muzaffarnagar,O3,260,Poor
 2022-04-03,Uttar Pradesh,Muzaffarnagar,PM10,288,Poor
@@ -233278,6 +233452,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Uttar Pradesh,Muzaffarnagar,PM2.5,151,Moderate
 2026-10-14,Uttar Pradesh,Muzaffarnagar,PM2.5,179,Moderate
 2026-10-15,Uttar Pradesh,Muzaffarnagar,PM2.5,174,Moderate
+2026-10-16,Uttar Pradesh,Muzaffarnagar,PM2.5,115,Moderate
 2022-04-01,Bihar,Muzaffarpur,PM2.5,188,Moderate
 2022-04-02,Bihar,Muzaffarpur,"PM2.5,PM10",158,Moderate
 2022-04-03,Bihar,Muzaffarpur,"PM2.5,PM10",108,Moderate
@@ -234853,6 +235028,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Bihar,Muzaffarpur,UNKNOWN,79,Satisfactory
 2026-10-14,Bihar,Muzaffarpur,UNKNOWN,81,Satisfactory
 2026-10-15,Bihar,Muzaffarpur,UNKNOWN,116,Moderate
+2026-10-16,Bihar,Muzaffarpur,UNKNOWN,90,Satisfactory
 2022-04-01,Karnataka,Mysuru,PM10,62,Satisfactory
 2022-04-02,Karnataka,Mysuru,PM10,52,Satisfactory
 2022-04-03,Karnataka,Mysuru,PM10,57,Satisfactory
@@ -236429,6 +236605,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Karnataka,Mysuru,O3,124,Moderate
 2026-10-14,Karnataka,Mysuru,PM10,93,Satisfactory
 2026-10-15,Karnataka,Mysuru,PM10,64,Satisfactory
+2026-10-16,Karnataka,Mysuru,PM10,33,Good
 2023-02-08,Assam,Nagaon,PM2.5,268,Poor
 2023-02-09,Assam,Nagaon,PM2.5,129,Moderate
 2023-02-11,Assam,Nagaon,PM2.5,204,Poor
@@ -237622,6 +237799,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-12,Assam,Nagaon,PM2.5,54,Satisfactory
 2026-10-14,Assam,Nagaon,PM2.5,58,Satisfactory
 2026-10-15,Assam,Nagaon,PM2.5,57,Satisfactory
+2026-10-16,Assam,Nagaon,PM2.5,61,Satisfactory
 2024-10-18,Tamil Nadu,Nagapattinam,PM2.5,54,Satisfactory
 2024-10-19,Tamil Nadu,Nagapattinam,PM2.5,53,Satisfactory
 2024-10-20,Tamil Nadu,Nagapattinam,PM10,48,Good
@@ -239078,6 +239256,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Rajasthan,Nagaur,PM10,124,Moderate
 2026-10-14,Rajasthan,Nagaur,PM10,145,Moderate
 2026-10-15,Rajasthan,Nagaur,PM10,121,Moderate
+2026-10-16,Rajasthan,Nagaur,PM10,117,Moderate
 2022-04-01,Maharashtra,Nagpur,PM10,84,Satisfactory
 2022-04-02,Maharashtra,Nagpur,PM10,95,Satisfactory
 2022-04-04,Maharashtra,Nagpur,PM10,98,Satisfactory
@@ -240711,6 +240890,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Maharashtra,Nagpur,PM10,98,Satisfactory
 2026-10-14,Maharashtra,Nagpur,PM2.5,125,Moderate
 2026-10-15,Maharashtra,Nagpur,PM2.5,164,Moderate
+2026-10-16,Maharashtra,Nagpur,PM2.5,134,Moderate
 2022-04-07,Arunachal Pradesh,Naharlagun,SO2,61,Satisfactory
 2022-04-09,Arunachal Pradesh,Naharlagun,SO2,64,Satisfactory
 2022-04-30,Arunachal Pradesh,Naharlagun,SO2,63,Satisfactory
@@ -241621,6 +241801,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Arunachal Pradesh,Naharlagun,PM10,43,Good
 2026-10-14,Arunachal Pradesh,Naharlagun,PM10,48,Good
 2026-10-15,Arunachal Pradesh,Naharlagun,PM10,49,Good
+2026-10-16,Arunachal Pradesh,Naharlagun,PM10,46,Good
 2022-11-24,Assam,Nalbari,PM2.5,165,Moderate
 2022-11-25,Assam,Nalbari,PM10,112,Moderate
 2022-11-26,Assam,Nalbari,PM10,109,Moderate
@@ -242822,6 +243003,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-12,Assam,Nalbari,PM2.5,76,Satisfactory
 2026-10-13,Assam,Nalbari,PM2.5,73,Satisfactory
 2026-10-14,Assam,Nalbari,PM2.5,75,Satisfactory
+2026-10-16,Assam,Nalbari,PM2.5,69,Satisfactory
 2025-04-02,Tamil Nadu,Namakkal,PM10,78,Satisfactory
 2025-04-03,Tamil Nadu,Namakkal,PM10,39,Good
 2025-04-04,Tamil Nadu,Namakkal,PM10,31,Good
@@ -243997,6 +244179,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Maharashtra,Nanded,PM10,78,Satisfactory
 2026-10-14,Maharashtra,Nanded,O3,73,Satisfactory
 2026-10-15,Maharashtra,Nanded,O3,63,Satisfactory
+2026-10-16,Maharashtra,Nanded,PM10,43,Good
 2022-04-01,Gujarat,Nandesari,PM2.5,104,Moderate
 2022-04-02,Gujarat,Nandesari,PM2.5,39,Good
 2022-04-03,Gujarat,Nandesari,PM2.5,89,Satisfactory
@@ -245974,6 +246157,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Haryana,Narnaul,PM10,99,Satisfactory
 2026-10-14,Haryana,Narnaul,PM10,119,Moderate
 2026-10-15,Haryana,Narnaul,PM10,117,Moderate
+2026-10-16,Haryana,Narnaul,PM10,64,Satisfactory
 2022-04-01,Maharashtra,Nashik,PM10,87,Satisfactory
 2022-04-02,Maharashtra,Nashik,PM10,83,Satisfactory
 2022-04-03,Maharashtra,Nashik,PM10,82,Satisfactory
@@ -247508,6 +247692,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Maharashtra,Nashik,PM10,93,Satisfactory
 2026-10-14,Maharashtra,Nashik,PM10,96,Satisfactory
 2026-10-15,Maharashtra,Nashik,PM10,103,Moderate
+2026-10-16,Maharashtra,Nashik,PM10,106,Moderate
 2022-04-01,Maharashtra,Navi Mumbai,"PM10,SO2",128,Moderate
 2022-04-02,Maharashtra,Navi Mumbai,PM10,232,Poor
 2022-04-03,Maharashtra,Navi Mumbai,PM10,186,Moderate
@@ -249150,6 +249335,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Maharashtra,Navi Mumbai,PM10,85,Satisfactory
 2026-10-14,Maharashtra,Navi Mumbai,PM10,92,Satisfactory
 2026-10-15,Maharashtra,Navi Mumbai,PM10,86,Satisfactory
+2026-10-16,Maharashtra,Navi Mumbai,PM2.5 PM10,117,Moderate
 2022-11-27,Odisha,Nayagarh,PM10,113,Moderate
 2022-11-28,Odisha,Nayagarh,PM10,123,Moderate
 2022-11-29,Odisha,Nayagarh,PM2.5,132,Moderate
@@ -250291,6 +250477,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Odisha,Nayagarh,PM10,73,Satisfactory
 2026-10-14,Odisha,Nayagarh,PM10,85,Satisfactory
 2026-10-15,Odisha,Nayagarh,PM10,65,Satisfactory
+2026-10-16,Odisha,Nayagarh,PM10,23,Good
 2026-07-01,,Nellore,PM10,73,Satisfactory
 2026-07-02,,Nellore,PM10,66,Satisfactory
 2026-07-03,Andhra Pradesh,Nellore,PM10,74,Satisfactory
@@ -250386,6 +250573,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-04,Andhra Pradesh,Nellore,PM10,54,Satisfactory
 2026-10-14,Andhra Pradesh,Nellore,PM2.5,51,Satisfactory
 2026-10-15,Andhra Pradesh,Nellore,PM2.5,50,Good
+2026-10-16,Andhra Pradesh,Nellore,PM2.5,60,Satisfactory
 2022-04-01,Uttar Pradesh,Noida,PM10,219,Poor
 2022-04-02,Uttar Pradesh,Noida,PM10,243,Poor
 2022-04-03,Uttar Pradesh,Noida,PM10,247,Poor
@@ -251614,6 +251802,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Uttar Pradesh,Noida,PM2.5,238,Poor
 2026-10-14,Uttar Pradesh,Noida,PM2.5,201,Poor
 2026-10-15,Uttar Pradesh,Noida,PM2.5,159,Moderate
+2026-10-16,Uttar Pradesh,Noida,PM10,83,Satisfactory
 2022-08-27,Tamil Nadu,Ooty,CO,56,Satisfactory
 2022-08-28,Tamil Nadu,Ooty,CO,56,Satisfactory
 2022-08-29,Tamil Nadu,Ooty,CO,56,Satisfactory
@@ -254023,6 +254212,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Rajasthan,Pali,PM10,122,Moderate
 2026-10-14,Rajasthan,Pali,PM10,136,Moderate
 2026-10-15,Rajasthan,Pali,PM10,130,Moderate
+2026-10-16,Rajasthan,Pali,PM10,106,Moderate
 2023-03-17,Tamil Nadu,Palkalaiperur,SO2,52,Satisfactory
 2023-03-18,Tamil Nadu,Palkalaiperur,SO2,52,Satisfactory
 2023-03-19,Tamil Nadu,Palkalaiperur,SO2,53,Satisfactory
@@ -255976,6 +256166,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Haryana,Palwal,CO,86,Satisfactory
 2026-10-14,Haryana,Palwal,PM10,69,Satisfactory
 2026-10-15,Haryana,Palwal,CO,101,Moderate
+2026-10-16,Haryana,Palwal,CO,81,Satisfactory
 2026-06-30,Jammu and Kashmir,Pampore,PM10,73,Satisfactory
 2026-07-01,,Pampore,PM10,83,Satisfactory
 2026-07-02,,Pampore,PM10,39,Good
@@ -256544,6 +256735,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Haryana,Panchgaon,O3,76,Satisfactory
 2026-10-14,Haryana,Panchgaon,O3,78,Satisfactory
 2026-10-15,Haryana,Panchgaon,O3,59,Satisfactory
+2026-10-16,Haryana,Panchgaon,O3,66,Satisfactory
 2022-04-01,Haryana,Panchkula,PM2.5,231,Poor
 2022-04-02,Haryana,Panchkula,PM2.5,161,Moderate
 2022-04-03,Haryana,Panchkula,PM2.5,136,Moderate
@@ -257775,6 +257967,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Haryana,Panchkula,PM2.5,42,Good
 2026-10-14,Haryana,Panchkula,O3,40,Good
 2026-10-15,Haryana,Panchkula,PM2.5,39,Good
+2026-10-16,Haryana,Panchkula,O3,41,Good
 2022-04-09,Haryana,Panipat,PM10,188,Moderate
 2022-04-15,Haryana,Panipat,PM10,180,Moderate
 2022-04-16,Haryana,Panipat,PM10,168,Moderate
@@ -258925,6 +259118,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-12,,Paradeep,PM10,148,Moderate
 2026-10-14,,Paradeep,PM10,93,Satisfactory
 2026-10-15,,Paradeep,CO,83,Satisfactory
+2026-10-16,,Paradeep,CO,83,Satisfactory
 2023-06-20,Maharashtra,Parbhani,PM10,112,Moderate
 2023-06-21,Maharashtra,Parbhani,PM10,96,Satisfactory
 2023-06-22,Maharashtra,Parbhani,O3,96,Satisfactory
@@ -259915,6 +260109,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Maharashtra,Parbhani,O3,120,Moderate
 2026-10-14,Maharashtra,Parbhani,O3,86,Satisfactory
 2026-10-15,Maharashtra,Parbhani,PM10,93,Satisfactory
+2026-10-16,Maharashtra,Parbhani,PM10,87,Satisfactory
 2024-03-01,Jharkhand,Pathardih,CO,125,Moderate
 2024-03-02,Jharkhand,Pathardih,CO,130,Moderate
 2024-03-03,Jharkhand,Pathardih,CO,120,Moderate
@@ -261559,6 +261754,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Punjab,Patiala,O3,66,Satisfactory
 2026-10-14,Punjab,Patiala,O3,76,Satisfactory
 2026-10-15,Punjab,Patiala,PM10,66,Satisfactory
+2026-10-16,Punjab,Patiala,O3,53,Satisfactory
 2022-04-01,Bihar,Patna,PM2.5,265,Poor
 2022-04-02,Bihar,Patna,"PM2.5,PM10",236,Poor
 2022-04-03,Bihar,Patna,"PM2.5,PM10",193,Moderate
@@ -263208,6 +263404,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Bihar,Patna,PM10,91,Satisfactory
 2026-10-14,Bihar,Patna,PM10,106,Moderate
 2026-10-15,Bihar,Patna,PM2.5 PM10,119,Moderate
+2026-10-16,Bihar,Patna,PM2.5 PM10,91,Satisfactory
 2026-09-18,Tamil Nadu,Perundurai,PM10,43,Good
 2026-10-14,Tamil Nadu,Perundurai,PM10,102,Moderate
 2026-10-15,Tamil Nadu,Perundurai,PM10,91,Satisfactory
@@ -263906,6 +264103,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Maharashtra,Pimpri-Chinchwad,PM10,140,Moderate
 2026-10-14,Maharashtra,Pimpri-Chinchwad,PM10,130,Moderate
 2026-10-15,Maharashtra,Pimpri-Chinchwad,PM10,134,Moderate
+2026-10-16,Maharashtra,Pimpri-Chinchwad,PM10,148,Moderate
 2022-04-01,Madhya Pradesh,Pithampur,PM10,96,Satisfactory
 2022-04-02,Madhya Pradesh,Pithampur,PM10,111,Moderate
 2022-04-03,Madhya Pradesh,Pithampur,PM10,97,Satisfactory
@@ -265519,6 +265717,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Madhya Pradesh,Pithampur,PM10,184,Moderate
 2026-10-14,Madhya Pradesh,Pithampur,PM10,150,Moderate
 2026-10-15,Madhya Pradesh,Pithampur,PM2.5,160,Moderate
+2026-10-16,Madhya Pradesh,Pithampur,PM10,140,Moderate
 2023-03-13,Rajasthan,Pratapgarh,PM10,85,Satisfactory
 2023-03-14,Rajasthan,Pratapgarh,O3,97,Satisfactory
 2023-03-16,Rajasthan,Pratapgarh,PM10,95,Satisfactory
@@ -266779,6 +266978,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Rajasthan,Pratapgarh,O3,77,Satisfactory
 2026-10-14,Rajasthan,Pratapgarh,PM10,102,Moderate
 2026-10-15,Rajasthan,Pratapgarh,PM10,116,Moderate
+2026-10-16,Rajasthan,Pratapgarh,PM10,81,Satisfactory
 2022-04-01,Uttar Pradesh,Prayagraj,PM10,156,Moderate
 2022-04-02,Uttar Pradesh,Prayagraj,PM10,141,Moderate
 2022-04-03,Uttar Pradesh,Prayagraj,PM10,128,Moderate
@@ -268421,6 +268621,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Uttar Pradesh,Prayagraj,PM10,77,Satisfactory
 2026-10-14,Uttar Pradesh,Prayagraj,PM10,72,Satisfactory
 2026-10-15,Uttar Pradesh,Prayagraj,PM10,83,Satisfactory
+2026-10-16,Uttar Pradesh,Prayagraj,PM10,78,Satisfactory
 2022-04-01,Puducherry,Puducherry,PM10,28,Good
 2022-04-02,Puducherry,Puducherry,CO,43,Good
 2022-04-03,Puducherry,Puducherry,CO,43,Good
@@ -269964,6 +270165,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Puducherry,Puducherry,PM10,78,Satisfactory
 2026-10-14,Puducherry,Puducherry,PM10,53,Satisfactory
 2026-10-15,Puducherry,Puducherry,O3,43,Good
+2026-10-16,Puducherry,Puducherry,O3,60,Satisfactory
 2024-10-09,Tamil Nadu,Pudukottai,PM10,30,Good
 2024-10-10,Tamil Nadu,Pudukottai,PM10,41,Good
 2024-10-11,Tamil Nadu,Pudukottai,PM10,34,Good
@@ -271846,6 +272048,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Maharashtra,Pune,PM10,126,Moderate
 2026-10-14,Maharashtra,Pune,PM10,131,Moderate
 2026-10-15,Maharashtra,Pune,PM2.5 PM10,112,Moderate
+2026-10-16,Maharashtra,Pune,PM10,129,Moderate
 2022-04-02,Bihar,Purnia,NO2,86,Satisfactory
 2022-04-03,Bihar,Purnia,NO2,94,Satisfactory
 2022-04-04,Bihar,Purnia,NO2,86,Satisfactory
@@ -273177,6 +273380,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-12,Bihar,Purnia,PM2.5,94,Satisfactory
 2026-10-13,Bihar,Purnia,PM2.5,115,Moderate
 2026-10-14,Bihar,Purnia,PM2.5,96,Satisfactory
+2026-10-16,Bihar,Purnia,PM2.5,110,Moderate
 2026-07-07,Uttar Pradesh,Raebareli,CO,75,Satisfactory
 2026-07-08,Uttar Pradesh,Raebareli,CO,74,Satisfactory
 2026-07-09,Uttar Pradesh,Raebareli,CO,74,Satisfactory
@@ -273269,6 +273473,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Uttar Pradesh,Raebareli,PM10,62,Satisfactory
 2026-10-14,Uttar Pradesh,Raebareli,PM10,66,Satisfactory
 2026-10-15,Uttar Pradesh,Raebareli,PM10,74,Satisfactory
+2026-10-16,Uttar Pradesh,Raebareli,PM10,64,Satisfactory
 2022-04-02,Karnataka,Raichur,PM10,115,Moderate
 2022-04-03,Karnataka,Raichur,PM10,113,Moderate
 2022-04-04,Karnataka,Raichur,PM10,115,Moderate
@@ -273955,6 +274160,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Karnataka,Raichur,PM10,94,Satisfactory
 2026-10-14,Karnataka,Raichur,PM10,95,Satisfactory
 2026-10-15,Karnataka,Raichur,PM10,98,Satisfactory
+2026-10-16,Karnataka,Raichur,PM10,100,Satisfactory
 2022-10-26,Chhattisgarh,Raipur,"PM2.5,PM10",132,Moderate
 2022-10-27,Chhattisgarh,Raipur,"PM2.5,PM10",150,Moderate
 2022-10-28,Chhattisgarh,Raipur,"PM10,NO2",116,Moderate
@@ -275330,6 +275536,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Chhattisgarh,Raipur,PM10,73,Satisfactory
 2026-10-14,Chhattisgarh,Raipur,PM10,73,Satisfactory
 2026-10-15,Chhattisgarh,Raipur,PM10,74,Satisfactory
+2026-10-16,Chhattisgarh,Raipur,PM10,68,Satisfactory
 2022-11-27,Odisha,Rairangpur,PM2.5,128,Moderate
 2022-11-28,Odisha,Rairangpur,PM2.5,160,Moderate
 2022-11-29,Odisha,Rairangpur,PM2.5,198,Moderate
@@ -276522,6 +276729,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Odisha,Rairangpur,PM2.5,88,Satisfactory
 2026-10-14,Odisha,Rairangpur,PM2.5,122,Moderate
 2026-10-15,Odisha,Rairangpur,PM2.5,70,Satisfactory
+2026-10-16,Odisha,Rairangpur,PM10,41,Good
 2022-04-01,Andhra Pradesh,Rajamahendravaram,PM10,35,Good
 2022-04-02,Andhra Pradesh,Rajamahendravaram,PM10,32,Good
 2022-04-03,Andhra Pradesh,Rajamahendravaram,PM10,30,Good
@@ -278114,6 +278322,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Andhra Pradesh,Rajamahendravaram,PM10,97,Satisfactory
 2026-10-14,Andhra Pradesh,Rajamahendravaram,PM10,67,Satisfactory
 2026-10-15,Andhra Pradesh,Rajamahendravaram,CO,33,Good
+2026-10-16,Andhra Pradesh,Rajamahendravaram,CO,35,Good
 2022-04-01,Bihar,Rajgir,PM2.5,240,Poor
 2022-04-02,Bihar,Rajgir,PM2.5,221,Poor
 2022-04-03,Bihar,Rajgir,PM2.5,158,Moderate
@@ -279296,6 +279505,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Bihar,Rajgir,CO,42,Good
 2026-10-14,Bihar,Rajgir,PM2.5,55,Satisfactory
 2026-10-15,Bihar,Rajgir,PM2.5,59,Satisfactory
+2026-10-16,Bihar,Rajgir,PM2.5,65,Satisfactory
 2026-06-30,Gujarat,Rajkot,CO,82,Satisfactory
 2026-07-01,,Rajkot,CO,84,Satisfactory
 2026-07-03,Gujarat,Rajkot,PM10,102,Moderate
@@ -279398,6 +279608,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Gujarat,Rajkot,PM10,138,Moderate
 2026-10-14,Gujarat,Rajkot,PM2.5,127,Moderate
 2026-10-15,Gujarat,Rajkot,PM2.5,174,Moderate
+2026-10-16,Gujarat,Rajkot,NO2,79,Satisfactory
 2023-03-14,Rajasthan,Rajsamand,PM10,70,Satisfactory
 2023-03-15,Rajasthan,Rajsamand,PM2.5,98,Satisfactory
 2023-03-17,Rajasthan,Rajsamand,PM10,58,Satisfactory
@@ -280627,6 +280838,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Rajasthan,Rajsamand,PM10,93,Satisfactory
 2026-10-14,Rajasthan,Rajsamand,PM10,105,Moderate
 2026-10-15,Rajasthan,Rajsamand,PM10,101,Moderate
+2026-10-16,Rajasthan,Rajsamand,PM10,89,Satisfactory
 2022-04-01,Karnataka,Ramanagara,PM10,114,Moderate
 2022-04-02,Karnataka,Ramanagara,PM10,100,Satisfactory
 2022-04-03,Karnataka,Ramanagara,PM10,98,Satisfactory
@@ -282014,6 +282226,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-02,Karnataka,Ramanagara,PM10,105,Moderate
 2026-10-03,Karnataka,Ramanagara,PM10,94,Satisfactory
 2026-10-08,Karnataka,Ramanagara,PM10,86,Satisfactory
+2026-10-16,Karnataka,Ramanagara,PM10,40,Good
 2022-08-09,Tamil Nadu,Ramanathapuram,CO,123,Moderate
 2022-08-10,Tamil Nadu,Ramanathapuram,CO,120,Moderate
 2022-08-11,Tamil Nadu,Ramanathapuram,CO,103,Moderate
@@ -284848,6 +285061,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Madhya Pradesh,Ratlam,NO2,59,Satisfactory
 2026-10-14,Madhya Pradesh,Ratlam,PM10,77,Satisfactory
 2026-10-15,Madhya Pradesh,Ratlam,PM10,78,Satisfactory
+2026-10-16,Madhya Pradesh,Ratlam,PM2.5,96,Satisfactory
 2023-02-10,Uttarakhand,Rishikesh,PM10,89,Satisfactory
 2023-02-11,Uttarakhand,Rishikesh,PM10,71,Satisfactory
 2023-02-12,Uttarakhand,Rishikesh,PM10,109,Moderate
@@ -286037,6 +286251,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Uttarakhand,Rishikesh,CO,37,Good
 2026-10-14,Uttarakhand,Rishikesh,CO,37,Good
 2026-10-15,Uttarakhand,Rishikesh,CO,37,Good
+2026-10-16,Uttarakhand,Rishikesh,CO,37,Good
 2022-04-01,Haryana,Rohtak,PM2.5,196,Moderate
 2022-04-02,Haryana,Rohtak,PM2.5,185,Moderate
 2022-04-03,Haryana,Rohtak,PM2.5,240,Poor
@@ -287320,6 +287535,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Haryana,Rohtak,PM2.5,88,Satisfactory
 2026-10-14,Haryana,Rohtak,PM2.5,116,Moderate
 2026-10-15,Haryana,Rohtak,PM10,107,Moderate
+2026-10-16,Haryana,Rohtak,PM2.5,57,Satisfactory
 2022-11-27,Odisha,Rourkela,PM10,269,Poor
 2022-11-28,Odisha,Rourkela,PM10,227,Poor
 2022-11-29,Odisha,Rourkela,PM10,256,Poor
@@ -288697,6 +288913,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Odisha,Rourkela,PM10,64,Satisfactory
 2026-10-14,Odisha,Rourkela,PM2.5 PM10,54,Satisfactory
 2026-10-15,Odisha,Rourkela,PM2.5 PM10,89,Satisfactory
+2026-10-16,Odisha,Rourkela,PM10,51,Satisfactory
 2022-04-01,Punjab,Rupnagar,PM10,103,Moderate
 2022-04-02,Punjab,Rupnagar,PM10,151,Moderate
 2022-04-03,Punjab,Rupnagar,PM10,153,Moderate
@@ -290079,6 +290296,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Punjab,Rupnagar,CO,55,Satisfactory
 2026-10-14,Punjab,Rupnagar,CO,49,Good
 2026-10-15,Punjab,Rupnagar,CO,44,Good
+2026-10-16,Punjab,Rupnagar,CO,41,Good
 2022-04-03,Madhya Pradesh,Sagar,PM2.5,54,Satisfactory
 2022-04-04,Madhya Pradesh,Sagar,PM10,123,Moderate
 2022-04-05,Madhya Pradesh,Sagar,PM10,132,Moderate
@@ -291661,6 +291879,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Madhya Pradesh,Sagar,PM10,70,Satisfactory
 2026-10-14,Madhya Pradesh,Sagar,PM2.5,75,Satisfactory
 2026-10-15,Madhya Pradesh,Sagar,PM2.5,88,Satisfactory
+2026-10-16,Madhya Pradesh,Sagar,PM2.5,153,Moderate
 2022-04-01,Bihar,Saharsa,PM10,211,Poor
 2022-04-02,Bihar,Saharsa,PM10,178,Moderate
 2022-04-03,Bihar,Saharsa,PM10,128,Moderate
@@ -292982,6 +293201,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Bihar,Saharsa,PM2.5,72,Satisfactory
 2026-10-14,Bihar,Saharsa,PM10,63,Satisfactory
 2026-10-15,Bihar,Saharsa,PM10,64,Satisfactory
+2026-10-16,Bihar,Saharsa,PM2.5,93,Satisfactory
 2022-09-03,Tamil Nadu,Salem,SO2,97,Satisfactory
 2022-09-04,Tamil Nadu,Salem,SO2,96,Satisfactory
 2022-09-08,Tamil Nadu,Salem,SO2,58,Satisfactory
@@ -294870,6 +295090,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-11,Bihar,Samastipur,PM2.5,31,Good
 2026-10-14,Bihar,Samastipur,PM2.5,215,Poor
 2026-10-15,Bihar,Samastipur,PM2.5,162,Moderate
+2026-10-16,Bihar,Samastipur,PM2.5,177,Moderate
 2023-06-13,Maharashtra,Sangli,PM10,53,Satisfactory
 2023-06-14,Maharashtra,Sangli,PM10,48,Good
 2023-06-15,Maharashtra,Sangli,PM10,45,Good
@@ -295951,6 +296172,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Maharashtra,Sangli,PM10,91,Satisfactory
 2026-10-14,Maharashtra,Sangli,PM10,87,Satisfactory
 2026-10-15,Maharashtra,Sangli,PM10,84,Satisfactory
+2026-10-16,Maharashtra,Sangli,PM10,85,Satisfactory
 2022-04-01,Bihar,Sasaram,O3,300,Poor
 2022-04-02,Bihar,Sasaram,PM2.5,247,Poor
 2022-04-03,Bihar,Sasaram,PM2.5,234,Poor
@@ -297212,6 +297434,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Bihar,Sasaram,PM10,118,Moderate
 2026-10-14,Bihar,Sasaram,PM10,120,Moderate
 2026-10-15,Bihar,Sasaram,PM10,139,Moderate
+2026-10-16,Bihar,Sasaram,PM10,155,Moderate
 2026-06-30,Maharashtra,Satara,O3,40,Good
 2026-07-01,,Satara,O3,42,Good
 2026-07-03,Maharashtra,Satara,O3,29,Good
@@ -297298,6 +297521,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Maharashtra,Satara,PM10,145,Moderate
 2026-10-14,Maharashtra,Satara,PM10,163,Moderate
 2026-10-15,Maharashtra,Satara,PM10,139,Moderate
+2026-10-16,Maharashtra,Satara,PM10,115,Moderate
 2022-04-01,Madhya Pradesh,Satna,PM10,62,Satisfactory
 2022-04-02,Madhya Pradesh,Satna,PM10,56,Satisfactory
 2022-04-03,Madhya Pradesh,Satna,PM10,56,Satisfactory
@@ -298772,6 +298996,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Madhya Pradesh,Satna,PM10,70,Satisfactory
 2026-10-14,Madhya Pradesh,Satna,PM10,71,Satisfactory
 2026-10-15,Madhya Pradesh,Satna,PM10,70,Satisfactory
+2026-10-16,Madhya Pradesh,Satna,PM10,70,Satisfactory
 2023-03-13,Rajasthan,Sawai Madhopur,PM10,172,Moderate
 2023-03-14,Rajasthan,Sawai Madhopur,PM10,153,Moderate
 2023-03-15,Rajasthan,Sawai Madhopur,O3,152,Moderate
@@ -299995,6 +300220,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Rajasthan,Sawai Madhopur,PM10,113,Moderate
 2026-10-14,Rajasthan,Sawai Madhopur,PM10,120,Moderate
 2026-10-15,Rajasthan,Sawai Madhopur,O3,113,Moderate
+2026-10-16,Rajasthan,Sawai Madhopur,PM10,89,Satisfactory
 2026-07-22,,Shamli,CO,79,Satisfactory
 2026-07-23,,Shamli,CO,57,Satisfactory
 2026-07-24,,Shamli,CO,83,Satisfactory
@@ -300062,6 +300288,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,,Shamli,PM10,92,Satisfactory
 2026-10-14,,Shamli,PM2.5,124,Moderate
 2026-10-15,,Shamli,PM10,161,Moderate
+2026-10-16,,Shamli,PM10,67,Satisfactory
 2022-04-01,Meghalaya,Shillong,O3,30,Good
 2022-04-02,Meghalaya,Shillong,O3,31,Good
 2022-04-06,Meghalaya,Shillong,PM10,59,Satisfactory
@@ -301302,6 +301529,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Meghalaya,Shillong,O3 CO,61,Satisfactory
 2026-10-14,Meghalaya,Shillong,O3 CO,57,Satisfactory
 2026-10-15,Meghalaya,Shillong,O3 CO,52,Satisfactory
+2026-10-16,Meghalaya,Shillong,O3 CO,55,Satisfactory
 2022-04-01,Karnataka,Shivamogga,PM10,55,Satisfactory
 2022-04-02,Karnataka,Shivamogga,PM10,55,Satisfactory
 2022-04-03,Karnataka,Shivamogga,PM10,71,Satisfactory
@@ -302863,6 +303091,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Karnataka,Shivamogga,O3,65,Satisfactory
 2026-10-14,Karnataka,Shivamogga,O3,64,Satisfactory
 2026-10-15,Karnataka,Shivamogga,O3,62,Satisfactory
+2026-10-16,Karnataka,Shivamogga,PM10,68,Satisfactory
 2023-03-13,Rajasthan,Sikar,PM10,196,Moderate
 2023-03-14,Rajasthan,Sikar,PM10,184,Moderate
 2023-03-15,Rajasthan,Sikar,PM10,163,Moderate
@@ -304135,6 +304364,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-12,Rajasthan,Sikar,PM10,136,Moderate
 2026-10-13,Rajasthan,Sikar,PM10,137,Moderate
 2026-10-15,Rajasthan,Sikar,PM10,146,Moderate
+2026-10-16,Rajasthan,Sikar,O3,100,Satisfactory
 2023-03-13,Assam,Silchar,PM10,76,Satisfactory
 2023-03-14,Assam,Silchar,PM10,78,Satisfactory
 2023-03-15,Assam,Silchar,PM10,80,Satisfactory
@@ -305405,6 +305635,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Assam,Silchar,PM10,59,Satisfactory
 2026-10-14,Assam,Silchar,NO2,54,Satisfactory
 2026-10-15,Assam,Silchar,PM10,61,Satisfactory
+2026-10-16,Assam,Silchar,PM2.5,52,Satisfactory
 2022-04-02,West Bengal,Siliguri,PM10,57,Satisfactory
 2022-04-03,West Bengal,Siliguri,PM10,48,Good
 2022-04-04,West Bengal,Siliguri,PM10,66,Satisfactory
@@ -306958,6 +307189,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,West Bengal,Siliguri,PM10,64,Satisfactory
 2026-10-14,West Bengal,Siliguri,PM10,62,Satisfactory
 2026-10-15,West Bengal,Siliguri,PM10,73,Satisfactory
+2026-10-16,West Bengal,Siliguri,PM10,74,Satisfactory
 2022-04-01,Madhya Pradesh,Singrauli,PM10,361,Very Poor
 2022-04-02,Madhya Pradesh,Singrauli,PM10,352,Very Poor
 2022-04-03,Madhya Pradesh,Singrauli,PM10,320,Very Poor
@@ -309591,6 +309823,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Rajasthan,Sirohi,PM10,85,Satisfactory
 2026-10-14,Rajasthan,Sirohi,PM10,102,Moderate
 2026-10-15,Rajasthan,Sirohi,PM10,104,Moderate
+2026-10-16,Rajasthan,Sirohi,PM10,96,Satisfactory
 2022-04-01,Haryana,Sirsa,O3,152,Moderate
 2022-04-02,Haryana,Sirsa,O3,122,Moderate
 2022-04-03,Haryana,Sirsa,PM10,122,Moderate
@@ -312206,6 +312439,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Assam,Sivasagar,O3,85,Satisfactory
 2026-10-14,Assam,Sivasagar,O3,92,Satisfactory
 2026-10-15,Assam,Sivasagar,O3,92,Satisfactory
+2026-10-16,Assam,Sivasagar,O3,81,Satisfactory
 2022-04-01,Bihar,Siwan,PM2.5,228,Poor
 2022-04-02,Bihar,Siwan,PM10,200,Moderate
 2022-04-03,Bihar,Siwan,PM10,158,Moderate
@@ -313298,6 +313532,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Bihar,Siwan,PM10,82,Satisfactory
 2026-10-14,Bihar,Siwan,PM2.5,92,Satisfactory
 2026-10-15,Bihar,Siwan,PM2.5,96,Satisfactory
+2026-10-16,Bihar,Siwan,PM2.5,101,Moderate
 2022-04-02,Maharashtra,Solapur,PM10,119,Moderate
 2022-04-05,Maharashtra,Solapur,CO,82,Satisfactory
 2022-04-06,Maharashtra,Solapur,PM10,93,Satisfactory
@@ -314854,6 +315089,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Maharashtra,Solapur,PM10,77,Satisfactory
 2026-10-14,Maharashtra,Solapur,PM10,87,Satisfactory
 2026-10-15,Maharashtra,Solapur,PM10,77,Satisfactory
+2026-10-16,Maharashtra,Solapur,PM10,80,Satisfactory
 2022-05-07,Haryana,Sonipat,PM10,399,Very Poor
 2022-05-08,Haryana,Sonipat,PM10,219,Poor
 2022-05-10,Haryana,Sonipat,PM10,162,Moderate
@@ -315858,6 +316094,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Haryana,Sonipat,PM2.5,114,Moderate
 2026-10-14,Haryana,Sonipat,PM2.5,129,Moderate
 2026-10-15,Haryana,Sonipat,PM2.5,144,Moderate
+2026-10-16,Haryana,Sonipat,PM10,109,Moderate
 2023-03-13,Rajasthan,Sri Ganganagar,PM10,194,Moderate
 2023-03-14,Rajasthan,Sri Ganganagar,PM2.5,223,Poor
 2023-03-15,Rajasthan,Sri Ganganagar,PM2.5,246,Poor
@@ -317072,6 +317309,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Rajasthan,Sri Ganganagar,PM10,122,Moderate
 2026-10-14,Rajasthan,Sri Ganganagar,PM10,168,Moderate
 2026-10-15,Rajasthan,Sri Ganganagar,PM10,97,Satisfactory
+2026-10-16,Rajasthan,Sri Ganganagar,PM10,126,Moderate
 2025-02-20,Andaman and Nicobar Islands,Sri Vijaya Puram,O3,66,Satisfactory
 2025-02-21,Andaman and Nicobar Islands,Sri Vijaya Puram,PM10,67,Satisfactory
 2025-02-22,Andaman and Nicobar Islands,Sri Vijaya Puram,O3,131,Moderate
@@ -317204,6 +317442,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-09-04,,Srikakulam,CO,73,Satisfactory
 2026-09-05,,Srikakulam,CO,69,Satisfactory
 2026-10-15,,Srikakulam,CO,69,Satisfactory
+2026-10-16,,Srikakulam,CO,68,Satisfactory
 2022-04-01,Jammu and Kashmir,Srinagar,PM10,44,Good
 2022-04-02,Jammu and Kashmir,Srinagar,PM10,42,Good
 2022-04-03,Jammu and Kashmir,Srinagar,NH3,39,Good
@@ -317935,6 +318174,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Jammu and Kashmir,Srinagar,PM10,68,Satisfactory
 2026-10-14,Jammu and Kashmir,Srinagar,PM2.5 NO2,19,Good
 2026-10-15,Jammu and Kashmir,Srinagar,NO2,19,Good
+2026-10-16,Jammu and Kashmir,Srinagar,PM10 NO2,28,Good
 2022-11-27,Odisha,Suakati,PM2.5,123,Moderate
 2022-11-28,Odisha,Suakati,O3,186,Moderate
 2022-11-29,Odisha,Suakati,PM2.5,231,Poor
@@ -319039,6 +319279,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Odisha,Suakati,PM2.5,84,Satisfactory
 2026-10-14,Odisha,Suakati,PM2.5,89,Satisfactory
 2026-10-15,Odisha,Suakati,PM2.5,48,Good
+2026-10-16,Odisha,Suakati,PM10,30,Good
 2022-11-04,Gujarat,Surat,PM2.5,251,Poor
 2022-11-05,Gujarat,Surat,PM2.5,247,Poor
 2022-11-06,Gujarat,Surat,PM2.5,247,Poor
@@ -320216,6 +320457,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Gujarat,Surat,PM10,114,Moderate
 2026-10-14,Gujarat,Surat,PM10,100,Satisfactory
 2026-10-15,Gujarat,Surat,PM10,132,Moderate
+2026-10-16,Gujarat,Surat,PM2.5,143,Moderate
 2022-04-01,Odisha,Talcher,PM10,37,Good
 2022-04-02,Odisha,Talcher,CO,86,Satisfactory
 2022-04-04,Odisha,Talcher,CO,81,Satisfactory
@@ -321615,6 +321857,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-11,Odisha,Talcher,PM2.5,135,Moderate
 2026-10-13,Odisha,Talcher,PM2.5,134,Moderate
 2026-10-14,Odisha,Talcher,PM10,103,Moderate
+2026-10-16,Odisha,Talcher,PM10,61,Satisfactory
 2022-11-27,Odisha,Tensa,NO2,116,Moderate
 2022-11-28,Odisha,Tensa,PM2.5,140,Moderate
 2022-11-29,Odisha,Tensa,PM2.5,220,Poor
@@ -322744,6 +322987,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-12,Odisha,Tensa,PM10,78,Satisfactory
 2026-10-14,Odisha,Tensa,PM10,95,Satisfactory
 2026-10-15,Odisha,Tensa,PM10,68,Satisfactory
+2026-10-16,Odisha,Tensa,CO,29,Good
 2022-04-01,Maharashtra,Thane,O3,235,Poor
 2022-04-02,Maharashtra,Thane,O3,258,Poor
 2022-04-03,Maharashtra,Thane,PM10,203,Poor
@@ -324244,6 +324488,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Maharashtra,Thane,PM10,77,Satisfactory
 2026-10-14,Maharashtra,Thane,PM10,81,Satisfactory
 2026-10-15,Maharashtra,Thane,PM10,76,Satisfactory
+2026-10-16,Maharashtra,Thane,PM10,79,Satisfactory
 2024-10-09,Tamil Nadu,Thanjavur,PM10,28,Good
 2024-10-10,Tamil Nadu,Thanjavur,PM10,24,Good
 2024-10-11,Tamil Nadu,Thanjavur,PM10,41,Good
@@ -326251,6 +326496,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Kerala,Thiruvananthapuram,PM10,59,Satisfactory
 2026-10-14,Kerala,Thiruvananthapuram,PM10,91,Satisfactory
 2026-10-15,Kerala,Thiruvananthapuram,PM10,75,Satisfactory
+2026-10-16,Kerala,Thiruvananthapuram,PM10,44,Good
 2022-04-01,Tamil Nadu,Thoothukudi,PM10,52,Satisfactory
 2022-04-02,Tamil Nadu,Thoothukudi,PM10,73,Satisfactory
 2022-04-03,Tamil Nadu,Thoothukudi,PM10,100,Satisfactory
@@ -327824,6 +328070,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Tamil Nadu,Thoothukudi,PM10,34,Good
 2026-10-14,Tamil Nadu,Thoothukudi,PM10,34,Good
 2026-10-15,Tamil Nadu,Thoothukudi,PM10,34,Good
+2026-10-16,Tamil Nadu,Thoothukudi,PM10,34,Good
 2022-04-01,Kerala,Thrissur,PM2.5,91,Satisfactory
 2022-04-02,Kerala,Thrissur,PM2.5,94,Satisfactory
 2022-04-06,Kerala,Thrissur,PM2.5,98,Satisfactory
@@ -329151,6 +329398,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-12,Kerala,Thrissur,PM2.5,51,Satisfactory
 2026-10-13,Kerala,Thrissur,PM10,57,Satisfactory
 2026-10-15,Kerala,Thrissur,PM2.5,50,Good
+2026-10-16,Kerala,Thrissur,PM2.5,52,Satisfactory
 2023-12-21,Tamil Nadu,Tiruchirappalli,PM10,107,Moderate
 2023-12-24,Tamil Nadu,Tiruchirappalli,PM10,92,Satisfactory
 2023-12-25,Tamil Nadu,Tiruchirappalli,PM10,74,Satisfactory
@@ -330139,6 +330387,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Andhra Pradesh,Tirumala,PM2.5,105,Moderate
 2026-10-14,Andhra Pradesh,Tirumala,PM2.5,82,Satisfactory
 2026-10-15,Andhra Pradesh,Tirumala,NO2,67,Satisfactory
+2026-10-16,Andhra Pradesh,Tirumala,NO2,71,Satisfactory
 2024-08-12,Tamil Nadu,Tirunelveli,CO,30,Good
 2024-08-15,Tamil Nadu,Tirunelveli,CO,39,Good
 2024-08-16,Tamil Nadu,Tirunelveli,CO,40,Good
@@ -333833,6 +334082,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Rajasthan,Tonk,PM10,124,Moderate
 2026-10-14,Rajasthan,Tonk,PM10,117,Moderate
 2026-10-15,Rajasthan,Tonk,PM10,132,Moderate
+2026-10-16,Rajasthan,Tonk,O3,86,Satisfactory
 2023-04-02,Karnataka,Tumakuru,PM10,151,Moderate
 2023-04-04,Karnataka,Tumakuru,CO,154,Moderate
 2023-04-05,Karnataka,Tumakuru,CO,127,Moderate
@@ -335409,6 +335659,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Chhattisgarh,Tumidih,PM10,61,Satisfactory
 2026-10-14,Chhattisgarh,Tumidih,PM10,75,Satisfactory
 2026-10-15,Chhattisgarh,Tumidih,PM10,67,Satisfactory
+2026-10-16,Chhattisgarh,Tumidih,PM10,67,Satisfactory
 2022-04-01,Rajasthan,Udaipur,PM2.5,157,Moderate
 2022-04-02,Rajasthan,Udaipur,PM10,134,Moderate
 2022-04-03,Rajasthan,Udaipur,PM10,143,Moderate
@@ -337600,6 +337851,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Karnataka,Udupi,PM10,60,Satisfactory
 2026-10-14,Karnataka,Udupi,PM10,61,Satisfactory
 2026-10-15,Karnataka,Udupi,PM10,64,Satisfactory
+2026-10-16,Karnataka,Udupi,PM10,65,Satisfactory
 2022-04-01,Madhya Pradesh,Ujjain,PM10,159,Moderate
 2022-04-02,Madhya Pradesh,Ujjain,PM10,190,Moderate
 2022-04-03,Madhya Pradesh,Ujjain,PM10,165,Moderate
@@ -338829,6 +339081,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-12,Madhya Pradesh,Ujjain,PM10,100,Satisfactory
 2026-10-13,Madhya Pradesh,Ujjain,PM2.5,142,Moderate
 2026-10-14,Madhya Pradesh,Ujjain,PM2.5,126,Moderate
+2026-10-16,Madhya Pradesh,Ujjain,PM2.5,140,Moderate
 2023-07-23,Maharashtra,Ulhasnagar,PM10,45,Good
 2023-07-24,Maharashtra,Ulhasnagar,PM10,36,Good
 2023-07-25,Maharashtra,Ulhasnagar,PM10,44,Good
@@ -339961,6 +340214,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Maharashtra,Ulhasnagar,PM10,85,Satisfactory
 2026-10-14,Maharashtra,Ulhasnagar,PM10,77,Satisfactory
 2026-10-15,Maharashtra,Ulhasnagar,PM10,76,Satisfactory
+2026-10-16,Maharashtra,Ulhasnagar,PM10,79,Satisfactory
 2026-06-30,Gujarat,Vadodara,CO,94,Satisfactory
 2026-07-01,,Vadodara,CO,96,Satisfactory
 2026-07-02,,Vadodara,CO,95,Satisfactory
@@ -340065,6 +340319,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Gujarat,Vadodara,CO,91,Satisfactory
 2026-10-14,Gujarat,Vadodara,CO,89,Satisfactory
 2026-10-15,Gujarat,Vadodara,PM10,100,Satisfactory
+2026-10-16,Gujarat,Vadodara,PM10,111,Moderate
 2022-05-10,Gujarat,Vapi,PM10,77,Satisfactory
 2022-05-11,Gujarat,Vapi,PM2.5,81,Satisfactory
 2022-05-12,Gujarat,Vapi,PM10,78,Satisfactory
@@ -341317,6 +341572,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-12,Gujarat,Vapi,PM10,61,Satisfactory
 2026-10-13,Gujarat,Vapi,PM10,66,Satisfactory
 2026-10-14,Gujarat,Vapi,PM10,98,Satisfactory
+2026-10-16,Gujarat,Vapi,PM10,69,Satisfactory
 2022-04-01,Uttar Pradesh,Varanasi,PM10,128,Moderate
 2022-04-02,Uttar Pradesh,Varanasi,"PM10,O3",111,Moderate
 2022-04-03,Uttar Pradesh,Varanasi,"PM2.5,PM10",113,Moderate
@@ -342966,6 +343222,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Uttar Pradesh,Varanasi,PM2.5 PM10,126,Moderate
 2026-10-14,Uttar Pradesh,Varanasi,PM10,104,Moderate
 2026-10-15,Uttar Pradesh,Varanasi,PM10,115,Moderate
+2026-10-16,Uttar Pradesh,Varanasi,PM10,107,Moderate
 2022-04-01,Gujarat,Vatva,PM2.5,160,Moderate
 2022-04-02,Gujarat,Vatva,PM10,118,Moderate
 2022-04-03,Gujarat,Vatva,PM10,109,Moderate
@@ -344519,6 +344776,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Gujarat,Vatva,PM10,182,Moderate
 2026-10-14,Gujarat,Vatva,PM2.5,137,Moderate
 2026-10-15,Gujarat,Vatva,PM10,131,Moderate
+2026-10-16,Gujarat,Vatva,PM2.5,204,Poor
 2022-08-28,Tamil Nadu,Vellore,SO2,35,Good
 2022-08-29,Tamil Nadu,Vellore,SO2,33,Good
 2022-08-31,Tamil Nadu,Vellore,PM10,50,Good
@@ -346480,6 +346738,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Karnataka,Vijayapura,PM10,43,Good
 2026-10-14,Karnataka,Vijayapura,PM10,43,Good
 2026-10-15,Karnataka,Vijayapura,PM10,42,Good
+2026-10-16,Karnataka,Vijayapura,PM10,43,Good
 2023-01-26,Andhra Pradesh,Vijayawada,CO,108,Moderate
 2023-01-27,Andhra Pradesh,Vijayawada,PM2.5,92,Satisfactory
 2023-01-29,Andhra Pradesh,Vijayawada,PM2.5,187,Moderate
@@ -347635,6 +347894,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Andhra Pradesh,Vijayawada,PM10,77,Satisfactory
 2026-10-14,Andhra Pradesh,Vijayawada,PM10 NO2,74,Satisfactory
 2026-10-15,Andhra Pradesh,Vijayawada,PM10 CO,50,Good
+2026-10-16,Andhra Pradesh,Vijayawada,PM10,54,Satisfactory
 2024-03-01,Maharashtra,Virar,PM10,129,Moderate
 2024-03-02,Maharashtra,Virar,PM10,90,Satisfactory
 2024-03-03,Maharashtra,Virar,O3,82,Satisfactory
@@ -348527,6 +348787,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Maharashtra,Virar,PM10,56,Satisfactory
 2026-10-14,Maharashtra,Virar,PM10,81,Satisfactory
 2026-10-15,Maharashtra,Virar,PM10,70,Satisfactory
+2026-10-16,Maharashtra,Virar,PM10,91,Satisfactory
 2024-03-02,Tamil Nadu,Virudhunagar,PM10,86,Satisfactory
 2024-03-03,Tamil Nadu,Virudhunagar,PM10,75,Satisfactory
 2024-03-04,Tamil Nadu,Virudhunagar,PM10,85,Satisfactory
@@ -350512,6 +350773,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Andhra Pradesh,Visakhapatnam,PM10,92,Satisfactory
 2026-10-14,Andhra Pradesh,Visakhapatnam,PM10,52,Satisfactory
 2026-10-15,Andhra Pradesh,Visakhapatnam,NO2,30,Good
+2026-10-16,Andhra Pradesh,Visakhapatnam,NO2,28,Good
 2022-04-01,Uttar Pradesh,Vrindavan,PM10,148,Moderate
 2022-04-02,Uttar Pradesh,Vrindavan,PM10,145,Moderate
 2022-04-04,Uttar Pradesh,Vrindavan,PM10,175,Moderate
@@ -353517,6 +353779,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Karnataka,Yadgir,PM10,80,Satisfactory
 2026-10-14,Karnataka,Yadgir,PM10,76,Satisfactory
 2026-10-15,Karnataka,Yadgir,CO,100,Satisfactory
+2026-10-16,Karnataka,Yadgir,PM10,64,Satisfactory
 2026-06-30,Haryana,Yamuna Nagar,NO2,61,Satisfactory
 2026-07-01,,Yamuna Nagar,PM2.5,101,Moderate
 2026-07-02,,Yamuna Nagar,PM2.5,101,Moderate
@@ -353609,6 +353872,7 @@ date,state,area,prominent_pollutants,aqi_value,air_quality_status
 2026-10-13,Haryana,Yamuna Nagar,PM2.5,113,Moderate
 2026-10-14,Haryana,Yamuna Nagar,PM2.5,185,Moderate
 2026-10-15,Haryana,Yamuna Nagar,PM2.5,127,Moderate
+2026-10-16,Haryana,Yamuna Nagar,PM2.5,99,Satisfactory
 2022-04-01,Haryana,Yamunanagar,PM2.5,166,Moderate
 2022-04-02,Haryana,Yamunanagar,PM2.5,193,Moderate
 2022-04-03,Haryana,Yamunanagar,PM10,203,Poor
