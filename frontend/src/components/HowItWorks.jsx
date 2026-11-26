@@ -1,145 +1,100 @@
-import { motion } from 'framer-motion';
-import { MapPin, CalendarDays, BrainCircuit, HeartPulse } from 'lucide-react';
+import { footerStats } from '../data/mockData';
 
 const steps = [
   {
-    step: '01',
-    icon: MapPin,
-    title: 'Select State & City',
-    desc: 'Choose from 293 cities across 15 Indian states in our dataset.',
-    color: '#a78bfa',
+    number: '01.',
+    title: 'Select Monitoring Station',
+    desc: 'Choose from 293 CPCB-monitored cities across 32 Indian states and union territories to anchor the forecast to the latest recorded station reading.',
   },
   {
-    step: '02',
-    icon: CalendarDays,
-    title: 'Pick a Future Date',
-    desc: 'Select any date up to 30 days ahead to forecast AQI.',
-    color: '#f472b6',
+    number: '02.',
+    title: 'Choose Forecast Horizon',
+    desc: 'Pick any date up to 30 days ahead. Seasonal harmonics, winter inversion windows, monsoon washout, and crop-burning periods are encoded automatically.',
   },
   {
-    step: '03',
-    icon: BrainCircuit,
-    title: 'XGBoost Predicts AQI',
-    desc: 'Our ML model trained on 2022–2025 data runs the prediction instantly.',
-    color: '#fb923c',
+    number: '03.',
+    title: 'Autoregressive XGBoost Inference',
+    desc: 'Starting from the most recent daily bulletin, the model rolls forward day-by-day using 1-day, 3-day, and 7-day AQI lags plus a 7-day rolling mean.',
   },
   {
-    step: '04',
-    icon: HeartPulse,
-    title: 'Health Impact Generated',
-    desc: 'See cigarette equivalents, lung stress, and a 7-day forecast.',
-    color: '#34d399',
+    number: '04.',
+    title: 'Trajectory & Exposure Briefing',
+    desc: 'Each query produces a 7-day projected AQI curve alongside cigarette equivalence, lung stress index, and actionable respiratory guidance.',
   },
 ];
 
 export default function HowItWorks() {
   return (
-    <section id="how-it-works" className="relative px-6 py-20 overflow-hidden">
-      {/* Ambient background */}
-      <div
-        className="absolute inset-0 pointer-events-none"
-        style={{
-          background: 'radial-gradient(ellipse at 50% 100%, rgba(109,40,217,0.07) 0%, transparent 70%)',
-        }}
-      />
+    <section
+      id="methodology"
+      className="mx-auto max-w-[1160px] px-5 pt-16 pb-16 sm:px-8 sm:pt-20 sm:pb-20"
+    >
+      {/* Editorial Section Header */}
+      <div className="max-w-2xl">
+        <p className="text-xs font-semibold text-[var(--accent-primary)]">
+          Methodology &amp; Calibration
+        </p>
+        <h2 className="mt-2 font-display text-balance text-3xl sm:text-4xl font-semibold tracking-tight text-[var(--text-primary)]">
+          How the forecasting pipeline works
+        </h2>
+        <p className="mt-3 text-[15px] leading-relaxed text-[var(--text-secondary)]">
+          Predictions are computed on demand from daily Central Pollution Control Board bulletins
+          and multi-year historical series—never written back into the training set.
+        </p>
+      </div>
 
-      <div className="relative max-w-4xl mx-auto">
-        {/* Header */}
-        <motion.div
-          initial={{ opacity: 0, y: 24 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          className="text-center mb-14"
-        >
-          <h2 className="text-3xl md:text-4xl font-black text-white mb-3">
-            How It{' '}
-            <span style={{
-              background: 'linear-gradient(135deg, #a78bfa, #f472b6)',
-              WebkitBackgroundClip: 'text',
-              WebkitTextFillColor: 'transparent',
-            }}>Works</span>
-          </h2>
-          <p className="text-white/40 text-base max-w-lg mx-auto">
-            Four simple steps from city selection to a complete AQI prediction and health analysis.
-          </p>
-        </motion.div>
+      {/* 2x2 Hairline-Divided Editorial Steps */}
+      <div className="mt-10 grid grid-cols-1 border-t border-[var(--border-hairline)] md:grid-cols-2">
+        {steps.map((step, index) => (
+          <div
+            key={step.number}
+            className={`border-b border-[var(--border-hairline)] py-7 ${
+              index % 2 === 0 ? 'md:pr-10' : 'md:border-l md:pl-10'
+            }`}
+          >
+            <div className="flex items-baseline gap-3">
+              <span className="font-mono-tabular text-sm font-semibold text-[var(--accent-primary)]">
+                {step.number}
+              </span>
+              <h3 className="font-display text-lg font-semibold text-[var(--text-primary)]">
+                {step.title}
+              </h3>
+            </div>
+            <p className="mt-2.5 pl-8 text-sm leading-relaxed text-[var(--text-secondary)]">
+              {step.desc}
+            </p>
+          </div>
+        ))}
+      </div>
 
-        {/* Steps */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-          {steps.map((s, i) => {
-            const Icon = s.icon;
-            return (
-              <motion.div
-                key={s.step}
-                initial={{ opacity: 0, y: 24 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ delay: i * 0.1, duration: 0.5 }}
-                whileHover={{ scale: 1.02, y: -3 }}
-                className="relative rounded-2xl p-6 group overflow-hidden"
-                style={{
-                  background: 'rgba(255,255,255,0.025)',
-                  border: '1px solid rgba(255,255,255,0.07)',
-                }}
-              >
-                {/* Hover glow */}
-                <div
-                  className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-400 rounded-2xl"
-                  style={{ background: `radial-gradient(ellipse at 0% 0%, ${s.color}10, transparent)` }}
-                />
-
-                <div className="relative flex items-start gap-5">
-                  {/* Icon */}
-                  <div
-                    className="w-12 h-12 rounded-xl flex items-center justify-center flex-shrink-0"
-                    style={{
-                      background: `${s.color}18`,
-                      border: `1px solid ${s.color}35`,
-                    }}
-                  >
-                    <Icon size={20} style={{ color: s.color }} />
-                  </div>
-
-                  <div className="flex-1 min-w-0">
-                    {/* Step number */}
-                    <span
-                      className="text-xs font-black tracking-widest"
-                      style={{ color: `${s.color}70` }}
-                    >
-                      STEP {s.step}
-                    </span>
-                    <h3 className="text-base font-bold text-white mt-1 mb-2">{s.title}</h3>
-                    <p className="text-sm text-white/40 leading-relaxed">{s.desc}</p>
-                  </div>
-                </div>
-              </motion.div>
-            );
-          })}
+      {/* Adjacent Model Calibration & Dataset Ledger (Claim-to-Proof Adjacency) */}
+      <div className="mt-12 rounded-2xl border border-[var(--border-hairline)] bg-[var(--bg-surface)] p-6 sm:p-8">
+        <div className="mb-6 flex flex-wrap items-baseline justify-between gap-2 border-b border-[var(--border-hairline)] pb-4">
+          <h3 className="font-display text-lg font-semibold text-[var(--text-primary)]">
+            Model Calibration &amp; Dataset Ledger
+          </h3>
+          <span className="font-mono-tabular text-xs text-[var(--text-muted)]">
+            Source: CPCB India Daily AQI Bulletins
+          </span>
         </div>
 
-        {/* Bottom tagline */}
-        <motion.div
-          initial={{ opacity: 0, y: 16 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ delay: 0.4 }}
-          className="text-center mt-12 px-6 py-5 rounded-2xl"
-          style={{
-            background: 'rgba(109,40,217,0.08)',
-            border: '1px solid rgba(109,40,217,0.2)',
-          }}
-        >
-          <p className="text-sm text-white/50 leading-relaxed">
-            Built with{' '}
-            <span className="text-violet-400 font-semibold">XGBoost</span> ·
-            Trained on{' '}
-            <span className="text-violet-400 font-semibold">4,14,964 records</span> across{' '}
-            <span className="text-violet-400 font-semibold">293 Indian cities</span> ·
-            R² Score{' '}
-            <span className="text-violet-400 font-semibold">0.8387</span> · MAE{' '}
-            <span className="text-violet-400 font-semibold">13.642</span>
-          </p>
-        </motion.div>
+        <div className="grid grid-cols-2 gap-x-6 gap-y-6 sm:grid-cols-3 lg:grid-cols-6">
+          {footerStats.map((stat) => (
+            <div key={stat.label}>
+              <div className="font-mono-tabular text-xl sm:text-2xl font-semibold text-[var(--text-primary)]">
+                {stat.value}
+              </div>
+              <div className="mt-1 text-xs font-semibold text-[var(--text-secondary)]">
+                {stat.label}
+              </div>
+              {stat.note && (
+                <div className="mt-0.5 text-[11px] text-[var(--text-muted)]">
+                  {stat.note}
+                </div>
+              )}
+            </div>
+          ))}
+        </div>
       </div>
     </section>
   );

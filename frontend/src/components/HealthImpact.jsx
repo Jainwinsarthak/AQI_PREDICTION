@@ -1,87 +1,98 @@
-import { motion } from 'framer-motion';
 import { getAQILevel } from '../data/mockData';
 
-// ─── Props: cigarettes, lungStress, riskScore, aqi ───────────
-export default function HealthImpact({ cigarettes, lungStress, riskScore, aqi }) {
-  const level = getAQILevel(aqi);
-
-  const cards = [
-    {
-      icon: '🚬',
-      label: 'Cigarette Equivalent',
-      value: cigarettes,
-      unit: 'cigarettes/day',
-      desc: 'Breathing this air is equivalent to smoking this many cigarettes.',
-      color: '#f97316',
-    },
-    {
-      icon: '🫁',
-      label: 'Lung Stress',
-      value: `${lungStress}%`,
-      unit: 'stress index',
-      desc: 'Estimated stress on lung tissue from particulate exposure.',
-      color: '#ef4444',
-    },
-    {
-      icon: '☠️',
-      label: 'Risk Score',
-      value: riskScore,
-      unit: 'out of 10',
-      desc: 'Overall health risk score based on AQI and exposure duration.',
-      color: '#a855f7',
-    },
-  ];
+export default function HealthImpact({ cigarettes, lungStress, riskScore, aqi, city, isDark }) {
+  const level = getAQILevel(aqi, isDark);
+  const clampedStress = Math.max(0, Math.min(100, Number(lungStress) || 0));
 
   return (
-    <section className="px-6 pb-10">
-      <div className="max-w-4xl mx-auto">
-        {/* Label */}
-        <motion.div
-          initial={{ opacity: 0, y: 16 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          className="flex items-center gap-3 mb-5"
-        >
-          <div className="h-px flex-1" style={{ background: 'rgba(255,255,255,0.06)' }} />
-          <span className="text-xs font-semibold tracking-widest text-white/30 uppercase">Health Impact</span>
-          <div className="h-px flex-1" style={{ background: 'rgba(255,255,255,0.06)' }} />
-        </motion.div>
+    <section id="health-impact" className="mx-auto max-w-[1160px] px-5 pt-10 sm:px-8">
+      <div className="mb-5 flex flex-wrap items-baseline justify-between gap-2">
+        <div>
+          <h2 className="font-display text-2xl sm:text-3xl font-semibold text-[var(--text-primary)]">
+            Health Exposure Briefing
+          </h2>
+          <p className="mt-1 text-sm text-[var(--text-secondary)]">
+            Estimated daily respiratory burden for {city} at projected AQI {aqi} ({level.label}).
+          </p>
+        </div>
+        <span className="font-mono-tabular text-xs text-[var(--text-muted)]">
+          24-hour ambient exposure model
+        </span>
+      </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-          {cards.map((card, i) => (
-            <motion.div
-              key={card.label}
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ delay: i * 0.1, duration: 0.5 }}
-              whileHover={{ scale: 1.03, y: -3 }}
-              className="relative rounded-2xl p-6 overflow-hidden"
-              style={{
-                background: `rgba(${card.color === '#f97316' ? '249,115,22' : card.color === '#ef4444' ? '239,68,68' : '168,85,247'}, 0.07)`,
-                border: `1px solid ${card.color}25`,
-              }}
+      <div className="grid grid-cols-1 divide-y divide-[var(--border-hairline)] rounded-2xl border border-[var(--border-hairline)] bg-[var(--bg-surface)] md:grid-cols-3 md:divide-x md:divide-y-0">
+        {/* Metric 1: Cigarette Equivalent */}
+        <div className="p-6 sm:p-7">
+          <p className="text-xs font-semibold text-[var(--text-muted)]">
+            Cigarette Equivalence
+          </p>
+          <div className="mt-3 flex items-baseline gap-2">
+            <span className="font-mono-tabular text-4xl font-semibold text-[var(--text-primary)]">
+              {cigarettes}
+            </span>
+            <span className="font-mono-tabular text-xs text-[var(--text-muted)]">
+              cigarettes / day
+            </span>
+          </div>
+          <p className="mt-4 text-sm leading-relaxed text-[var(--text-secondary)]">
+            Estimated PM2.5 inhalation equivalence over 24 hours of ambient outdoor air exposure
+            (1 cigarette ≈ 22 AQI equivalent).
+          </p>
+        </div>
+
+        {/* Metric 2: Lung Stress Index */}
+        <div className="p-6 sm:p-7">
+          <p className="text-xs font-semibold text-[var(--text-muted)]">
+            Lung Stress Index
+          </p>
+          <div className="mt-3 flex items-baseline gap-2">
+            <span
+              className="font-mono-tabular text-4xl font-semibold"
+              style={{ color: level.color }}
             >
-              {/* Background glow */}
-              <div
-                className="absolute top-0 right-0 w-24 h-24 rounded-full"
-                style={{
-                  background: `radial-gradient(circle, ${card.color}20, transparent)`,
-                  filter: 'blur(20px)',
-                }}
-              />
+              {clampedStress}%
+            </span>
+            <span className="font-mono-tabular text-xs text-[var(--text-muted)]">
+              of critical load
+            </span>
+          </div>
 
-              <div className="relative">
-                <div className="text-3xl mb-4">{card.icon}</div>
-                <div className="text-3xl font-black mb-1" style={{ color: card.color }}>
-                  {card.value}
-                </div>
-                <div className="text-xs text-white/35 mb-3 font-medium">{card.unit}</div>
-                <div className="text-xs font-semibold text-white/60 mb-2">{card.label}</div>
-                <p className="text-xs text-white/35 leading-relaxed">{card.desc}</p>
-              </div>
-            </motion.div>
-          ))}
+          {/* Calibrated horizontal meter */}
+          <div className="mt-4 h-1.5 w-full overflow-hidden rounded-full bg-[var(--bg-muted)]">
+            <div
+              className="h-full rounded-full transition-all duration-300"
+              style={{
+                width: `${clampedStress}%`,
+                backgroundColor: level.color,
+              }}
+            />
+          </div>
+
+          <p className="mt-3 text-sm leading-relaxed text-[var(--text-secondary)]">
+            Proportional particulate burden placed on respiratory tissue relative to the CPCB
+            500-index ceiling.
+          </p>
+        </div>
+
+        {/* Metric 3: Composite Risk Score & Guidance */}
+        <div className="p-6 sm:p-7">
+          <p className="text-xs font-semibold text-[var(--text-muted)]">
+            Composite Risk Score
+          </p>
+          <div className="mt-3 flex items-baseline gap-2">
+            <span
+              className="font-mono-tabular text-4xl font-semibold"
+              style={{ color: level.color }}
+            >
+              {riskScore}
+            </span>
+            <span className="font-mono-tabular text-xs text-[var(--text-muted)]">
+              / 10 · {level.label}
+            </span>
+          </div>
+          <p className="mt-4 text-sm leading-relaxed text-[var(--text-secondary)]">
+            {level.guidance}
+          </p>
         </div>
       </div>
     </section>

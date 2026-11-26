@@ -1,196 +1,320 @@
-import { useState } from 'react';
-import { motion } from 'framer-motion';
-import { ChevronDown, Sparkles, Loader } from 'lucide-react';
-import { INDIA_DATA } from '../data/mockData';
+import { useMemo, useRef, useState } from 'react';
+import { ChevronDown, ArrowRight, Loader2, Search, X } from 'lucide-react';
+import { INDIA_DATA, FEATURED_CITIES, ALL_CITIES_INDEX } from '../data/mockData';
 
 const states = Object.keys(INDIA_DATA);
 
-function SelectField({ label, value, onChange, options, placeholder, disabled }) {
-  return (
-    <div className="flex flex-col gap-2 flex-1 min-w-0">
-      <label className="text-xs font-semibold text-white/40 tracking-widest uppercase">{label}</label>
-      <div className="relative">
-        <select
-          value={value}
-          onChange={e => onChange(e.target.value)}
-          disabled={disabled}
-          className="w-full appearance-none rounded-2xl px-4 py-4 text-sm font-medium outline-none transition-all duration-200 cursor-pointer"
-          style={{
-            background: 'rgba(255,255,255,0.05)',
-            border: '1px solid rgba(255,255,255,0.1)',
-            color: value ? '#fff' : 'rgba(255,255,255,0.3)',
-            backdropFilter: 'blur(12px)',
-          }}
-          onFocus={e => {
-            e.target.style.borderColor = 'rgba(167,139,250,0.5)';
-            e.target.style.boxShadow = '0 0 0 3px rgba(109,40,217,0.15)';
-          }}
-          onBlur={e => {
-            e.target.style.borderColor = 'rgba(255,255,255,0.1)';
-            e.target.style.boxShadow = 'none';
-          }}
-        >
-          <option value="" disabled style={{ background: '#0f0f1a' }}>{placeholder}</option>
-          {options.map(opt => (
-            <option key={opt} value={opt} style={{ background: '#0f0f1a', color: '#fff' }}>{opt}</option>
-          ))}
-        </select>
-        <ChevronDown
-          size={14}
-          className="absolute right-3 top-1/2 -translate-y-1/2 pointer-events-none"
-          style={{ color: 'rgba(255,255,255,0.3)' }}
-        />
-      </div>
-    </div>
-  );
-}
+export default function PredictionEngine({
+  selectedState,
+  selectedCity,
+  selectedDate,
+  onStateChange,
+  onCityChange,
+  onDateChange,
+  onQuickPick,
+  onPredict,
+  isLoading,
+}) {
+  const [searchQuery, setSearchQuery] = useState('');
+  const [searchOpen, setSearchOpen] = useState(false);
+  const [activeIndex, setActiveIndex] = useState(0);
+  const searchInputRef = useRef(null);
 
-function DateField({ value, onChange }) {
-  // Min = today, Max = today + 30 days
+  const cities = selectedState ? INDIA_DATA[selectedState] || [] : [];
   const today = new Date().toISOString().split('T')[0];
   const maxDate = new Date(Date.now() + 30 * 24 * 60 * 60 * 1000).toISOString().split('T')[0];
+  const canPredict = Boolean(selectedState && selectedCity && selectedDate && !isLoading);
 
-  return (
-    <div className="flex flex-col gap-2 flex-1 min-w-0">
-      <label className="text-xs font-semibold text-white/40 tracking-widest uppercase">Future Date</label>
-      <input
-        type="date"
-        value={value}
-        min={today}
-        max={maxDate}
-        onChange={e => onChange(e.target.value)}
-        className="rounded-2xl px-4 py-4 text-sm font-medium outline-none transition-all duration-200 cursor-pointer w-full"
-        style={{
-          background: 'rgba(255,255,255,0.05)',
-          border: '1px solid rgba(255,255,255,0.1)',
-          color: value ? '#fff' : 'rgba(255,255,255,0.3)',
-          backdropFilter: 'blur(12px)',
-          colorScheme: 'dark',
-        }}
-        onFocus={e => {
-          e.target.style.borderColor = 'rgba(167,139,250,0.5)';
-          e.target.style.boxShadow = '0 0 0 3px rgba(109,40,217,0.15)';
-        }}
-        onBlur={e => {
-          e.target.style.borderColor = 'rgba(255,255,255,0.1)';
-          e.target.style.boxShadow = 'none';
-        }}
-      />
-    </div>
-  );
-}
+  const filteredMatches = useMemo(() => {
+    const q = searchQuery.trim().toLowerCase();
+    if (!q) return [];
+    const startsWith = [];
+    const contains = [];
+    for (const item of ALL_CITIES_INDEX) {
+      if (item.city.toLowerCase().startsWith(q)) {
+        startsWith.push(item);
+      } else if (item.searchKey.includes(q)) {
+        contains.push(item);
+      }
+      if (startsWith.length + contains.length >= 16) break;
+    }
+    return [...startsWith, ...contains].slice(0, 8);
+  }, [searchQuery]);
 
-// ─── Props: onPredict(state, city, date), isLoading ──────────
-export default function PredictionEngine({ onPredict, isLoading }) {
-  const [selectedState, setSelectedState] = useState('');
-  const [selectedCity, setSelectedCity]   = useState('');
-  const [selectedDate, setSelectedDate]   = useState('');
-
-  const cities = selectedState ? INDIA_DATA[selectedState] : [];
-  const canPredict = selectedState && selectedCity && selectedDate && !isLoading;
-
-  const handleStateChange = (s) => {
-    setSelectedState(s);
-    setSelectedCity('');
+  const selectSearchMatch = (match) => {
+    setSearchQuery('');
+    setSearchOpen(false);
+    setActiveIndex(0);
+    onQuickPick(match.state, match.city);
   };
 
-  const handleSubmit = () => {
-    if (canPredict) onPredict(selectedState, selectedCity, selectedDate);
+  const handleSearchKeyDown = (e) => {
+    if (!searchOpen || filteredMatches.length === 0) {
+      if (e.key === 'Escape') {
+        setSearchQuery('');
+        setSearchOpen(false);
+      }
+      return;
+    }
+    if (e.key === 'ArrowDown') {
+      e.preventDefault();
+      setActiveIndex((prev) => (prev + 1) % filteredMatches.length);
+    } else if (e.key === 'ArrowUp') {
+      e.preventDefault();
+      setActiveIndex((prev) => (prev - 1 + filteredMatches.length) % filteredMatches.length);
+    } else if (e.key === 'Enter') {
+      e.preventDefault();
+      const chosen = filteredMatches[activeIndex] || filteredMatches[0];
+      if (chosen) selectSearchMatch(chosen);
+    } else if (e.key === 'Escape') {
+      e.preventDefault();
+      setSearchOpen(false);
+    }
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    if (canPredict) {
+      onPredict(selectedState, selectedCity, selectedDate);
+    }
   };
 
   return (
-    <section id="prediction-engine" className="relative px-6 pb-8">
-      <div className="max-w-4xl mx-auto">
-        <motion.div
-          initial={{ opacity: 0, y: 30 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6, delay: 0.3 }}
-          className="relative rounded-3xl overflow-hidden"
-          style={{
-            background: 'rgba(255,255,255,0.03)',
-            border: '1px solid rgba(255,255,255,0.08)',
-            backdropFilter: 'blur(32px)',
-            boxShadow: '0 0 80px rgba(109,40,217,0.12), 0 32px 64px rgba(0,0,0,0.4)',
-          }}
-        >
-          {/* Top gradient line */}
-          <div
-            className="absolute top-0 left-0 right-0 h-px"
-            style={{ background: 'linear-gradient(90deg, transparent, rgba(167,139,250,0.6), rgba(244,114,182,0.6), transparent)' }}
-          />
+    <div className="flex h-full flex-col justify-between rounded-2xl border border-[var(--border-hairline)] bg-[var(--bg-surface)] p-6">
+      <div>
+        <div className="flex items-baseline justify-between gap-2 border-b border-[var(--border-hairline)] pb-4">
+          <h2 className="font-display text-lg font-semibold text-[var(--text-primary)]">
+            Forecast Parameters
+          </h2>
+          <span className="font-mono-tabular text-xs text-[var(--text-muted)]">
+            293 stations
+          </span>
+        </div>
 
-          {/* Card body */}
-          <div className="p-8 md:p-10">
-            {/* Section label */}
-            <div className="flex items-center gap-2 mb-8">
-              <div
-                className="w-7 h-7 rounded-lg flex items-center justify-center"
-                style={{ background: 'linear-gradient(135deg, #6d28d9, #db2777)' }}
-              >
-                <Sparkles size={13} className="text-white" />
-              </div>
-              <span className="text-sm font-semibold text-white/70">AQI Prediction Engine</span>
-            </div>
-
-            {/* Form inputs */}
-            <div className="flex flex-col md:flex-row gap-4 mb-6">
-              <SelectField
-                label="State"
-                value={selectedState}
-                onChange={handleStateChange}
-                options={states}
-                placeholder="Select State"
-              />
-              <SelectField
-                label="City"
-                value={selectedCity}
-                onChange={setSelectedCity}
-                options={cities}
-                placeholder={selectedState ? 'Select City' : 'Select State first'}
-                disabled={!selectedState}
-              />
-              <DateField value={selectedDate} onChange={setSelectedDate} />
-            </div>
-
-            {/* Predict button */}
-            <motion.button
-              onClick={handleSubmit}
-              disabled={!canPredict}
-              whileHover={canPredict ? { scale: 1.015 } : {}}
-              whileTap={canPredict ? { scale: 0.98 } : {}}
-              className="w-full py-5 rounded-2xl font-bold text-base flex items-center justify-center gap-3 transition-all duration-300"
-              style={{
-                background: canPredict
-                  ? 'linear-gradient(135deg, #6d28d9, #9333ea, #db2777)'
-                  : 'rgba(255,255,255,0.05)',
-                color: canPredict ? '#fff' : 'rgba(255,255,255,0.25)',
-                boxShadow: canPredict ? '0 0 40px rgba(109,40,217,0.4), 0 8px 24px rgba(109,40,217,0.3)' : 'none',
-                cursor: canPredict ? 'pointer' : 'not-allowed',
-                border: canPredict ? 'none' : '1px solid rgba(255,255,255,0.07)',
+        {/* Instant Searchable City Finder */}
+        <div className="relative mt-5">
+          <label
+            htmlFor="airsight-city-search"
+            className="mb-1.5 block text-xs font-semibold text-[var(--text-secondary)]"
+          >
+            Find any Indian city
+          </label>
+          <div className="relative">
+            <Search
+              className="pointer-events-none absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-[var(--text-muted)]"
+              aria-hidden="true"
+            />
+            <input
+              ref={searchInputRef}
+              id="airsight-city-search"
+              type="text"
+              value={searchQuery}
+              onChange={(e) => {
+                setSearchQuery(e.target.value);
+                setSearchOpen(true);
+                setActiveIndex(0);
               }}
-            >
-              {isLoading ? (
-                <>
-                  <Loader size={18} className="animate-spin" />
-                  Predicting AQI…
-                </>
-              ) : (
-                <>
-                  <Sparkles size={18} />
-                  Predict AQI
-                </>
-              )}
-            </motion.button>
-
-            {/* Helper text */}
-            {!selectedState && (
-              <p className="text-center text-xs text-white/25 mt-4">
-                Select a state, city, and date to get your AQI prediction
-              </p>
+              onFocus={() => setSearchOpen(true)}
+              onBlur={() => setTimeout(() => setSearchOpen(false), 150)}
+              onKeyDown={handleSearchKeyDown}
+              placeholder="Search city or state (e.g. Surat, Patna)…"
+              autoComplete="off"
+              className="h-10 w-full rounded-lg border border-[var(--border-hairline)] bg-[var(--bg-canvas)] pl-9 pr-8 text-sm text-[var(--text-primary)] placeholder:text-[var(--text-muted)] transition-colors duration-150 hover:border-[var(--border-strong)] focus:border-[var(--accent-primary)] focus:outline-none focus:ring-2 focus:ring-[var(--accent-subtle)]"
+            />
+            {searchQuery && (
+              <button
+                type="button"
+                aria-label="Clear city search"
+                onClick={() => {
+                  setSearchQuery('');
+                  setSearchOpen(false);
+                  searchInputRef.current?.focus();
+                }}
+                className="absolute right-2 top-1/2 -translate-y-1/2 inline-flex h-6 w-6 cursor-pointer items-center justify-center rounded text-[var(--text-muted)] hover:text-[var(--text-primary)]"
+              >
+                <X className="h-3.5 w-3.5" aria-hidden="true" />
+              </button>
             )}
           </div>
-        </motion.div>
+
+          {searchOpen && searchQuery.trim().length > 0 && (
+            <div
+              role="listbox"
+              aria-label="Matching Indian cities"
+              className="absolute left-0 right-0 top-full z-30 mt-1.5 max-h-60 overflow-y-auto rounded-xl border border-[var(--border-strong)] bg-[var(--bg-surface)] py-1 shadow-lg"
+            >
+              {filteredMatches.length > 0 ? (
+                filteredMatches.map((match, idx) => {
+                  const isHighlighted = idx === activeIndex;
+                  return (
+                    <button
+                      key={`${match.state}-${match.city}`}
+                      type="button"
+                      role="option"
+                      aria-selected={isHighlighted}
+                      onMouseDown={(e) => {
+                        e.preventDefault();
+                        selectSearchMatch(match);
+                      }}
+                      onMouseEnter={() => setActiveIndex(idx)}
+                      className={`flex w-full cursor-pointer items-baseline justify-between gap-2 px-3.5 py-2 text-left text-sm transition-colors ${
+                        isHighlighted
+                          ? 'bg-[var(--accent-subtle)] text-[var(--accent-primary)]'
+                          : 'text-[var(--text-primary)] hover:bg-[var(--bg-muted)]'
+                      }`}
+                    >
+                      <span className="font-medium truncate">{match.city}</span>
+                      <span className="text-xs text-[var(--text-muted)] shrink-0">
+                        {match.state}
+                      </span>
+                    </button>
+                  );
+                })
+              ) : (
+                <p className="px-3.5 py-2.5 text-xs text-[var(--text-muted)]">
+                  No matching CPCB station found for &ldquo;{searchQuery}&rdquo;.
+                </p>
+              )}
+            </div>
+          )}
+        </div>
+
+        {/* Quick-pick featured city buttons */}
+        <div className="mt-5">
+          <p className="mb-2 text-xs font-medium text-[var(--text-muted)]">
+            Quick-pick cities
+          </p>
+          <div className="grid grid-cols-3 gap-1.5">
+            {FEATURED_CITIES.map((preset) => {
+              const isActive =
+                selectedCity === preset.city && selectedState === preset.state;
+              return (
+                <button
+                  key={preset.city}
+                  type="button"
+                  disabled={isLoading}
+                  onClick={() => onQuickPick(preset.state, preset.city)}
+                  className={`h-9 cursor-pointer rounded-lg border px-2.5 text-xs font-semibold transition-all duration-150 whitespace-nowrap truncate focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--accent-primary)] ${
+                    isActive
+                      ? 'border-[var(--accent-primary)] bg-[var(--accent-subtle)] text-[var(--accent-primary)]'
+                      : 'border-[var(--border-hairline)] bg-[var(--bg-canvas)] text-[var(--text-secondary)] hover:border-[var(--border-strong)] hover:text-[var(--text-primary)]'
+                  }`}
+                >
+                  {preset.city}
+                </button>
+              );
+            })}
+          </div>
+        </div>
+
+        {/* Form Controls */}
+        <form onSubmit={handleSubmit} className="mt-5 space-y-3.5">
+          {/* State */}
+          <div className="flex flex-col gap-1.5">
+            <label
+              htmlFor="airsight-state"
+              className="text-xs font-semibold text-[var(--text-secondary)]"
+            >
+              State or Union Territory
+            </label>
+            <div className="relative">
+              <select
+                id="airsight-state"
+                value={selectedState}
+                onChange={(e) => onStateChange(e.target.value)}
+                className="h-10 w-full cursor-pointer appearance-none rounded-lg border border-[var(--border-hairline)] bg-[var(--bg-canvas)] pl-3.5 pr-9 text-sm font-medium text-[var(--text-primary)] transition-colors duration-150 hover:border-[var(--border-strong)] focus:border-[var(--accent-primary)] focus:outline-none focus:ring-2 focus:ring-[var(--accent-subtle)]"
+              >
+                <option value="" disabled>
+                  Select State
+                </option>
+                {states.map((st) => (
+                  <option key={st} value={st}>
+                    {st}
+                  </option>
+                ))}
+              </select>
+              <ChevronDown
+                className="pointer-events-none absolute right-3 top-1/2 h-4 w-4 -translate-y-1/2 text-[var(--text-muted)]"
+                aria-hidden="true"
+              />
+            </div>
+          </div>
+
+          {/* City */}
+          <div className="flex flex-col gap-1.5">
+            <label
+              htmlFor="airsight-city"
+              className="text-xs font-semibold text-[var(--text-secondary)]"
+            >
+              Monitoring City
+            </label>
+            <div className="relative">
+              <select
+                id="airsight-city"
+                value={selectedCity}
+                onChange={(e) => onCityChange(e.target.value)}
+                disabled={!selectedState}
+                className="h-10 w-full cursor-pointer appearance-none rounded-lg border border-[var(--border-hairline)] bg-[var(--bg-canvas)] pl-3.5 pr-9 text-sm font-medium text-[var(--text-primary)] transition-colors duration-150 hover:border-[var(--border-strong)] focus:border-[var(--accent-primary)] focus:outline-none focus:ring-2 focus:ring-[var(--accent-subtle)] disabled:cursor-not-allowed disabled:opacity-50"
+              >
+                <option value="" disabled>
+                  {selectedState ? 'Select City' : 'Select State first'}
+                </option>
+                {cities.map((ct) => (
+                  <option key={ct} value={ct}>
+                    {ct}
+                  </option>
+                ))}
+              </select>
+              <ChevronDown
+                className="pointer-events-none absolute right-3 top-1/2 h-4 w-4 -translate-y-1/2 text-[var(--text-muted)]"
+                aria-hidden="true"
+              />
+            </div>
+          </div>
+
+          {/* Date */}
+          <div className="flex flex-col gap-1.5">
+            <label
+              htmlFor="airsight-date"
+              className="text-xs font-semibold text-[var(--text-secondary)]"
+            >
+              Target Forecast Date
+            </label>
+            <input
+              id="airsight-date"
+              type="date"
+              value={selectedDate}
+              min={today}
+              max={maxDate}
+              onChange={(e) => onDateChange(e.target.value)}
+              className="font-mono-tabular h-10 w-full cursor-pointer rounded-lg border border-[var(--border-hairline)] bg-[var(--bg-canvas)] px-3.5 text-sm font-medium text-[var(--text-primary)] transition-colors duration-150 hover:border-[var(--border-strong)] focus:border-[var(--accent-primary)] focus:outline-none focus:ring-2 focus:ring-[var(--accent-subtle)]"
+            />
+          </div>
+
+          {/* Submit */}
+          <button
+            type="submit"
+            disabled={!canPredict}
+            className="mt-2 inline-flex h-11 w-full cursor-pointer items-center justify-center gap-2 rounded-lg bg-[var(--accent-primary)] px-4 text-sm font-semibold text-white dark:text-[#06201e] transition-all duration-150 hover:-translate-y-[1px] hover:bg-[var(--accent-primary-hover)] active:translate-y-0 disabled:cursor-not-allowed disabled:opacity-45 disabled:hover:translate-y-0 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--accent-primary)]"
+          >
+            {isLoading ? (
+              <>
+                <Loader2 className="h-4 w-4 animate-spin" aria-hidden="true" />
+                <span>Calculating Forecast…</span>
+              </>
+            ) : (
+              <>
+                <span>Predict AQI</span>
+                <ArrowRight className="h-4 w-4" aria-hidden="true" />
+              </>
+            )}
+          </button>
+        </form>
       </div>
-    </section>
+
+      <p className="mt-4 border-t border-[var(--border-hairline)] pt-3.5 text-xs leading-relaxed text-[var(--text-muted)]">
+        Forecasts compute day-by-day from the latest CPCB station record up to 30 days ahead.
+      </p>
+    </div>
   );
 }

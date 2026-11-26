@@ -1,65 +1,120 @@
 @import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
 
 :root {
-  --bg: #060912;
+  --bg-canvas: #f7f8f7;
+  --bg-surface: #ffffff;
+  --bg-muted: #eef1f0;
+  --border-hairline: #dce2e0;
+  --border-strong: #c5cfcc;
+  --text-primary: #101716;
+  --text-secondary: #43514f;
+  --text-muted: #647471;
+  --accent-primary: #0d6e6e;
+  --accent-primary-hover: #095757;
+  --accent-subtle: rgba(13, 110, 110, 0.08);
+  --font-display: 'Fraunces', Georgia, serif;
+  --font-sans: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace;
 }
 
-* { box-sizing: border-box; }
+.dark {
+  --bg-canvas: #0b1112;
+  --bg-surface: #11191b;
+  --bg-muted: #172225;
+  --border-hairline: #223135;
+  --border-strong: #32474c;
+  --text-primary: #edf3f2;
+  --text-secondary: #a9baba;
+  --text-muted: #788d8d;
+  --accent-primary: #2dd4bf;
+  --accent-primary-hover: #5eead4;
+  --accent-subtle: rgba(45, 212, 191, 0.12);
+}
 
-html { scroll-behavior: smooth; }
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-family: var(--font-sans);
+  background-color: var(--bg-canvas);
+  color: var(--text-primary);
+}
 
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
-  background: #060912;
-  color: #ffffff;
+  font-family: var(--font-sans);
+  background-color: var(--bg-canvas);
+  color: var(--text-primary);
   overflow-x: hidden;
   -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  transition: background-color 200ms cubic-bezier(0.16, 1, 0.3, 1),
+    color 200ms cubic-bezier(0.16, 1, 0.3, 1);
 }
 
-/* ── Scrollbar ──────────────────────────────────── */
-::-webkit-scrollbar { width: 5px; }
-::-webkit-scrollbar-track { background: #060912; }
+.font-display {
+  font-family: var(--font-display);
+  font-optical-sizing: auto;
+}
+
+.font-mono-tabular {
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums;
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+.text-balance {
+  text-wrap: balance;
+}
+
+/* Native form controls matched cleanly to active theme */
+select option {
+  background-color: var(--bg-surface);
+  color: var(--text-primary);
+}
+
+input[type="date"] {
+  color-scheme: light;
+}
+
+.dark input[type="date"] {
+  color-scheme: dark;
+}
+
+/* Subtle scrollbar aligned with mineral palette */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--bg-canvas);
+}
+
 ::-webkit-scrollbar-thumb {
-  background: linear-gradient(180deg, #6d28d9, #db2777);
-  border-radius: 4px;
+  background: var(--border-strong);
+  border-radius: 999px;
 }
 
-/* ── Select & input reset ───────────────────────── */
-select option { background: #0f0f1a; color: #fff; }
-
-input[type="date"]::-webkit-calendar-picker-indicator {
-  filter: invert(0.5);
-  cursor: pointer;
+::-webkit-scrollbar-thumb:hover {
+  background: var(--text-muted);
 }
 
-/* ── Animations ─────────────────────────────────── */
-@keyframes pulse-glow {
-  0%, 100% { opacity: 0.5; transform: scale(1); }
-  50%       { opacity: 1;   transform: scale(1.08); }
-}
-
-@keyframes float {
-  0%, 100% { transform: translateY(0); }
-  50%       { transform: translateY(-10px); }
-}
-
-.animate-pulse-glow { animation: pulse-glow 2.5s ease-in-out infinite; }
-.animate-float      { animation: float 5s ease-in-out infinite; }
-
-/* ── Range input styling (for any slider usage) ─── */
-input[type="range"] { -webkit-appearance: none; appearance: none; height: 6px; border-radius: 3px; outline: none; cursor: pointer; }
-input[type="range"]::-webkit-slider-thumb {
-  -webkit-appearance: none;
-  width: 18px; height: 18px; border-radius: 50%;
-  background: #fff;
-  border: 2px solid rgba(109,40,217,0.8);
-  box-shadow: 0 0 10px rgba(109,40,217,0.4);
-  cursor: pointer;
-  transition: transform 0.15s, box-shadow 0.15s;
-}
-input[type="range"]::-webkit-slider-thumb:hover {
-  transform: scale(1.2);
-  box-shadow: 0 0 16px rgba(109,40,217,0.7);
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
 }

@@ -1,154 +1,272 @@
-import { motion } from 'framer-motion';
 import {
-  AreaChart, Area, XAxis, YAxis, CartesianGrid, Tooltip,
-  ResponsiveContainer, ReferenceLine,
+  ComposedChart,
+  Area,
+  Line,
+  XAxis,
+  YAxis,
+  CartesianGrid,
+  Tooltip,
+  ResponsiveContainer,
+  ReferenceLine,
 } from 'recharts';
 import { getAQILevel } from '../data/mockData';
 
-const CustomTooltip = ({ active, payload, label }) => {
+function CustomTooltip({ active, payload, label, isDark }) {
   if (!active || !payload?.length) return null;
-  const aqi = payload[0]?.value;
-  const level = getAQILevel(aqi);
-  return (
-    <div
-      className="rounded-2xl px-4 py-3"
-      style={{
-        background: 'rgba(6,9,18,0.95)',
-        border: `1px solid ${level.border}`,
-        backdropFilter: 'blur(16px)',
-      }}
-    >
-      <p className="text-white/50 text-xs mb-1">{label}</p>
-      <p className="text-2xl font-black" style={{ color: level.color }}>{aqi}</p>
-      <p className="text-xs font-semibold mt-0.5" style={{ color: level.color }}>{level.label}</p>
-    </div>
-  );
-};
+  const point = payload[0]?.payload;
+  const aqi = point?.aqi;
+  if (aqi == null) return null;
 
-const CustomDot = (props) => {
-  const { cx, cy, payload } = props;
-  if (!cx || !cy) return null;
-  
-  if (payload.isLive) {
-    return (
-      <circle cx={cx} cy={cy} r={5} fill="#3b82f6" stroke="#fff" strokeWidth={2} />
-    );
-  }
-  return (
-    <circle cx={cx} cy={cy} r={4} fill="#a78bfa" strokeWidth={0} />
-  );
-};
+  const level = getAQILevel(aqi, isDark);
+  const hasRange =
+    !point?.isLive &&
+    typeof point?.aqiLow === 'number' &&
+    typeof point?.aqiHigh === 'number' &&
+    point.aqiHigh > point.aqiLow;
 
-// ─── Props: forecast[{label, aqi}], city ─────────────────────
-export default function ForecastChart({ forecast = [], city }) {
-if (!forecast.length) {
   return (
-    <div className="text-white p-6">
-      No forecast data available
+    <div className="rounded-xl border border-[var(--border-strong)] bg-[var(--bg-surface)] px-3.5 py-2.5 shadow-sm">
+      <div className="flex items-center gap-2 font-mono-tabular text-[11px] text-[var(--text-muted)]">
+        <span>{label}</span>
+        <span aria-hidden="true">·</span>
+        <span>{point?.isLive ? 'Recorded baseline' : 'Forecast'}</span>
+      </div>
+      <div className="mt-1 flex items-baseline gap-2.5">
+        <span
+          className="font-mono-tabular text-2xl font-semibold leading-none"
+          style={{ color: level.color }}
+        >
+          {aqi}
+        </span>
+        <span className="text-xs font-semibold" style={{ color: level.color }}>
+          {level.label}
+        </span>
+      </div>
+      {hasRange && (
+        <div className="mt-1.5 border-t border-[var(--border-hairline)] pt-1.5 font-mono-tabular text-[11px] text-[var(--text-secondary)]">
+          Expected range: {point.aqiLow}–{point.aqiHigh} AQI
+        </div>
+      )}
     </div>
   );
 }
 
-const predictedDays = forecast.filter(d => !d.isLive);
-const statsData = predictedDays.length ? predictedDays : forecast;
+function CustomDot({ cx, cy, payload, isDark }) {
+  if (cx == null || cy == null) return null;
+  const accent = isDark ? '#2DD4BF' : '#0D6E6E';
+  const surface = isDark ? '#11191B' : '#FFFFFF';
+  const baselineInk = isDark ? '#EDF3F2' : '#101716';
 
-const avgAqi = Math.round(
-  statsData.reduce((s, d) => s + d.aqi, 0) / statsData.length
-);
+  if (payload?.isLive) {
+    return (
+      <circle
+        cx={cx}
+        cy={cy}
+        r={5}
+        fill={baselineInk}
+        stroke={surface}
+        strokeWidth={2}
+      />
+    );
+  }
+  return (
+    <circle
+      cx={cx}
+      cy={cy}
+      r={3.5}
+      fill={accent}
+      stroke={surface}
+      strokeWidth={1.5}
+    />
+  );
+}
 
-const peakAqi = Math.max(...statsData.map(d => d.aqi));
-const minAqi = Math.min(...statsData.map(d => d.aqi));
-const avgLevel = getAQILevel(avgAqi);
+export default function ForecastChart({ forecast = [], city, isDark }) {
+  if (!forecast.length) return null;
+
+  const chartData = forecast.map((pt) => {
+    const low = typeof pt.aqiLow === 'number' ? pt.aqiLow : pt.aqi;
+    const high = typeof pt.aqiHigh === 'number' ? pt.aqiHigh : pt.aqi;
+    return {
+      ...pt,
+      aqiLow: low,
+      aqiHigh: high,
+      confidenceRange: [low, high],
+    };
+  });
+
+  const predictedDays = chartData.filter((d) => !d.isLive);
+  const statsData = predictedDays.length ? predictedDays : chartData;
+
+  const avgAqi = Math.round(
+    statsData.reduce((sum, d) => sum + d.aqi, 0) / statsData.length
+  );
+  const peakAqi = Math.max(...statsData.map((d) => d.aqi));
+  const minAqi = Math.min(...statsData.map((d) => d.aqi));
+
+  const avgLevel = getAQILevel(avgAqi, isDark);
+  const peakLevel = getAQILevel(peakAqi, isDark);
+  const minLevel = getAQILevel(minAqi, isDark);
+
+  const lineStroke = isDark ? '#2DD4BF' : '#0D6E6E';
+  const bandFill = isDark ? 'rgba(45, 212, 191, 0.16)' : 'rgba(13, 110, 110, 0.12)';
+  const bandStroke = isDark ? 'rgba(45, 212, 191, 0.34)' : 'rgba(13, 110, 110, 0.25)';
+  const gridStroke = isDark ? '#223135' : '#E5EAE8';
+  const tickFill = isDark ? '#8CA0A0' : '#647471';
+  const cursorStroke = isDark ? '#32474C' : '#C5CFCC';
+  const moderateStroke = isDark ? 'rgba(251, 191, 36, 0.35)' : 'rgba(180, 83, 9, 0.32)';
+  const poorStroke = isDark ? 'rgba(248, 113, 113, 0.35)' : 'rgba(185, 28, 28, 0.32)';
+
+  const yValues = chartData.flatMap((d) => [d.aqiLow, d.aqiHigh, d.aqi]);
+  const domainMin = Math.max(0, Math.floor((Math.min(...yValues) - 18) / 10) * 10);
+  const domainMax = Math.min(500, Math.ceil((Math.max(...yValues) + 18) / 10) * 10);
+
+  const summaryItems = [
+    { label: '7-Day Average',   value: avgAqi,  level: avgLevel },
+    { label: 'Peak Forecast',   value: peakAqi, level: peakLevel },
+    { label: 'Lowest Forecast', value: minAqi,  level: minLevel },
+  ];
 
   return (
-    <section className="px-6 pb-10">
-      <div className="max-w-4xl mx-auto">
-        {/* Label */}
-        <motion.div
-          initial={{ opacity: 0, y: 16 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          className="flex items-center gap-3 mb-5"
-        >
-          <div className="h-px flex-1" style={{ background: 'rgba(255,255,255,0.06)' }} />
-          <span className="text-xs font-semibold tracking-widest text-white/30 uppercase">7-Day Forecast — {city}</span>
-          <div className="h-px flex-1" style={{ background: 'rgba(255,255,255,0.06)' }} />
-        </motion.div>
-
-        <motion.div
-          initial={{ opacity: 0, y: 24 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.6 }}
-          className="rounded-3xl overflow-hidden p-6 md:p-8"
-          style={{
-            background: 'rgba(255,255,255,0.025)',
-            border: '1px solid rgba(255,255,255,0.07)',
-            backdropFilter: 'blur(24px)',
-          }}
-        >
-          {/* Chart */}
-          <div style={{ height: 260, width: '100%', minWidth: 0 }}>
-            <ResponsiveContainer width="100%" height="100%" minWidth={0}>
-              <AreaChart data={forecast} margin={{ top: 10, right: 10, left: -20, bottom: 0 }}>
-                <defs>
-                  <linearGradient id="areaGradient" x1="0" y1="0" x2="0" y2="1">
-                    <stop offset="0%"   stopColor="#a78bfa" stopOpacity={0.35} />
-                    <stop offset="60%"  stopColor="#db2777" stopOpacity={0.1} />
-                    <stop offset="100%" stopColor="#db2777" stopOpacity={0} />
-                  </linearGradient>
-                  <linearGradient id="lineGradient" x1="0" y1="0" x2="1" y2="0">
-                    <stop offset="0%"   stopColor="#3b82f6" />
-                    <stop offset="25%"  stopColor="#a78bfa" />
-                    <stop offset="100%" stopColor="#fb923c" />
-                  </linearGradient>
-                </defs>
-                <CartesianGrid strokeDasharray="3 3" stroke="rgba(255,255,255,0.04)" vertical={false} />
-                <XAxis
-                  dataKey="label"
-                  tick={{ fill: 'rgba(255,255,255,0.35)', fontSize: 11, fontWeight: 500 }}
-                  axisLine={false}
-                  tickLine={false}
-                />
-                <YAxis
-                  tick={{ fill: 'rgba(255,255,255,0.3)', fontSize: 11 }}
-                  axisLine={false}
-                  tickLine={false}
-                  domain={['auto', 'auto']}
-                />
-                <Tooltip content={<CustomTooltip />} cursor={{ stroke: 'rgba(167,139,250,0.2)', strokeWidth: 1 }} />
-                <ReferenceLine y={200} stroke="rgba(239,68,68,0.3)" strokeDasharray="4 4" />
-                <ReferenceLine y={100} stroke="rgba(245,158,11,0.25)" strokeDasharray="4 4" />
-                <Area
-                  type="monotone"
-                  dataKey="aqi"
-                  stroke="url(#lineGradient)"
-                  strokeWidth={2.5}
-                  fill="url(#areaGradient)"
-                  dot={<CustomDot />}
-                  activeDot={{ r: 7, fill: '#f472b6', stroke: '#fff', strokeWidth: 2 }}
-                />
-              </AreaChart>
-            </ResponsiveContainer>
+    <section id="forecast-trajectory" className="mx-auto max-w-[1160px] px-5 pt-6 sm:px-8">
+      <div className="rounded-2xl border border-[var(--border-hairline)] bg-[var(--bg-surface)] p-6 sm:p-8">
+        {/* Header row */}
+        <div className="mb-6 flex flex-wrap items-baseline justify-between gap-3 border-b border-[var(--border-hairline)] pb-4">
+          <div>
+            <h2 className="font-display text-xl sm:text-2xl font-semibold text-[var(--text-primary)]">
+              7-Day AQI Trajectory — {city}
+            </h2>
+            <p className="mt-1 text-xs text-[var(--text-muted)]">
+              Autoregressive forecast curve with horizon-scaled confidence corridor (±MAE band)
+            </p>
           </div>
 
-          {/* Stats row */}
-          <div
-            className="grid grid-cols-3 gap-4 mt-6 pt-6"
-            style={{ borderTop: '1px solid rgba(255,255,255,0.05)' }}
-          >
-            {[
-              { label: '7-Day Average', value: avgAqi, color: avgLevel.color },
-              { label: 'Peak AQI',       value: peakAqi, color: getAQILevel(peakAqi).color },
-              { label: 'Best AQI',       value: minAqi,  color: getAQILevel(minAqi).color },
-            ].map(s => (
-              <div key={s.label} className="text-center">
-                <div className="text-2xl font-black" style={{ color: s.color }}>{s.value}</div>
-                <div className="text-xs text-white/35 mt-1">{s.label}</div>
+          <div className="flex flex-wrap items-center gap-x-3 gap-y-1 font-mono-tabular text-xs text-[var(--text-muted)]">
+            <span>Shaded band: Forecast range</span>
+            <span aria-hidden="true">·</span>
+            <span>Moderate 100</span>
+            <span aria-hidden="true">·</span>
+            <span>Poor 200</span>
+          </div>
+        </div>
+
+        {/* Chart Stage */}
+        <div className="h-[290px] w-full min-w-0 sm:h-[320px]">
+          <ResponsiveContainer width="100%" height="100%" minWidth={0}>
+            <ComposedChart
+              data={chartData}
+              margin={{ top: 12, right: 16, left: -12, bottom: 4 }}
+            >
+              <CartesianGrid strokeDasharray="3 3" stroke={gridStroke} vertical={false} />
+              <XAxis
+                dataKey="label"
+                tick={{
+                  fill: tickFill,
+                  fontSize: 11,
+                  fontFamily: 'JetBrains Mono, monospace',
+                }}
+                axisLine={{ stroke: gridStroke }}
+                tickLine={false}
+                dy={8}
+              />
+              <YAxis
+                tick={{
+                  fill: tickFill,
+                  fontSize: 11,
+                  fontFamily: 'JetBrains Mono, monospace',
+                }}
+                axisLine={false}
+                tickLine={false}
+                domain={[domainMin, domainMax]}
+              />
+              <Tooltip
+                content={<CustomTooltip isDark={isDark} />}
+                cursor={{ stroke: cursorStroke, strokeWidth: 1, strokeDasharray: '4 4' }}
+              />
+              <ReferenceLine
+                y={100}
+                stroke={moderateStroke}
+                strokeDasharray="4 4"
+                label={{
+                  value: 'Moderate (100)',
+                  position: 'insideTopRight',
+                  fill: tickFill,
+                  fontSize: 10,
+                  fontFamily: 'JetBrains Mono, monospace',
+                }}
+              />
+              <ReferenceLine
+                y={200}
+                stroke={poorStroke}
+                strokeDasharray="4 4"
+                label={{
+                  value: 'Poor (200)',
+                  position: 'insideTopRight',
+                  fill: tickFill,
+                  fontSize: 10,
+                  fontFamily: 'JetBrains Mono, monospace',
+                }}
+              />
+
+              {/* Confidence Range Corridor [aqiLow, aqiHigh] */}
+              <Area
+                type="monotone"
+                dataKey="confidenceRange"
+                fill={bandFill}
+                stroke={bandStroke}
+                strokeWidth={1}
+                strokeDasharray="3 3"
+                isAnimationActive={false}
+              />
+
+              {/* Central Forecast Line */}
+              <Line
+                type="monotone"
+                dataKey="aqi"
+                stroke={lineStroke}
+                strokeWidth={2.5}
+                dot={(dotProps) => (
+                  <CustomDot key={dotProps.index} {...dotProps} isDark={isDark} />
+                )}
+                activeDot={{
+                  r: 6,
+                  fill: lineStroke,
+                  stroke: isDark ? '#11191B' : '#FFFFFF',
+                  strokeWidth: 2,
+                }}
+                isAnimationActive={false}
+              />
+            </ComposedChart>
+          </ResponsiveContainer>
+        </div>
+
+        {/* 3-Column Tabular Summary Strip */}
+        <div className="mt-6 grid grid-cols-1 divide-y divide-[var(--border-hairline)] border-t border-[var(--border-hairline)] pt-5 sm:grid-cols-3 sm:divide-x sm:divide-y-0">
+          {summaryItems.map((item, idx) => (
+            <div
+              key={item.label}
+              className={`py-3 sm:py-0 ${
+                idx === 0 ? 'sm:pr-6' : idx === 1 ? 'sm:px-6' : 'sm:pl-6'
+              }`}
+            >
+              <p className="text-xs font-medium text-[var(--text-muted)]">{item.label}</p>
+              <div className="mt-1.5 flex items-baseline gap-2.5">
+                <span
+                  className="font-mono-tabular text-2xl font-semibold"
+                  style={{ color: item.level.color }}
+                >
+                  {item.value}
+                </span>
+                <span
+                  className="text-xs font-semibold"
+                  style={{ color: item.level.color }}
+                >
+                  {item.level.label}
+                </span>
               </div>
-            ))}
-          </div>
-        </motion.div>
+            </div>
+          ))}
+        </div>
       </div>
     </section>
   );
