@@ -84,9 +84,24 @@ function CustomDot({ cx, cy, payload, isDark }) {
 export default function ForecastChart({ forecast = [], city, isDark }) {
   if (!forecast.length) return null;
 
-  const chartData = forecast.map((pt) => {
-    const low = typeof pt.aqiLow === 'number' ? pt.aqiLow : pt.aqi;
-    const high = typeof pt.aqiHigh === 'number' ? pt.aqiHigh : pt.aqi;
+  const chartData = forecast.map((pt, idx) => {
+    const aqiVal = Number(pt.aqi) || 0;
+    const hasServerBounds =
+      typeof pt.aqiLow === 'number' && typeof pt.aqiHigh === 'number';
+
+    let low = aqiVal;
+    let high = aqiVal;
+    if (hasServerBounds) {
+      low = pt.aqiLow;
+      high = pt.aqiHigh;
+    } else if (!pt.isLive) {
+      const margin = Math.round(
+        Math.max(9, Math.min(48, 10 + Math.max(1, idx) * 3.6 + aqiVal * 0.04))
+      );
+      low = Math.max(5, aqiVal - margin);
+      high = Math.min(500, aqiVal + margin);
+    }
+
     return {
       ...pt,
       aqiLow: low,

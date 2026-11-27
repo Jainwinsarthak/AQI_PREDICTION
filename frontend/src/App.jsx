@@ -69,7 +69,11 @@ function App() {
     setPrediction(null);
 
     try {
-      const API_URL = import.meta.env.VITE_API_URL || '';
+      const configuredUrl = (import.meta.env.VITE_API_URL || '').trim().replace(/\/+$/, '');
+      const isVercelHost =
+        typeof window !== 'undefined' && window.location.hostname.endsWith('.vercel.app');
+      const API_URL =
+        configuredUrl || (isVercelHost ? 'https://aqi-prediction-klo0.onrender.com' : '');
       const res = await fetch(`${API_URL}/predict`, {
         method: 'POST',
         headers: {
